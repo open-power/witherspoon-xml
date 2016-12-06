@@ -3951,7 +3951,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
-		<default></default>
+		<default>1866</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PCIE_MHZ</id>
@@ -6112,7 +6112,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -6133,7 +6133,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -7194,7 +7194,7 @@
 		<default>
 				<field><id>i2cMasterPath</id><value>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-prom3-sbe-backup/</value></field>
 				<field><id>port</id><value>1</value></field>
-				<field><id>devAddr</id><value>0xA2</value></field>
+				<field><id>devAddr</id><value>0xA8</value></field>
 				<field><id>engine</id><value>0</value></field>
 				<field><id>byteAddrOffset</id><value>0x02</value></field>
 				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
@@ -7208,7 +7208,7 @@
 		<default>
 				<field><id>i2cMasterPath</id><value>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-prom1-sbe-primary/</value></field>
 				<field><id>port</id><value>0</value></field>
-				<field><id>devAddr</id><value>0xA2</value></field>
+				<field><id>devAddr</id><value>0xA8</value></field>
 				<field><id>engine</id><value>0</value></field>
 				<field><id>byteAddrOffset</id><value>0x02</value></field>
 				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
@@ -7221,11 +7221,11 @@
 		<id>EEPROM_VPD_BACKUP_INFO</id>
 		<default>
 				<field><id>i2cMasterPath</id><value>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-prom2-mvpd-backup/</value></field>
-				<field><id>port</id><value>1</value></field>
+				<field><id>port</id><value>2</value></field>
 				<field><id>devAddr</id><value>0xA0</value></field>
-				<field><id>engine</id><value>0</value></field>
+				<field><id>engine</id><value>1</value></field>
 				<field><id>byteAddrOffset</id><value>0x02</value></field>
-				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x80</value></field>
 				<field><id>chipCount</id><value>0x02</value></field>
 				<field><id>writePageSize</id><value>0x80</value></field>
 				<field><id>writeCycleTime</id><value>0x05</value></field>
@@ -7237,9 +7237,9 @@
 				<field><id>i2cMasterPath</id><value>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-prom0-mvpd-primary/</value></field>
 				<field><id>port</id><value>0</value></field>
 				<field><id>devAddr</id><value>0xA0</value></field>
-				<field><id>engine</id><value>0</value></field>
+				<field><id>engine</id><value>1</value></field>
 				<field><id>byteAddrOffset</id><value>0x02</value></field>
-				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x80</value></field>
 				<field><id>chipCount</id><value>0x02</value></field>
 				<field><id>writePageSize</id><value>0x80</value></field>
 				<field><id>writeCycleTime</id><value>0x05</value></field>
@@ -7500,7 +7500,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
-		<default>1000,1000,0,0,0,0</default>
+		<default>1000,1000,0,0,400,400,400,400,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>I2C_SLAVE_ADDRESS</id>
@@ -7788,35 +7788,19 @@
 	</attribute>
 	<attribute>
 		<id>PHB_MMIO_ADDRS_32</id>
-		<default>
-            0x000604C000000000,0x000604C080000000,
-            0x000604C100000000,0x000604C180000000,
-            0x000604C200000000,0x000604C280000000,
-        </default>
+		<default>6,0x000600C000000000,0x200000000000,0,0x080000000</default>
 	</attribute>
 	<attribute>
 		<id>PHB_MMIO_ADDRS_64</id>
-		<default>
-            0x0006040000000000,0x0006042000000000,
-            0x0006044000000000,0x0006046000000000,
-            0x0006048000000000,0x000604A000000000,
-        </default>
+		<default>6,0x0006000000000000,0x200000000000,0,0x2000000000</default>
 	</attribute>
 	<attribute>
 		<id>PHB_REG_ADDRS</id>
-		<default>
-            0x000604C3C0000000,0x000604C3C0100000,
-            0x000604C3C0200000,0x000604C3C0300000,
-            0x000604C3C0400000,0x000604C3C0500000,
-        </default>
+        <default>>6,0x000600C3C0000000,0x200000000000,0,0x100000</default>
 	</attribute>
 	<attribute>
 		<id>PHB_XIVE_ESB_ADDRS</id>
-		<default>
-            0x000604C300000000,0x000604C320000000,
-            0x000604C340000000,0x000604C360000000,
-            0x000604C380000000,0x000604C3A0000000,
-        </default>
+		<default>6,0x000600C300000000,0x200000000000,0,0x20000000</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -8478,11 +8462,11 @@
 	</attribute>
 	<attribute>
 		<id>PSI_BRIDGE_BASE_ADDR</id>
-		<default>0,0x0006070203000000</default>
+		<default>0,0x0006030203000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>PSI_HB_ESB_ADDR</id>
-		<default>0x00060302031C0000</default>
+		<default>0,0x00060302031C0000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>PSTATEGPE_BOOT_COPIER_IVPR_OFFSET</id>
@@ -8632,11 +8616,11 @@
 	</attribute>
 	<attribute>
 		<id>VAS_HYPERVISOR_WINDOW_CONTEXT_ADDR</id>
-		<default></default>
+		<default>0,0x0006013000000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>VAS_USER_WINDOW_CONTEXT_ADDR</id>
-		<default></default>
+		<default>0,0x0006013100000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_BUSNUM</id>
@@ -8744,23 +8728,23 @@
 	</attribute>
 	<attribute>
 		<id>XIVE_CONTROLLER_BAR_ADDR</id>
-		<default>0,0x0006030203100000</default>
+        <default>0,0x0006030203100000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>XIVE_PRESENTATION_BAR_ADDR</id>
-		<default></default>
+		<default>0,0x6030203180000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>XIVE_PRESENTATION_NVT_ADDR</id>
-		<default></default>
+		<default>0,0x0006012000000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>XIVE_ROUTING_END_ADDR</id>
-		<default></default>
+		<default>0,0x0006011000000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>XIVE_ROUTING_ESB_ADDR</id>
-		<default></default>
+		<default>0,0x0006010000000000,0x200000000000</default>
 	</attribute>
 	<attribute>
 		<id>XIVE_THREAD_MGMT1_BAR_ADDR</id>
@@ -8768,7 +8752,7 @@
 	</attribute>
 	<attribute>
 		<id>XSCOM_BASE_ADDRESS</id>
-		<default></default>
+		<default>0,0x000603FC00000000,0x200000000000</default>
 	</attribute>
 </targetInstance>
 <targetInstance>

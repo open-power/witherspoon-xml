@@ -6193,7 +6193,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>FRU</default>
 	</attribute>
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
@@ -7582,7 +7582,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>FRU</default>
 	</attribute>
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
@@ -43393,7 +43393,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>CRU</default>
 	</attribute>
 	<attribute>
 		<id>SPD_OVERRIDE</id>
@@ -54842,7 +54842,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>CRU</default>
 	</attribute>
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
@@ -141478,7 +141478,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>CRU</default>
 	</attribute>
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
@@ -142975,7 +142975,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>CRU</default>
 	</attribute>
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
@@ -143622,7 +143622,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>CRU</default>
 	</attribute>
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
@@ -144269,7 +144269,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>CRU</default>
 	</attribute>
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
@@ -146838,7 +146838,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>CRU</default>
 	</attribute>
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>
@@ -148661,7 +148661,7 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>CRU</default>
 	</attribute>
 	<attribute>
 		<id>STANDBY_PLUGGABLE</id>

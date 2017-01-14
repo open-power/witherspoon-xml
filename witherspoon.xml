@@ -7077,7 +7077,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_NAME</id>
-		<default>ZAIUS</default>
+		<default>WITHERSPOON</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_RESCLK_ENABLE</id>

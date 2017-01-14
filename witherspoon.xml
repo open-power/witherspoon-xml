@@ -30465,7 +30465,7 @@
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
-		<default>1</default>
+		<default>NULL</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -30620,7 +30620,7 @@
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
-		<default>1</default>
+		<default>NULL</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>

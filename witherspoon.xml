@@ -7231,15 +7231,15 @@
 	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
-                               <field><id>i2cMasterPath</id><value>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-prom0-mvpd-primary/</value></field>
-                               <field><id>port</id><value>0</value></field>
-                               <field><id>devAddr</id><value>0xA0</value></field>
-                               <field><id>engine</id><value>1</value></field>
-                               <field><id>byteAddrOffset</id><value>0x02</value></field>
-                               <field><id>maxMemorySizeKB</id><value>0x80</value></field>
-                               <field><id>chipCount</id><value>0x02</value></field>
-                               <field><id>writePageSize</id><value>0x80</value></field>
-                               <field><id>writeCycleTime</id><value>0x0A</value></field>
+				<field><id>i2cMasterPath</id><value>physical:sys-0/node-0/proc-0</value></field>
+				<field><id>port</id><value>0</value></field>
+				<field><id>devAddr</id><value>0xA0</value></field>
+				<field><id>engine</id><value>2</value></field>
+				<field><id>byteAddrOffset</id><value>0x02</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
+				<field><id>chipCount</id><value>0x01</value></field>
+				<field><id>writePageSize</id><value>32</value></field>
+				<field><id>writeCycleTime</id><value>20</value></field>
 		</default>
 	</attribute>
 	<attribute>

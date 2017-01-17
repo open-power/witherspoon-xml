@@ -2376,7 +2376,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x34</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2395,7 +2395,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2436,7 +2436,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x36</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2455,7 +2455,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2496,7 +2496,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x38</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2515,7 +2515,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2556,7 +2556,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x3A</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2575,7 +2575,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2616,7 +2616,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x34</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2635,7 +2635,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2676,7 +2676,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x36</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2695,7 +2695,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2736,7 +2736,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x38</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2755,7 +2755,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2796,7 +2796,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x3A</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2815,7 +2815,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2911,7 +2911,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x38</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2930,7 +2930,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3081,7 +3081,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x3A</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3100,7 +3100,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3163,7 +3163,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x34</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3182,7 +3182,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3223,7 +3223,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x36</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3242,7 +3242,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3283,7 +3283,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x38</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3302,7 +3302,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3343,7 +3343,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x3A</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3362,7 +3362,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3403,7 +3403,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x34</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3422,7 +3422,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3474,7 +3474,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x36</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3493,7 +3493,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6337,7 +6337,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_REFRESH_RATE_REQUEST</id>
-		<default>SINGLE</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_RESET_DELAY_BEFORE_CAL</id>
@@ -6357,7 +6357,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_RANGE</id>
-		<default>NORMAL</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_THERMAL_MEMORY_POWER_LIMIT</id>
@@ -6508,7 +6508,7 @@
 	</attribute>
 	<attribute>
 		<id>OPAL_MODEL</id>
-		<default></default>
+		<default>ibm,witherspoon</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
@@ -7077,7 +7077,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_NAME</id>
-		<default>ZAIUS</default>
+		<default>WITHERSPOON</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_RESCLK_ENABLE</id>
@@ -7231,15 +7231,15 @@
 	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddr</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>maxMemorySizeKB</id><value></value></field>
-				<field><id>chipCount</id><value></value></field>
-				<field><id>writePageSize</id><value></value></field>
-				<field><id>writeCycleTime</id><value></value></field>
+				<field><id>i2cMasterPath</id><value>physical:sys-0/node-0/proc-0</value></field>
+				<field><id>port</id><value>0</value></field>
+				<field><id>devAddr</id><value>0xA0</value></field>
+				<field><id>engine</id><value>2</value></field>
+				<field><id>byteAddrOffset</id><value>0x02</value></field>
+				<field><id>maxMemorySizeKB</id><value>0x40</value></field>
+				<field><id>chipCount</id><value>0x01</value></field>
+				<field><id>writePageSize</id><value>32</value></field>
+				<field><id>writeCycleTime</id><value>20</value></field>
 		</default>
 	</attribute>
 	<attribute>
@@ -18873,7 +18873,7 @@
 		<default>0xFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_SET</id>
+		<id>PCIE_LANE_GROUP</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -19531,7 +19531,7 @@
 		<default>0xFF00</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_SET</id>
+		<id>PCIE_LANE_GROUP</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -19832,8 +19832,8 @@
 		<default>0x00FF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_SET</id>
-		<default>0</default>
+		<id>PCIE_LANE_GROUP</id>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -20491,7 +20491,7 @@
 		<default>0xFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_SET</id>
+		<id>PCIE_LANE_GROUP</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -20905,7 +20905,7 @@
 		<default>0xFF00</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_SET</id>
+		<id>PCIE_LANE_GROUP</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -21206,8 +21206,8 @@
 		<default>0x00FF</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_SET</id>
-		<default>0</default>
+		<id>PCIE_LANE_GROUP</id>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -21621,8 +21621,8 @@
 		<default>0x00F0</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_SET</id>
-		<default>0</default>
+		<id>PCIE_LANE_GROUP</id>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -21922,8 +21922,8 @@
 		<default>0x000F</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_LANE_SET</id>
-		<default>0</default>
+		<id>PCIE_LANE_GROUP</id>
+		<default>3</default>
 	</attribute>
 	<attribute>
 		<id>PCIE_NUM_LANES</id>
@@ -30465,7 +30465,7 @@
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
-		<default>1</default>
+		<default>NULL</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -30620,7 +30620,7 @@
 	</attribute>
 	<attribute>
 		<id>PEER_TARGET</id>
-		<default>1</default>
+		<default>NULL</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>

@@ -2376,7 +2376,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x34</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2436,7 +2436,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x36</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2496,7 +2496,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x38</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2556,7 +2556,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x3A</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2616,7 +2616,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x34</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2676,7 +2676,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x36</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2736,7 +2736,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x38</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2796,7 +2796,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x3A</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -2911,7 +2911,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x38</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3081,7 +3081,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x3A</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3163,7 +3163,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x34</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3223,7 +3223,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x36</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3283,7 +3283,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x38</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3343,7 +3343,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x3A</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3403,7 +3403,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x34</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -3474,7 +3474,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value></value>
+	<value>0x36</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>

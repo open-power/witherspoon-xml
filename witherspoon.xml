@@ -7061,7 +7061,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_FAMILY</id>
-		<default>ibm,p9</default>
+		<default>ibm,p9-openbmc</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IPL_PHASE</id>
@@ -7093,7 +7093,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_TYPE</id>
-		<default>ibm,miscopenpower</default>
+		<default>ibm,witherspoon</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_ENABLED</id>

@@ -2300,7 +2300,7 @@
 	<id>/sys-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value>0</value>
+	<value>3</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>

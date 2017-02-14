@@ -10342,7 +10342,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_PUMP_MODE</id>
-		<default></default>
+		<default>MODE2</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_SMP_OPTICS_MODE</id>

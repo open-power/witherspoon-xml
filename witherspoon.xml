@@ -1518,6 +1518,10 @@
 		<value>19</value>
 		</enumerator>
 		<enumerator>
+		<name>1.5V</name>
+		<value>23</value>
+		</enumerator>
+		<enumerator>
 		<name>3.3VCS</name>
 		<value>12</value>
 		</enumerator>
@@ -1588,6 +1592,10 @@
 		<enumerator>
 		<name>VIO</name>
 		<value>4</value>
+		</enumerator>
+		<enumerator>
+		<name>2.5VCS</name>
+		<value>22</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4806,6 +4814,10 @@
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/pcie-0</id>
 	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
@@ -4824,6 +4836,10 @@
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/pcie-1</id>
 	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
@@ -4836,6 +4852,38 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/pcie-2-2</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/pcie-2/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/pcie-3/pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/pcie-4/pciep</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5633,6 +5681,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/pec1/pec1_x8_x8_config/phb2_x8</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci</id>
 	<property>
 	<id>DIRECTION</id>
@@ -5645,6 +5700,28 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb3_x8/phb3_x8_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb4_x4/phb4_x4_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb5_x4/phb5_x4_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -6385,6 +6462,24 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb4_x4/phb4_x4_pci</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb5_x4</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb5_x4/phb5_x4_pci</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -10247,7 +10342,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_PUMP_MODE</id>
-		<default></default>
+		<default>MODE2</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_SMP_OPTICS_MODE</id>
@@ -10917,6 +11012,9 @@
 	<child_id>apss-0</child_id>
 	<child_id>psconn-8</child_id>
 	<child_id>psconn-9</child_id>
+	<child_id>pcie-2</child_id>
+	<child_id>pcie-3</child_id>
+	<child_id>pcie-4</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -12339,6 +12437,106 @@
 		</bus_attribute>
 	</bus>
 	<bus>
+		<bus_id>proc_socket-0/module-0/p9_proc_m/pec1/pec1_x8_x8_config/phb2_x8/phb2_x8_pci => pcie-1/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/module-0/p9_proc_m/pec1/pec1_x8_x8_config/phb2_x8/</source_path>
+		<source_target>phb2_x8_pci</source_target>
+		<dest_path>pcie-1/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb4_x4/phb4_x4_pci => pcie-2/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb4_x4/</source_path>
+		<source_target>phb4_x4_pci</source_target>
+		<dest_path>pcie-2/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb5_x4/phb5_x4_pci => pcie-3/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb5_x4/</source_path>
+		<source_target>phb5_x4_pci</source_target>
+		<dest_path>pcie-3/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb5_x4/phb5_x4_pci => pcie-4/pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/module-0/p9_proc_m/pec2/pec2_x8_x4_x4_config/phb5_x4/</source_path>
+		<source_target>phb5_x4_pci</source_target>
+		<dest_path>pcie-4/</dest_path>
+		<dest_target>pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
 		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_Y1_gpiom0m7_uart2/chip-bmc-ast2500.pingroup_uart2/chip-bmc-ast2500.UART2 => apss-0/apss.UART-S0</bus_id>
 		<bus_type>U750</bus_type>
 		<cable>no</cable>
@@ -12382,6 +12580,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>LOGICAL_ASSOCIATION</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -15074,6 +15276,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -15121,6 +15327,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -15166,6 +15376,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -33655,7 +33869,7 @@
 	</attribute>
 	<attribute>
 		<id>EI_BUS_TX_MSBSWAP</id>
-		<default></default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -33810,7 +34024,7 @@
 	</attribute>
 	<attribute>
 		<id>EI_BUS_TX_MSBSWAP</id>
-		<default></default>
+		<default>0x80</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -45769,6 +45983,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -45802,6 +46020,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -45851,6 +46073,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -45896,6 +46122,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -45945,6 +46175,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -45990,6 +46224,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -46039,6 +46277,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -46084,6 +46326,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -46133,6 +46379,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -46178,6 +46428,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -46227,6 +46481,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -46272,6 +46530,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -46321,6 +46583,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -46366,6 +46632,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -46415,6 +46685,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -46460,6 +46734,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -46509,6 +46787,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -46554,6 +46836,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -46603,6 +46889,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -46650,6 +46940,10 @@
 		<default>LPC</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -46675,6 +46969,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PSI</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -46755,6 +47053,10 @@
 		<default>LOGICAL_ASSOCIATION</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -46780,6 +47082,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -46827,6 +47133,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -47370,6 +47680,10 @@
 		<default>SPD</default>
 	</attribute>
 	<attribute>
+		<id>POSITION</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RU_TYPE</id>
 		<default></default>
 	</attribute>
@@ -47540,6 +47854,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -47573,6 +47891,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -47620,6 +47942,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -48270,6 +48596,18 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -48381,6 +48719,10 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -48409,6 +48751,18 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -48433,6 +48787,18 @@
 		<default>CONNECTOR</default>
 	</attribute>
 	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -48455,6 +48821,18 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CONNECTOR</default>
+	</attribute>
+	<attribute>
+		<id>CONNECTOR_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -48854,6 +49232,10 @@
 		<default>LOGICAL_ASSOCIATION</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -49083,6 +49465,10 @@
 		<default>VPD</default>
 	</attribute>
 	<attribute>
+		<id>POSITION</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RU_TYPE</id>
 		<default></default>
 	</attribute>
@@ -49116,6 +49502,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>LOGICAL_ASSOCIATION</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -50106,6 +50496,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -50619,6 +51013,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -51136,6 +51534,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -51649,6 +52051,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -52166,6 +52572,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -52679,6 +53089,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -53196,6 +53610,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -53709,6 +54127,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -54226,6 +54648,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -54739,6 +55165,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -55256,6 +55686,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -55769,6 +56203,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -56286,6 +56724,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -56799,6 +57241,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -57316,6 +57762,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -57829,6 +58279,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -58788,6 +59242,10 @@
 		<default>USB</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -59049,6 +59507,10 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -59302,6 +59764,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>JTAG</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -60089,6 +60555,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -60374,6 +60844,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -60662,6 +61136,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -61173,6 +61651,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -61687,6 +62169,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -62085,6 +62571,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -62359,6 +62849,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -62872,6 +63366,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -63382,6 +63880,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -63667,6 +64169,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -63956,6 +64462,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -64241,6 +64751,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -64530,6 +65044,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -64815,6 +65333,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -65104,6 +65626,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -65389,6 +65915,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -65687,6 +66217,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -65744,6 +66278,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -65805,6 +66343,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -65862,6 +66404,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -65923,6 +66469,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -65980,6 +66530,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -66041,6 +66595,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -66098,6 +66656,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -66501,6 +67063,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -66546,6 +67112,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -66595,6 +67165,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -66640,6 +67214,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -66925,6 +67503,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -66982,6 +67564,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -67043,6 +67629,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -67100,6 +67690,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -67161,6 +67755,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -67218,6 +67816,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -67279,6 +67881,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -67336,6 +67942,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -67856,6 +68466,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -67913,6 +68527,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -67974,6 +68592,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -68031,6 +68653,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -68092,6 +68718,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -68149,6 +68779,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -68210,6 +68844,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -68267,6 +68905,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -68711,6 +69353,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -68768,6 +69414,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -68829,6 +69479,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -68886,6 +69540,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -68947,6 +69605,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -69004,6 +69666,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -69065,6 +69731,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -69122,6 +69792,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -69562,6 +70236,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -69619,6 +70297,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -69680,6 +70362,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -69737,6 +70423,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -70253,6 +70943,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -70310,6 +71004,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -70371,6 +71069,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -70428,6 +71130,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -70948,6 +71654,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -71005,6 +71715,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -71066,6 +71780,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -71123,6 +71841,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -71184,6 +71906,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -71241,6 +71967,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -71302,6 +72032,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -71359,6 +72093,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -71799,6 +72537,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -71856,6 +72598,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -71917,6 +72663,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -71974,6 +72724,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -72149,6 +72903,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>SPI</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -72418,6 +73176,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -72475,6 +73237,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -72536,6 +73302,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -72593,6 +73363,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -73045,6 +73819,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -73102,6 +73880,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -73163,6 +73945,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -73220,6 +74006,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -73736,6 +74526,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -73793,6 +74587,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -73854,6 +74652,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -73911,6 +74713,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -74425,6 +75231,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -74482,6 +75292,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -74657,6 +75471,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -74936,6 +75754,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -74993,6 +75815,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -75168,6 +75994,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -75447,6 +76277,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -75504,6 +76338,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -75679,6 +76517,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -75958,6 +76800,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -76015,6 +76861,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -76190,6 +77040,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -76475,6 +77329,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -76532,6 +77390,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -76593,6 +77455,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -76650,6 +77516,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -76711,6 +77581,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -76768,6 +77642,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -76829,6 +77707,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -76886,6 +77768,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -77330,6 +78216,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -77387,6 +78277,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -77448,6 +78342,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -77505,6 +78403,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -77566,6 +78468,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -77623,6 +78529,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -77684,6 +78594,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -77741,6 +78655,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -78178,6 +79096,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -78351,6 +79273,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -78629,6 +79555,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -78802,6 +79732,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -79080,6 +80014,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -79253,6 +80191,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -79531,6 +80473,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -79704,6 +80650,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -79982,6 +80932,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -80155,6 +81109,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -80433,6 +81391,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -80606,6 +81568,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -80884,6 +81850,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -81057,6 +82027,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -81335,6 +82309,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -81508,6 +82486,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -81786,6 +82768,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -81959,6 +82945,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -82277,6 +83267,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -82450,6 +83444,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -82768,6 +83766,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -82941,6 +83943,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -83259,6 +84265,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -83432,6 +84442,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -83750,6 +84764,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -83923,6 +84941,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -84241,6 +85263,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -84414,6 +85440,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -84732,6 +85762,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -84905,6 +85939,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -85223,6 +86261,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -85396,6 +86438,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -85714,6 +86760,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -85887,6 +86937,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -86205,6 +87259,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -86378,6 +87436,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -86696,6 +87758,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -86869,6 +87935,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -87187,6 +88257,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -87360,6 +88434,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -87678,6 +88756,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -87851,6 +88933,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -88169,6 +89255,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -88342,6 +89432,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -88660,6 +89754,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -88833,6 +89931,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -89151,6 +90253,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -89324,6 +90430,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -89643,6 +90753,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -89700,6 +90814,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -89875,6 +90993,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -90154,6 +91276,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -90211,6 +91337,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -90386,6 +91516,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -90665,6 +91799,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -90722,6 +91860,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -90897,6 +92039,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -91172,6 +92318,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -91461,6 +92611,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -91748,6 +92902,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -92033,6 +93191,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -92326,6 +93488,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -92383,6 +93549,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -92444,6 +93614,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -92501,6 +93675,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -92949,6 +94127,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -93234,6 +94416,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -93523,6 +94709,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -93808,6 +94998,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -94097,6 +95291,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -94382,6 +95580,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -94671,6 +95873,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -94956,6 +96162,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -95245,6 +96455,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -95530,6 +96744,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -95819,6 +97037,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -96104,6 +97326,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -96393,6 +97619,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -96678,6 +97908,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -96969,6 +98203,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -97026,6 +98264,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -97201,6 +98443,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -97480,6 +98726,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -97537,6 +98787,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -97712,6 +98966,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -97987,6 +99245,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -98276,6 +99538,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -98561,6 +99827,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -98850,6 +100120,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -99135,6 +100409,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -99424,6 +100702,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -99709,6 +100991,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -99998,6 +101284,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -100283,6 +101573,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -100572,6 +101866,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -100857,6 +102155,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -101146,6 +102448,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -101431,6 +102737,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -101720,6 +103030,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -102005,6 +103319,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -102294,6 +103612,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -102579,6 +103901,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -102868,6 +104194,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -103153,6 +104483,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -103779,6 +105113,10 @@
 		<default>LPC</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -103929,6 +105267,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -103986,6 +105328,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -104047,6 +105393,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -104104,6 +105454,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -104165,6 +105519,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -104222,6 +105580,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -104283,6 +105645,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -104340,6 +105706,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -104840,6 +106210,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -104899,6 +106273,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -104956,6 +106334,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -105144,6 +106526,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -105201,6 +106587,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -105262,6 +106652,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -105319,6 +106713,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -105380,6 +106778,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -105437,6 +106839,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -105498,6 +106904,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -105557,6 +106967,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -105614,6 +107028,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -106114,6 +107532,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -106173,6 +107595,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -106230,6 +107656,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -106418,6 +107848,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -106475,6 +107909,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -106536,6 +107974,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -106593,6 +108035,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -106654,6 +108100,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -106711,6 +108161,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -106772,6 +108226,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -106831,6 +108289,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -106888,6 +108350,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -107101,8 +108567,16 @@
 	<instance_name>BMC_FLASH.spi-slave</instance_name>
 	<position>0</position>
 	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>BUS_TYPE</id>
 		<default>SPI</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -107113,16 +108587,80 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -107142,6 +108680,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -107412,8 +108954,16 @@
 	<instance_name>PNOR_FLASH.spi-slave</instance_name>
 	<position>0</position>
 	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>BUS_TYPE</id>
 		<default>SPI</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -107424,16 +108974,80 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -107453,6 +109067,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -107511,18 +109129,6 @@
 	<position>0</position>
 	<child_id>RX8900CE.i2c</child_id>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ALTFSI_MASTER_CHIP</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ALTFSI_MASTER_PORT</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BMC_DT_COMPATIBLE</id>
 		<default>epson,rx8900</default>
 	</attribute>
@@ -107533,76 +109139,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
-	</attribute>
-	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>EC</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FRU_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FSI_MASTER_CHIP</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FSI_MASTER_PORT</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FSI_MASTER_TYPE</id>
-		<default>NO_MASTER</default>
-	</attribute>
-	<attribute>
-		<id>FSI_OPTION_FLAGS</id>
-		<default>
-				<field><id>flipPort</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>FSI_SLAVE_CASCADE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -107617,25 +109153,8 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>POSITION</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -107659,6 +109178,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -107754,6 +109277,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -108127,6 +109654,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>U750</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -108564,18 +110095,6 @@
 	<child_id>MAX31785.hwmon5</child_id>
 	<child_id>MAX31785.hwmon6</child_id>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ALTFSI_MASTER_CHIP</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ALTFSI_MASTER_PORT</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BMC_DT_COMPATIBLE</id>
 		<default>maxim,max31785</default>
 	</attribute>
@@ -108586,76 +110105,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
-	</attribute>
-	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>EC</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FRU_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FSI_MASTER_CHIP</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FSI_MASTER_PORT</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FSI_MASTER_TYPE</id>
-		<default>NO_MASTER</default>
-	</attribute>
-	<attribute>
-		<id>FSI_OPTION_FLAGS</id>
-		<default>
-				<field><id>flipPort</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>FSI_SLAVE_CASCADE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -108670,25 +110119,8 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>POSITION</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -108712,6 +110144,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -108747,6 +110183,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -108796,6 +110236,10 @@
 		<default>PWM</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -108841,6 +110285,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -108890,6 +110338,10 @@
 		<default>PWM</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -108935,6 +110387,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -108984,6 +110440,10 @@
 		<default>PWM</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -109029,6 +110489,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -109118,6 +110582,10 @@
 		<default>TACH</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -109203,6 +110671,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -109292,6 +110764,10 @@
 		<default>TACH</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -109379,6 +110855,10 @@
 		<default>TACH</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -109464,6 +110944,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -110321,6 +111805,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -110432,6 +111920,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -110465,6 +111957,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -110526,6 +112022,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -110583,6 +112083,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -110644,6 +112148,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -110701,6 +112209,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -110762,6 +112274,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -110819,6 +112335,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -110880,6 +112400,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -110937,6 +112461,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -110998,6 +112526,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -111055,6 +112587,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -111116,6 +112652,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -111173,6 +112713,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -111234,6 +112778,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -111291,6 +112839,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -111352,6 +112904,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -111409,10 +112965,6 @@
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BLINK_RATE</id>
 		<default></default>
 	</attribute>
@@ -111444,47 +112996,8 @@
         </default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FUNCTION</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
@@ -111495,36 +113008,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>LED</default>
 	</attribute>
 	<attribute>
 		<id>ON_STATE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -111553,6 +113041,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -111618,6 +113110,10 @@
 		<default>LOGICAL_ASSOCIATION</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -111642,10 +113138,6 @@
 	<position>4</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
 	<attribute>
 		<id>BLINK_RATE</id>
 		<default></default>
@@ -111675,47 +113167,8 @@
         </default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FUNCTION</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
@@ -111726,36 +113179,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>LED</default>
 	</attribute>
 	<attribute>
 		<id>ON_STATE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -111783,10 +113211,6 @@
 	<position>5</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
 	<attribute>
 		<id>BLINK_RATE</id>
 		<default></default>
@@ -111820,47 +113244,8 @@
         </default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FUNCTION</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
@@ -111871,36 +113256,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>LED</default>
 	</attribute>
 	<attribute>
 		<id>ON_STATE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -112015,10 +113375,6 @@
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BLINK_RATE</id>
 		<default></default>
 	</attribute>
@@ -112050,47 +113406,8 @@
         </default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FUNCTION</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
@@ -112101,36 +113418,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>LED</default>
 	</attribute>
 	<attribute>
 		<id>ON_STATE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -112166,6 +113458,10 @@
 		<default>GPIO_EXPANDER</default>
 	</attribute>
 	<attribute>
+		<id>POSITION</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PRESENCE_DETECT</id>
 		<default></default>
 	</attribute>
@@ -112187,6 +113483,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -112332,10 +113632,6 @@
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BLINK_RATE</id>
 		<default></default>
 	</attribute>
@@ -112367,47 +113663,8 @@
         </default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FUNCTION</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
@@ -112418,36 +113675,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>LED</default>
 	</attribute>
 	<attribute>
 		<id>ON_STATE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -112481,6 +113713,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>GPIO_EXPANDER</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PRESENCE_DETECT</id>
@@ -112590,10 +113826,6 @@
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BLINK_RATE</id>
 		<default></default>
 	</attribute>
@@ -112625,47 +113857,8 @@
         </default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FUNCTION</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
@@ -112676,36 +113869,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>LED</default>
 	</attribute>
 	<attribute>
 		<id>ON_STATE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -112739,6 +113907,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>GPIO_EXPANDER</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PRESENCE_DETECT</id>
@@ -112848,10 +114020,6 @@
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BLINK_RATE</id>
 		<default></default>
 	</attribute>
@@ -112883,47 +114051,8 @@
         </default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FUNCTION</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
@@ -112934,36 +114063,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>LED</default>
 	</attribute>
 	<attribute>
 		<id>ON_STATE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -112999,6 +114103,10 @@
 		<default>GPIO_EXPANDER</default>
 	</attribute>
 	<attribute>
+		<id>POSITION</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PRESENCE_DETECT</id>
 		<default></default>
 	</attribute>
@@ -113019,10 +114127,6 @@
 	<position>0</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
 	<attribute>
 		<id>BLINK_RATE</id>
 		<default></default>
@@ -113052,47 +114156,8 @@
         </default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FUNCTION</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
@@ -113103,36 +114168,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>LED</default>
 	</attribute>
 	<attribute>
 		<id>ON_STATE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -113160,10 +114200,6 @@
 	<position>1</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
 	<attribute>
 		<id>BLINK_RATE</id>
 		<default></default>
@@ -113197,47 +114233,8 @@
         </default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FUNCTION</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
@@ -113248,36 +114245,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>LED</default>
 	</attribute>
 	<attribute>
 		<id>ON_STATE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -113305,10 +114277,6 @@
 	<position>2</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
 	<attribute>
 		<id>BLINK_RATE</id>
 		<default></default>
@@ -113341,47 +114309,8 @@
         </default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FUNCTION</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LED_COLOR</id>
@@ -113392,36 +114321,11 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>LED</default>
 	</attribute>
 	<attribute>
 		<id>ON_STATE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -113613,6 +114517,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -115666,6 +116574,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -116274,6 +117186,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -116484,6 +117400,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>POSITION</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RU_TYPE</id>
 		<default></default>
 	</attribute>
@@ -116504,6 +117424,10 @@
 	</attribute>
 	<attribute>
 		<id>CHANNEL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -116562,6 +117486,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -116615,6 +117543,10 @@
 	<attribute>
 		<id>CHANNEL</id>
 		<default>10</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -116672,6 +117604,10 @@
 		<default>11</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -116725,6 +117661,10 @@
 	<attribute>
 		<id>CHANNEL</id>
 		<default>12</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -116782,6 +117722,10 @@
 		<default>13</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -116835,6 +117779,10 @@
 	<attribute>
 		<id>CHANNEL</id>
 		<default>14</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -116892,6 +117840,10 @@
 		<default>15</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -116945,6 +117897,10 @@
 	<attribute>
 		<id>CHANNEL</id>
 		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -117002,6 +117958,10 @@
 		<default>3</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -117055,6 +118015,10 @@
 	<attribute>
 		<id>CHANNEL</id>
 		<default>4</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -117112,6 +118076,10 @@
 		<default>5</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -117165,6 +118133,10 @@
 	<attribute>
 		<id>CHANNEL</id>
 		<default>6</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -117222,6 +118194,10 @@
 		<default>7</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -117277,6 +118253,10 @@
 		<default>8</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -117330,6 +118310,10 @@
 	<attribute>
 		<id>CHANNEL</id>
 		<default>9</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -117391,6 +118375,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -117416,6 +118404,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -117469,6 +118461,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -117518,6 +118514,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -117571,6 +118571,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -117620,6 +118624,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -117673,6 +118681,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -117722,6 +118734,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -117775,6 +118791,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -117824,6 +118844,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -117877,6 +118901,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -117926,6 +118954,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -117979,6 +119011,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118028,6 +119064,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -118081,6 +119121,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118130,6 +119174,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -118183,6 +119231,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118232,6 +119284,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -118285,6 +119341,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118334,6 +119394,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -118387,6 +119451,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118436,6 +119504,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -118489,6 +119561,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118538,6 +119614,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -118591,6 +119671,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118642,6 +119726,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118675,6 +119763,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -118728,6 +119820,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118761,6 +119857,10 @@
 	<attribute>
 		<id>CHANNEL</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -118798,6 +119898,10 @@
 		<default>2</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118831,6 +119935,10 @@
 	<attribute>
 		<id>CHANNEL</id>
 		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -118868,6 +119976,10 @@
 		<default>4</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118901,6 +120013,10 @@
 	<attribute>
 		<id>CHANNEL</id>
 		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -118938,6 +120054,10 @@
 		<default>6</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -118973,6 +120093,10 @@
 		<default>7</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -119004,6 +120128,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -119033,6 +120161,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>U750</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -119217,6 +120349,10 @@
 		<default>I2C</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -119252,6 +120388,10 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -119283,6 +120423,10 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -119312,6 +120456,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -119373,6 +120521,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -119430,6 +120582,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -119491,6 +120647,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -119548,6 +120708,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -119609,6 +120773,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -119668,6 +120836,10 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -119725,6 +120897,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -119860,6 +121036,435 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>pcie-2</id>
+	<type>chip-pcie-endpoint</type>
+	<is_root>false</is_root>
+	<instance_name>pcie</instance_name>
+	<position>2</position>
+	<child_id>pciep</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>EC</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_TYPE</id>
+		<default>NO_MASTER</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FSI_SLAVE_CASCADE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pcie-3</id>
+	<type>chip-pcie-endpoint</type>
+	<is_root>false</is_root>
+	<instance_name>pcie</instance_name>
+	<position>3</position>
+	<child_id>pciep</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>EC</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_TYPE</id>
+		<default>NO_MASTER</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FSI_SLAVE_CASCADE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pcie-4</id>
+	<type>chip-pcie-endpoint</type>
+	<is_root>false</is_root>
+	<instance_name>pcie</instance_name>
+	<position>4</position>
+	<child_id>pciep</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>EC</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_TYPE</id>
+		<default>NO_MASTER</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FSI_SLAVE_CASCADE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>4</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>motherboard_fault_sensor</id>
 	<type>unit-ipmi-sensor</type>
 	<is_root>false</is_root>
@@ -119868,6 +121473,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -119917,6 +121526,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -119962,6 +121575,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -120011,6 +121628,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -120056,6 +121677,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -120105,6 +121730,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -120150,6 +121779,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -120199,6 +121832,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -120244,6 +121881,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -120293,6 +121934,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -120338,6 +121983,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -120387,6 +122036,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -120432,6 +122085,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -120481,6 +122138,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -120528,6 +122189,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
 	</attribute>
@@ -120573,6 +122238,10 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>

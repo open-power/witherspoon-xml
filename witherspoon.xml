@@ -13065,7 +13065,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX</id>
-		<default>0x8c010000</default>
+		<default>0x8c810000</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX0</id>
@@ -21844,31 +21844,31 @@
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_REVERSAL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_REVERSAL_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_REVERSAL_NON_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_SWAP_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_SWAP_NON_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_LANE_MASK_BIFURCATED</id>
-		<default></default>
+		<default>0,0,0,0</default>
 	</attribute>
 	<attribute>
-		<id>PEC_PCIE_LANE_MASK_NON_BIFURCATED</id>
-		<default></default>
+        <id>PEC_PCIE_LANE_MASK_NON_BIFURCATED</id>
+        <default>0x0000,0x0000,0x0000,0x0000</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -21896,8 +21896,8 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>PROC_PCIE_LANE_MASK</id>
-		<default></default>
+        <id>PROC_PCIE_LANE_MASK</id>
+        <default>0x0000,0x0000,0x0000,0x0000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_M_CNTL</id>
@@ -21917,15 +21917,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_DFE_FDDC</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_INIT_GAIN</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_PK_INIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_CDR_LOOKAHEAD</id>
@@ -21937,15 +21937,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_EXTEL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_RST_FW</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_LVL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -22501,31 +22501,31 @@
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_REVERSAL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_REVERSAL_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_REVERSAL_NON_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_SWAP_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_SWAP_NON_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_LANE_MASK_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_LANE_MASK_NON_BIFURCATED</id>
-		<default></default>
+        <default>0x0000,0x0000,0x0000,0x0000</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -22554,7 +22554,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_MASK</id>
-		<default></default>
+        <default>0x0000,0x0000,0x0000,0x0000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_M_CNTL</id>
@@ -22574,15 +22574,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_DFE_FDDC</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_INIT_GAIN</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_PK_INIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_CDR_LOOKAHEAD</id>
@@ -22594,15 +22594,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_EXTEL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_RST_FW</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_LVL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -23462,31 +23462,31 @@
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_REVERSAL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_REVERSAL_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_REVERSAL_NON_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_SWAP_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_IOP_SWAP_NON_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_LANE_MASK_BIFURCATED</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PEC_PCIE_LANE_MASK_NON_BIFURCATED</id>
-		<default></default>
+        <default>0x0000,0x0000,0x0000,0x0000</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -23503,11 +23503,11 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_IOP_CONFIG</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_IOP_SWAP</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_IOVALID_ENABLE</id>
@@ -23515,7 +23515,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_MASK</id>
-		<default></default>
+        <default>0x0000,0x0000,0x0000,0x0000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_M_CNTL</id>
@@ -23535,15 +23535,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_DFE_FDDC</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_INIT_GAIN</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_PK_INIT</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_CDR_LOOKAHEAD</id>
@@ -23555,15 +23555,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_EXTEL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_ROT_RST_FW</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_LVL</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>

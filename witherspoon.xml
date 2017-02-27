@@ -9720,7 +9720,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_MEM_THROTTLE_DENOMINATOR</id>
-		<default></default>
+		<default>512</default>
 	</attribute>
 	<attribute>
 		<id>MRW_NEST_CAPABLE_FREQUENCIES_SYS</id>
@@ -9748,7 +9748,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_VMEM_REGULATOR_MEMORY_POWER_LIMIT_PER_DIMM_DDR4</id>
-		<default>0x00000708</default>
+		<default>1800</default>
 	</attribute>
 	<attribute>
 		<id>MSS_AVDD_PROGRAM</id>

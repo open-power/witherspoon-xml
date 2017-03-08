@@ -13771,6 +13771,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PROC_FABRIC_OPTICS_CONFIG_MODE</id>
+		<default>2,2,2,2</default>
+	</attribute>
+	<attribute>
 		<id>HDAT_I2C_BUS_FREQ</id>
 		<default></default>
 	</attribute>

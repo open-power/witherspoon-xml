@@ -15313,7 +15313,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -15463,7 +15463,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -15758,7 +15758,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -15923,7 +15923,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -16073,7 +16073,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -16215,7 +16215,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -16521,7 +16521,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -16671,7 +16671,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -16813,7 +16813,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -16978,7 +16978,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -17128,7 +17128,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -17270,7 +17270,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -17576,7 +17576,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -17726,7 +17726,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -17868,7 +17868,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -18033,7 +18033,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -18183,7 +18183,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -18325,7 +18325,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -18631,7 +18631,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -18781,7 +18781,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -18923,7 +18923,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -19088,7 +19088,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -19238,7 +19238,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -19380,7 +19380,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -19686,7 +19686,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -19836,7 +19836,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -19978,7 +19978,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -20143,7 +20143,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -20293,7 +20293,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -20435,7 +20435,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -20741,7 +20741,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -20891,7 +20891,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -21033,7 +21033,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -21198,7 +21198,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -21348,7 +21348,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -21490,7 +21490,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -25774,10 +25774,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
-	</attribute>
-	<attribute>
 		<id>CHIPLET_ID</id>
 		<default>0x5</default>
 	</attribute>
@@ -25791,7 +25787,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -25845,10 +25841,6 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PARENT_PERVASIVE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -25868,10 +25860,6 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCRATCH_UINT8_1</id>
-		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -25893,10 +25881,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
-	</attribute>
-	<attribute>
 		<id>CHIPLET_ID</id>
 		<default>0xFF</default>
 	</attribute>
@@ -25910,7 +25894,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -25964,10 +25948,6 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PARENT_PERVASIVE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -25987,10 +25967,6 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCRATCH_UINT8_1</id>
-		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -26012,10 +25988,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
-	</attribute>
-	<attribute>
 		<id>CHIPLET_ID</id>
 		<default>0xFF</default>
 	</attribute>
@@ -26029,7 +26001,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -26083,10 +26055,6 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
-		<id>PARENT_PERVASIVE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -26106,10 +26074,6 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCRATCH_UINT8_1</id>
-		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -48097,10 +48061,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -108958,8 +108918,16 @@
 	<instance_name>BMC_FLASH.spi-slave</instance_name>
 	<position>0</position>
 	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>BUS_TYPE</id>
 		<default>SPI</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -108970,16 +108938,80 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -109273,8 +109305,16 @@
 	<instance_name>PNOR_FLASH.spi-slave</instance_name>
 	<position>0</position>
 	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>BUS_TYPE</id>
 		<default>SPI</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -109285,16 +109325,80 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>

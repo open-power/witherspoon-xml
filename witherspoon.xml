@@ -7016,6 +7016,62 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/MAX31785-0/MAX31785.pwm0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/MAX31785-0/MAX31785.pwm1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/MAX31785-0/MAX31785.pwm2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/MAX31785-0/MAX31785.pwm3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/MAX31785-0/MAX31785.tach0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/MAX31785-0/MAX31785.tach1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/MAX31785-0/MAX31785.tach2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/MAX31785-0/MAX31785.tach3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/PCA9552-1/PCA9552.gpio-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -7291,6 +7347,27 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5/FAN_COUNTER_ROTATING-0/FAN_COUNTER_ROTATING.pwm-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5/FAN_COUNTER_ROTATING-0/FAN_COUNTER_ROTATING.tach-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5/fan-fault-led-6</id>
 	<property>
 	<id>BLINK_RATE</id>
@@ -7381,6 +7458,27 @@
 	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-11</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-11/fan-6</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-11/fan-6/FAN_COUNTER_ROTATING-1/FAN_COUNTER_ROTATING.pwm-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-11/fan-6/FAN_COUNTER_ROTATING-1/FAN_COUNTER_ROTATING.tach-0</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -7479,6 +7577,27 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7/FAN_COUNTER_ROTATING-2/FAN_COUNTER_ROTATING.pwm-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7/FAN_COUNTER_ROTATING-2/FAN_COUNTER_ROTATING.tach-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7/fan-fault-led-8</id>
 	<property>
 	<id>BLINK_RATE</id>
@@ -7569,6 +7688,27 @@
 	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-13</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-13/fan-8</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-13/fan-8/FAN_COUNTER_ROTATING-3/FAN_COUNTER_ROTATING.pwm-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-13/fan-8/FAN_COUNTER_ROTATING-3/FAN_COUNTER_ROTATING.tach-0</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -111020,6 +111160,110 @@
 		<default>0</default>
 		</bus_attribute>
 	</bus>
+	<bus>
+		<bus_id>MAX31785-0/MAX31785.pwm0 => fanconn-10/fan-5/FAN_COUNTER_ROTATING-0/FAN_COUNTER_ROTATING.pwm-0</bus_id>
+		<bus_type>PWM</bus_type>
+		<cable>no</cable>
+		<source_path>MAX31785-0/</source_path>
+		<source_target>MAX31785.pwm0</source_target>
+		<dest_path>fanconn-10/fan-5/FAN_COUNTER_ROTATING-0/</dest_path>
+		<dest_target>FAN_COUNTER_ROTATING.pwm-0</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>MAX31785-0/MAX31785.pwm1 => fanconn-11/fan-6/FAN_COUNTER_ROTATING-1/FAN_COUNTER_ROTATING.pwm-0</bus_id>
+		<bus_type>PWM</bus_type>
+		<cable>no</cable>
+		<source_path>MAX31785-0/</source_path>
+		<source_target>MAX31785.pwm1</source_target>
+		<dest_path>fanconn-11/fan-6/FAN_COUNTER_ROTATING-1/</dest_path>
+		<dest_target>FAN_COUNTER_ROTATING.pwm-0</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>MAX31785-0/MAX31785.pwm2 => fanconn-12/fan-7/FAN_COUNTER_ROTATING-2/FAN_COUNTER_ROTATING.pwm-0</bus_id>
+		<bus_type>PWM</bus_type>
+		<cable>no</cable>
+		<source_path>MAX31785-0/</source_path>
+		<source_target>MAX31785.pwm2</source_target>
+		<dest_path>fanconn-12/fan-7/FAN_COUNTER_ROTATING-2/</dest_path>
+		<dest_target>FAN_COUNTER_ROTATING.pwm-0</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>MAX31785-0/MAX31785.pwm3 => fanconn-13/fan-8/FAN_COUNTER_ROTATING-3/FAN_COUNTER_ROTATING.pwm-0</bus_id>
+		<bus_type>PWM</bus_type>
+		<cable>no</cable>
+		<source_path>MAX31785-0/</source_path>
+		<source_target>MAX31785.pwm3</source_target>
+		<dest_path>fanconn-13/fan-8/FAN_COUNTER_ROTATING-3/</dest_path>
+		<dest_target>FAN_COUNTER_ROTATING.pwm-0</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>fanconn-10/fan-5/FAN_COUNTER_ROTATING-0/FAN_COUNTER_ROTATING.tach-0 => MAX31785-0/MAX31785.tach0</bus_id>
+		<bus_type>TACH</bus_type>
+		<cable>no</cable>
+		<source_path>fanconn-10/fan-5/FAN_COUNTER_ROTATING-0/</source_path>
+		<source_target>FAN_COUNTER_ROTATING.tach-0</source_target>
+		<dest_path>MAX31785-0/</dest_path>
+		<dest_target>MAX31785.tach0</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>fanconn-11/fan-6/FAN_COUNTER_ROTATING-1/FAN_COUNTER_ROTATING.tach-0 => MAX31785-0/MAX31785.tach1</bus_id>
+		<bus_type>TACH</bus_type>
+		<cable>no</cable>
+		<source_path>fanconn-11/fan-6/FAN_COUNTER_ROTATING-1/</source_path>
+		<source_target>FAN_COUNTER_ROTATING.tach-0</source_target>
+		<dest_path>MAX31785-0/</dest_path>
+		<dest_target>MAX31785.tach1</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>fanconn-12/fan-7/FAN_COUNTER_ROTATING-2/FAN_COUNTER_ROTATING.tach-0 => MAX31785-0/MAX31785.tach2</bus_id>
+		<bus_type>TACH</bus_type>
+		<cable>no</cable>
+		<source_path>fanconn-12/fan-7/FAN_COUNTER_ROTATING-2/</source_path>
+		<source_target>FAN_COUNTER_ROTATING.tach-0</source_target>
+		<dest_path>MAX31785-0/</dest_path>
+		<dest_target>MAX31785.tach2</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>fanconn-13/fan-8/FAN_COUNTER_ROTATING-3/FAN_COUNTER_ROTATING.tach-0 => MAX31785-0/MAX31785.tach3</bus_id>
+		<bus_type>TACH</bus_type>
+		<cable>no</cable>
+		<source_path>fanconn-13/fan-8/FAN_COUNTER_ROTATING-3/</source_path>
+		<source_target>FAN_COUNTER_ROTATING.tach-0</source_target>
+		<dest_path>MAX31785-0/</dest_path>
+		<dest_target>MAX31785.tach3</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
 </targetInstance>
 <targetInstance>
 	<id>MAX31785-0</id>
@@ -111040,12 +111284,6 @@
 	<child_id>MAX31785.tach3</child_id>
 	<child_id>MAX31785.tach4</child_id>
 	<child_id>MAX31785.tach5</child_id>
-	<child_id>MAX31785.hwmon1</child_id>
-	<child_id>MAX31785.hwmon2</child_id>
-	<child_id>MAX31785.hwmon3</child_id>
-	<child_id>MAX31785.hwmon4</child_id>
-	<child_id>MAX31785.hwmon5</child_id>
-	<child_id>MAX31785.hwmon6</child_id>
 	<attribute>
 		<id>BMC_DT_COMPATIBLE</id>
 		<default>maxim,max31785</default>
@@ -111438,6 +111676,7 @@
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach0</instance_name>
 	<position>-1</position>
+		<child_id>MAX31785.hwmon0</child_id>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
@@ -111529,6 +111768,7 @@
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach1</instance_name>
 	<position>-1</position>
+		<child_id>MAX31785.hwmon1</child_id>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
@@ -111620,6 +111860,7 @@
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach2</instance_name>
 	<position>-1</position>
+	<child_id>MAX31785.hwmon2</child_id>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
@@ -111711,6 +111952,7 @@
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach3</instance_name>
 	<position>-1</position>
+	<child_id>MAX31785.hwmon3</child_id>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
@@ -111802,6 +112044,7 @@
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach4</instance_name>
 	<position>-1</position>
+	<child_id>MAX31785.hwmon4</child_id>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
@@ -111893,6 +112136,7 @@
 	<is_root>false</is_root>
 	<instance_name>MAX31785.tach5</instance_name>
 	<position>-1</position>
+	<child_id>MAX31785.hwmon5</child_id>
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>TACH</default>
@@ -111979,6 +112223,124 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>MAX31785.hwmon0</id>
+	<type>unit-hwmon-feature</type>
+	<is_root>false</is_root>
+	<instance_name>MAX31785.hwmon0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE</id>
+		<default>
+				<field><id>deconfiguredByEid</id><value></value></field>
+				<field><id>poweredOn</id><value></value></field>
+				<field><id>present</id><value></value></field>
+				<field><id>functional</id><value></value></field>
+				<field><id>dumpfunctional</id><value></value></field>
+				<field><id>specdeconfig</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWMON_FEATURE</id>
+		<default>
+				<field><id>HWMON_NAME</id><value>fan1</value></field>
+				<field><id>DESCRIPTIVE_NAME</id><value>fan0</value></field>
+				<field><id>WARN_LOW</id><value></value></field>
+				<field><id>WARN_HIGH</id><value></value></field>
+				<field><id>CRIT_LOW</id><value></value></field>
+				<field><id>CRIT_HIGH</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>MAX31785.hwmon1</id>
 	<type>unit-hwmon-feature</type>
 	<is_root>false</is_root>
@@ -112042,8 +112404,8 @@
 	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
-				<field><id>HWMON_NAME</id><value>fan1</value></field>
-				<field><id>DESCRIPTIVE_NAME</id><value>fan0</value></field>
+				<field><id>HWMON_NAME</id><value>fan2</value></field>
+				<field><id>DESCRIPTIVE_NAME</id><value>fan1</value></field>
 				<field><id>WARN_LOW</id><value></value></field>
 				<field><id>WARN_HIGH</id><value></value></field>
 				<field><id>CRIT_LOW</id><value></value></field>
@@ -112160,8 +112522,8 @@
 	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
-				<field><id>HWMON_NAME</id><value>fan2</value></field>
-				<field><id>DESCRIPTIVE_NAME</id><value>fan1</value></field>
+				<field><id>HWMON_NAME</id><value>fan3</value></field>
+				<field><id>DESCRIPTIVE_NAME</id><value>fan2</value></field>
 				<field><id>WARN_LOW</id><value></value></field>
 				<field><id>WARN_HIGH</id><value></value></field>
 				<field><id>CRIT_LOW</id><value></value></field>
@@ -112278,8 +112640,8 @@
 	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
-				<field><id>HWMON_NAME</id><value>fan3</value></field>
-				<field><id>DESCRIPTIVE_NAME</id><value>fan2</value></field>
+				<field><id>HWMON_NAME</id><value>fan4</value></field>
+				<field><id>DESCRIPTIVE_NAME</id><value>fan3</value></field>
 				<field><id>WARN_LOW</id><value></value></field>
 				<field><id>WARN_HIGH</id><value></value></field>
 				<field><id>CRIT_LOW</id><value></value></field>
@@ -112396,8 +112758,8 @@
 	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
-				<field><id>HWMON_NAME</id><value>fan4</value></field>
-				<field><id>DESCRIPTIVE_NAME</id><value>fan3</value></field>
+				<field><id>HWMON_NAME</id><value>fan5</value></field>
+				<field><id>DESCRIPTIVE_NAME</id><value></value></field>
 				<field><id>WARN_LOW</id><value></value></field>
 				<field><id>WARN_HIGH</id><value></value></field>
 				<field><id>CRIT_LOW</id><value></value></field>
@@ -112455,124 +112817,6 @@
 	<type>unit-hwmon-feature</type>
 	<is_root>false</is_root>
 	<instance_name>MAX31785.hwmon5</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE</id>
-		<default>
-				<field><id>deconfiguredByEid</id><value></value></field>
-				<field><id>poweredOn</id><value></value></field>
-				<field><id>present</id><value></value></field>
-				<field><id>functional</id><value></value></field>
-				<field><id>dumpfunctional</id><value></value></field>
-				<field><id>specdeconfig</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWMON_FEATURE</id>
-		<default>
-				<field><id>HWMON_NAME</id><value>fan5</value></field>
-				<field><id>DESCRIPTIVE_NAME</id><value></value></field>
-				<field><id>WARN_LOW</id><value></value></field>
-				<field><id>WARN_HIGH</id><value></value></field>
-				<field><id>CRIT_LOW</id><value></value></field>
-				<field><id>CRIT_HIGH</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_INSTANCE</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>REL_POS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default></default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>MAX31785.hwmon6</id>
-	<type>unit-hwmon-feature</type>
-	<is_root>false</is_root>
-	<instance_name>MAX31785.hwmon6</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>AFFINITY_PATH</id>
@@ -114277,6 +114521,7 @@
 	<child_id>led_assoc_child</child_id>
 	<child_id>fan-fault-led-6</child_id>
 	<child_id>presence-0</child_id>
+	<child_id>FAN_COUNTER_ROTATING-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default></default>
@@ -114490,6 +114735,321 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>FAN_COUNTER_ROTATING-0</id>
+	<type>chip-FAN_COUNTER_ROTATING</type>
+	<is_root>false</is_root>
+	<instance_name>FAN_COUNTER_ROTATING</instance_name>
+	<position>0</position>
+	<child_id>FAN_COUNTER_ROTATING.pwm-0</child_id>
+	<child_id>FAN_COUNTER_ROTATING.tach-0</child_id>
+	<child_id>FAN_COUNTER_ROTATING.tach-1</child_id>
+	<attribute>
+		<id>CCIN</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>FAN_COUNTER_ROTATING.pwm-0</id>
+	<type>unit-pwm-generic</type>
+	<is_root>false</is_root>
+	<instance_name>FAN_COUNTER_ROTATING.pwm</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>PWM</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAN_PWM_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_PWM_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PWM_CHANNEL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PWM_DUTY_CYCLE_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PWM_DUTY_CYCLE_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>FAN_COUNTER_ROTATING.tach-0</id>
+	<type>unit-tach-generic</type>
+	<is_root>false</is_root>
+	<instance_name>FAN_COUNTER_ROTATING.tach</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>FAN_DOMAIN_REG_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_DOMAIN_REG_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_ERROR_MASK_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_ERROR_MASK_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_ERROR_REG_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_ERROR_REG_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_PARTNER_HS_REG_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_PARTNER_HS_REG_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_SPD_REG_HIGH_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_SPD_REG_HIGH_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_SPD_REG_LOW_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_SPD_REG_LOW_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_TYPE_SEL_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_TYPE_SEL_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TACH_CHANNEL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>FAN_COUNTER_ROTATING.tach-1</id>
+	<type>unit-tach-generic</type>
+	<is_root>false</is_root>
+	<instance_name>FAN_COUNTER_ROTATING.tach</instance_name>
+	<position>1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>TACH</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>FAN_DOMAIN_REG_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_DOMAIN_REG_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_ERROR_MASK_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_ERROR_MASK_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_ERROR_REG_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_ERROR_REG_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_PARTNER_HS_REG_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_PARTNER_HS_REG_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_SPD_REG_HIGH_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_SPD_REG_HIGH_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_SPD_REG_LOW_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_SPD_REG_LOW_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_TYPE_SEL_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAN_TYPE_SEL_BITMASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TACH_CHANNEL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>fanconn-11</id>
 	<type>connector-card-generic</type>
 	<is_root>false</is_root>
@@ -114534,6 +115094,7 @@
 	<child_id>led_assoc_child</child_id>
 	<child_id>fan-fault-led-7</child_id>
 	<child_id>presence-1</child_id>
+	<child_id>FAN_COUNTER_ROTATING-1</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default></default>
@@ -114684,6 +115245,64 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>FAN_COUNTER_ROTATING-1</id>
+	<type>chip-FAN_COUNTER_ROTATING</type>
+	<is_root>false</is_root>
+	<instance_name>FAN_COUNTER_ROTATING</instance_name>
+	<position>1</position>
+	<child_id>FAN_COUNTER_ROTATING.pwm-0</child_id>
+	<child_id>FAN_COUNTER_ROTATING.tach-0</child_id>
+	<child_id>FAN_COUNTER_ROTATING.tach-1</child_id>
+	<attribute>
+		<id>CCIN</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>fanconn-12</id>
 	<type>connector-card-generic</type>
 	<is_root>false</is_root>
@@ -114728,6 +115347,7 @@
 	<child_id>led_assoc_child</child_id>
 	<child_id>fan-fault-led-8</child_id>
 	<child_id>presence-2</child_id>
+	<child_id>FAN_COUNTER_ROTATING-2</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default></default>
@@ -114878,6 +115498,64 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>FAN_COUNTER_ROTATING-2</id>
+	<type>chip-FAN_COUNTER_ROTATING</type>
+	<is_root>false</is_root>
+	<instance_name>FAN_COUNTER_ROTATING</instance_name>
+	<position>2</position>
+	<child_id>FAN_COUNTER_ROTATING.pwm-0</child_id>
+	<child_id>FAN_COUNTER_ROTATING.tach-0</child_id>
+	<child_id>FAN_COUNTER_ROTATING.tach-1</child_id>
+	<attribute>
+		<id>CCIN</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>fanconn-13</id>
 	<type>connector-card-generic</type>
 	<is_root>false</is_root>
@@ -114922,6 +115600,7 @@
 	<child_id>led_assoc_child</child_id>
 	<child_id>fan-fault-led-9</child_id>
 	<child_id>presence-3</child_id>
+	<child_id>FAN_COUNTER_ROTATING-3</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default></default>
@@ -115069,6 +115748,64 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>FAN_COUNTER_ROTATING-3</id>
+	<type>chip-FAN_COUNTER_ROTATING</type>
+	<is_root>false</is_root>
+	<instance_name>FAN_COUNTER_ROTATING</instance_name>
+	<position>3</position>
+	<child_id>FAN_COUNTER_ROTATING.pwm-0</child_id>
+	<child_id>FAN_COUNTER_ROTATING.tach-0</child_id>
+	<child_id>FAN_COUNTER_ROTATING.tach-1</child_id>
+	<attribute>
+		<id>CCIN</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>

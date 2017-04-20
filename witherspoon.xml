@@ -12890,6 +12890,8 @@
 	<child_id>perv55</child_id>
 	<child_id>xbus1</child_id>
 	<child_id>xbus2</child_id>
+	<child_id>obus0</child_id>
+	<child_id>obus3</child_id>
 	<child_id>mcbist0</child_id>
 	<child_id>mcbist1</child_id>
 	<child_id>fsi-slave-0</child_id>
@@ -13769,6 +13771,10 @@
 	<attribute>
 		<id>HDAT_I2C_ADDR</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_FABRIC_OPTICS_CONFIG_MODE</id>
+		<default>2,2,2,2</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_BUS_FREQ</id>
@@ -33755,6 +33761,178 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>XBUS</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>obus0</id>
+	<type>unit-obus-nimbus</type>
+	<is_root>false</is_root>
+	<instance_name>obus0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default>affinity:sys-0/node-0/proc-0/obus-0</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>OBUS</default>
+	</attribute>
+	<attribute>
+		<id>CDM_DOMAIN</id>
+		<default>FABRIC</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0x9</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>pu.obus:k0:n0:s0:p00:c0</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>HB_TARGET_SCOMABLE</id>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default>0x00280000</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0</default>
+    </attribute>
+    <attribute>
+        <id>OPTICS_CONFIG_MODE</id>
+		<default>2</default>
+    </attribute>
+	<attribute>
+		<id>PARENT_PERVASIVE</id>
+		<default>physical:sys-0/node-0/proc-0/perv-9</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default>physical:sys-0/node-0/proc-0/obus-0</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+    </attribute>
+    <attribute>
+        <id>SCRATCH_UINT8_1</id>
+        <default>5</default>
+    </attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>OBUS</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>obus3</id>
+	<type>unit-obus-nimbus</type>
+	<is_root>false</is_root>
+	<instance_name>obus3</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default>affinity:sys-0/node-0/proc-0/obus-3</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>OBUS</default>
+	</attribute>
+	<attribute>
+		<id>CDM_DOMAIN</id>
+		<default>FABRIC</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xC</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>pu.obus:k0:n0:s0:p00:c3</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>HB_TARGET_SCOMABLE</id>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default>0x00280003</default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0</default>
+    </attribute>
+    <attribute>
+        <id>OPTICS_CONFIG_MODE</id>
+		<default>2</default>
+    </attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PARENT_PERVASIVE</id>
+		<default>physical:sys-0/node-0/proc-0/perv-12</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default>physical:sys-0/node-0/proc-0/obus-3</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+    </attribute>
+    <attribute>
+        <id>SCRATCH_UINT8_1</id>
+        <default>5</default>
+    </attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>OBUS</default>
 	</attribute>
 </targetInstance>
 <targetInstance>

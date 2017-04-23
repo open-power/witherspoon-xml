@@ -659,15 +659,15 @@
 		</enumerator>
 		<enumerator>
 		<name>PCI_HOTPLUG</name>
-		<value>A</value>
+		<value>0xA</value>
 		</enumerator>
 		<enumerator>
 		<name>NVLINK</name>
-		<value>B</value>
+		<value>0xB</value>
 		</enumerator>
 		<enumerator>
 		<name>UNKNOWN</name>
-		<value>FF</value>
+		<value>0xFF</value>
 		</enumerator>
 		<enumerator>
 		<name>CABLE_CARD_POWER_SENSE</name>
@@ -698,7 +698,7 @@
 		</enumerator>
 		<enumerator>
 		<name>UNKNOWN</name>
-		<value>FF</value>
+		<value>0xFF</value>
 		</enumerator>
 		<enumerator>
 		<name>MEX_FPGA</name>
@@ -2000,7 +2000,7 @@
 		</enumerator>
 		<enumerator>
 		<name>LAST_IN_RANGE</name>
-		<value>67</value>
+		<value>68</value>
 		</enumerator>
 		<enumerator>
 		<name>PCI</name>
@@ -2068,8 +2068,12 @@
 		</enumerator>
 		<enumerator>
 		<name>TEST_FAIL</name>
-		<value>66</value>
-		</enumerator>
+		<value>67</value>
+        </enumerator>
+        <enumerator>
+        <name>I2C</name>
+        <value>66</value>
+        </enumerator>
 		<enumerator>
 		<name>PORE</name>
 		<value>31</value>

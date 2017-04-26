@@ -440,6 +440,21 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>COOLING_PROFILE</id>
+		<enumerator>
+		<name>ALL</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>AIR</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>WATER</name>
+		<value>2</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>DIRECTION</id>
 		<enumerator>
 		<name>INOUT</name>
@@ -7364,6 +7379,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5/FAN_COUNTER_ROTATING-0</id>
+	<property>
+	<id>COOLING_ZONE_PROFILE</id>
+	<value>ALL</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-10/fan-5/FAN_COUNTER_ROTATING-0/FAN_COUNTER_ROTATING.pwm-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -7476,6 +7498,13 @@
 	<property>
 	<id>FRU_ID</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-11/fan-6/FAN_COUNTER_ROTATING-1</id>
+	<property>
+	<id>COOLING_ZONE_PROFILE</id>
+	<value>AIR</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -7594,6 +7623,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7/FAN_COUNTER_ROTATING-2</id>
+	<property>
+	<id>COOLING_ZONE_PROFILE</id>
+	<value>ALL</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-12/fan-7/FAN_COUNTER_ROTATING-2/FAN_COUNTER_ROTATING.pwm-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -7706,6 +7742,13 @@
 	<property>
 	<id>FRU_ID</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2/fanconn-13/fan-8/FAN_COUNTER_ROTATING-3</id>
+	<property>
+	<id>COOLING_ZONE_PROFILE</id>
+	<value>ALL</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -115973,6 +116016,14 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>COOLING_ZONE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>COOLING_ZONE_PROFILE</id>
+		<default>ALL</default>
+	</attribute>
+	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -116455,6 +116506,14 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>COOLING_ZONE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>COOLING_ZONE_PROFILE</id>
+		<default>AIR</default>
+	</attribute>
+	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -116704,6 +116763,14 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>COOLING_ZONE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>COOLING_ZONE_PROFILE</id>
+		<default>ALL</default>
+	</attribute>
+	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -116951,6 +117018,14 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>COOLING_ZONE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>COOLING_ZONE_PROFILE</id>
+		<default>ALL</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -120551,7 +120626,7 @@
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>temp1</value></field>
-				<field><id>DESCRIPTIVE_NAME</id><value></value></field>
+				<field><id>DESCRIPTIVE_NAME</id><value>pcie</value></field>
 				<field><id>WARN_LOW</id><value></value></field>
 				<field><id>WARN_HIGH</id><value></value></field>
 				<field><id>CRIT_LOW</id><value></value></field>

@@ -9777,7 +9777,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PROC_REFCLOCK_KHZ</id>
-		<default></default>
+		<default>0x20788</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_X_HFT</id>
@@ -120787,15 +120787,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>1</default>
+		<default>22</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_0</default>
+		<default>ADC_TOTAL_SYS_CURRENT</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>20.04</default>
+		<default>180</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -120807,7 +120807,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>-0.02</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -120846,15 +120846,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>2</default>
+		<default>20</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_1</default>
+		<default>ADC_12V_SENSE</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>6.5</default>
+		<default>6.495</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -120866,7 +120866,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -120905,15 +120905,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>11</default>
+		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_2</default>
+		<default>ADC_GPU_0_2</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default>29</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -120925,7 +120925,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>-0.001</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -120964,15 +120964,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>12</default>
+		<default>31</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_3</default>
+		<default>ADC_GPU_1_0</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default>28.7</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -120984,7 +120984,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>0.006</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -121023,15 +121023,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>20</default>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_12V_SENSE</default>
+		<default>ADC_GPU_1_1</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default>28.6</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121043,7 +121043,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>0.006</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -121082,15 +121082,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>22</default>
+		<default>33</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_TOTAL_SYS_CURRENT</default>
+		<default>ADC_GPU_1_2</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default>28.3</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121102,7 +121102,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>0.006</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -121141,15 +121141,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>23</default>
+		<default>18</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEM_CACHE</default>
+		<default>ADC_STORAGE_CURRENT</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default>22.6</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121161,7 +121161,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -121204,11 +121204,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_IO_A</default>
+		<default>ADC_IO_CURRENT</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>20.04</default>
+		<default>22.8</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121259,15 +121259,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>3</default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_2</default>
+		<default>ADC_VDD_PROC_0</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>20.04</default>
+		<default>22.8</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121279,7 +121279,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -121318,15 +121318,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>4</default>
+		<default>6</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_MEMORY_PROC_3</default>
+		<default>ADC_VDD_PROC_1</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>20.04</default>
+		<default>22.8</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121338,7 +121338,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -121377,15 +121377,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>5</default>
+		<default>9</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_0</default>
+		<default>ADC_VCS_VIO_VDN_PROC_0</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>10</default>
+		<default>10.44</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121397,7 +121397,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -121436,15 +121436,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>6</default>
+		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_1</default>
+		<default>ADC_VCS_VIO_VDN_PROC_1</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>10</default>
+		<default>10.34</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121456,7 +121456,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>-0.008</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -121495,15 +121495,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>7</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_2</default>
+		<default>ADC_MEMORY_PROC_0</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default>7.49</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121515,7 +121515,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>0.007</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -121554,15 +121554,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>8</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VDD_PROC_3</default>
+		<default>ADC_MEMORY_PROC_1</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>9.117</default>
+		<default>7.55</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121574,7 +121574,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -121613,15 +121613,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>9</default>
+		<default>24</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_0</default>
+		<default>ADC_GPU_0_0</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>1</default>
+		<default>28.8</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121672,15 +121672,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>10</default>
+		<default>29</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_VCS_VIO_VPCIE_PROC_1</default>
+		<default>ADC_GPU_0_1</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>6.494</default>
+		<default>28.6</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -121692,7 +121692,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0.005</default>
+		<default>0.004</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -121821,11 +121821,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>1</default>
+		<default>19</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_FAN_WATCHDOG_ERROR</default>
+		<default>GPIO_FAN_DISABLE_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -121986,11 +121986,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default>26</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>NVDIMM_EPOW_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -122261,11 +122261,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default>13</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>THROTTLE_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -122316,11 +122316,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>4</default>
+		<default>20</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_FAN_RESERVED</default>
+		<default>GPU0_PRSNT_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -122371,11 +122371,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>5</default>
+		<default>21</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_VR_HOT_MEM_PROC_0</default>
+		<default>GPU1_PRSNT_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -122426,11 +122426,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>6</default>
+		<default>22</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>GPIO_VR_HOT_MEM_PROC_1</default>
+		<default>GPU2_PRSNT_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -122481,11 +122481,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default>23</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>GPU3_PRSNT_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -122536,11 +122536,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default>24</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>GPU4_PRSNT_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -122591,11 +122591,11 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default>25</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default></default>
+		<default>GPU5_PRSNT_N</default>
 	</attribute>
 	<attribute>
 		<id>GPIO_P0_MODE</id>
@@ -123122,13 +123122,13 @@
 	<attribute>
 		<id>CURRENT_MAX</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value>0.1</value></field>
 		</default>
 	</attribute>
 	<attribute>
 		<id>CURRENT_NOM</id>
 		<default>
-				<field><id>Value</id><value></value></field>
+				<field><id>Value</id><value>0.05</value></field>
 		</default>
 	</attribute>
 	<attribute>

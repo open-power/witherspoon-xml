@@ -361,11 +361,15 @@
 		</enumerator>
 		<enumerator>
 		<name>MAX</name>
-		<value>9</value>
+		<value>10</value>
 		</enumerator>
 		<enumerator>
 		<name>LOGICAL_CARD</name>
 		<value>7</value>
+		</enumerator>
+		<enumerator>
+		<name>LED</name>
+		<value>9</value>
 		</enumerator>
 		<enumerator>
 		<name>ENC</name>
@@ -437,21 +441,6 @@
 		<enumerator>
 		<name>HMC</name>
 		<value>3</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>COOLING_PROFILE</id>
-		<enumerator>
-		<name>ALL</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>AIR</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>WATER</name>
-		<value>2</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -1456,13 +1445,6 @@
 		<enumerator>
 		<name>EPS_TYPE_LE</name>
 		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_FABRIC_ADDR_BAR_MODE</id>
-		<enumerator>
-		<name>LARGE_SYSTEM</name>
-		<value>0x0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -10595,10 +10577,6 @@
 		<default>EPS_TYPE_LE</default>
 	</attribute>
 	<attribute>
-		<id>PROC_FABRIC_ADDR_BAR_MODE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>PROC_FABRIC_A_BUS_WIDTH</id>
 		<default></default>
 	</attribute>
@@ -10727,10 +10705,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>SECURITY_MODE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SP_FUNCTIONS</id>
 		<default>
 				<field><id>baseServices</id><value></value></field>
@@ -10791,6 +10765,10 @@
 		<default>OFF</default>
 	</attribute>
 	<attribute>
+		<id>SYS_VFRT_STATIC_DATA_ENABLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TEST_NEGATIVE_FCN</id>
 		<default>-6</default>
 	</attribute>
@@ -10812,6 +10790,10 @@
 	</attribute>
 	<attribute>
 		<id>WOF_POWER_LIMIT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>WOF_TABLE_LID_NUMBER</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -10985,7 +10967,9 @@
 				<field><id>i2cMasterPath</id><value></value></field>
 				<field><id>port</id><value></value></field>
 				<field><id>devAddrLocality0</id><value></value></field>
+				<field><id>devAddrLocality1</id><value></value></field>
 				<field><id>devAddrLocality2</id><value></value></field>
+				<field><id>devAddrLocality3</id><value></value></field>
 				<field><id>devAddrLocality4</id><value></value></field>
 				<field><id>engine</id><value></value></field>
 				<field><id>byteAddrOffset</id><value></value></field>
@@ -12698,6 +12682,22 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PBAX_BRDCST_ID_VECTOR</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_CHIPID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_GROUPID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PM_PBAX_NODEID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>POSITION</id>
 		<default>0</default>
 	</attribute>
@@ -13109,10 +13109,6 @@
 	</attribute>
 	<attribute>
 		<id>FABRIC_GROUP_ID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>FABRIC_NODE_ID</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -13639,26 +13635,6 @@
 		<default>2</default>
 	</attribute>
 	<attribute>
-		<id>SYSTEM_RESCLK_FREQ_REGIONS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_RESCLK_FREQ_REGION_INDEX</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_RESCLK_L3_VALUE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_RESCLK_L3_VOLTAGE_THRESHOLD_MV</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_RESCLK_VALUE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>TDP_RDP_CURRENT_FACTOR</id>
 		<default>0</default>
 	</attribute>
@@ -13814,10 +13790,6 @@
 	<attribute>
 		<id>HDAT_I2C_ADDR</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_FABRIC_OPTICS_CONFIG_MODE</id>
-		<default>2,2,2,2</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_BUS_FREQ</id>
@@ -33833,8 +33805,16 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -33845,7 +33825,36 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>HB_TARGET_SCOMABLE</id>
+		<id>HDAT_I2C_ADDR</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_BUS_FREQ</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_DEVTYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_ELEMENTS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_ENGINE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_SLAVE_PORT</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -33856,24 +33865,53 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default>0x00000001</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>NIMBUS</default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>OPTICS_CONFIG_MODE</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
 		<id>ORDINAL_ID</id>
 		<default>0</default>
-    </attribute>
-    <attribute>
-        <id>OPTICS_CONFIG_MODE</id>
-		<default>2</default>
-    </attribute>
+	</attribute>
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-0/perv-9</default>
 	</attribute>
 	<attribute>
+		<id>PEER_TARGET</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0/obus-0</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
@@ -33882,11 +33920,7 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
-    </attribute>
-    <attribute>
-        <id>SCRATCH_UINT8_1</id>
-        <default>5</default>
-    </attribute>
+	</attribute>
 	<attribute>
 		<id>TYPE</id>
 		<default>OBUS</default>
@@ -33919,8 +33953,16 @@
 		<default>3</default>
 	</attribute>
 	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -33931,7 +33973,36 @@
 		<default>3</default>
 	</attribute>
 	<attribute>
-		<id>HB_TARGET_SCOMABLE</id>
+		<id>HDAT_I2C_ADDR</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_BUS_FREQ</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_DEVTYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_ELEMENTS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_ENGINE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HDAT_I2C_SLAVE_PORT</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>HUID</id>
@@ -33942,24 +34013,53 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>ORDINAL_ID</id>
-		<default>0</default>
-    </attribute>
-    <attribute>
-        <id>OPTICS_CONFIG_MODE</id>
-		<default>2</default>
-    </attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default>0x00000001</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_INSTANCE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>NIMBUS</default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>OPTICS_CONFIG_MODE</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-0/perv-12</default>
 	</attribute>
 	<attribute>
+		<id>PEER_TARGET</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0/obus-3</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
@@ -33968,11 +34068,7 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
-    </attribute>
-    <attribute>
-        <id>SCRATCH_UINT8_1</id>
-        <default>5</default>
-    </attribute>
+	</attribute>
 	<attribute>
 		<id>TYPE</id>
 		<default>OBUS</default>
@@ -40926,11 +41022,11 @@
 	</attribute>
 	<attribute>
 		<id>FABRIC_CHIP_ID</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FABRIC_GROUP_ID</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -40943,6 +41039,22 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_BRDCST_ID_VECTOR</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_CHIPID</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>PBAX_GROUPID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PM_PBAX_NODEID</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
@@ -116016,14 +116128,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>COOLING_ZONE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>COOLING_ZONE_PROFILE</id>
-		<default>ALL</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -116506,14 +116610,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>COOLING_ZONE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>COOLING_ZONE_PROFILE</id>
-		<default>AIR</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -116763,14 +116859,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>COOLING_ZONE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>COOLING_ZONE_PROFILE</id>
-		<default>ALL</default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -117018,14 +117106,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
-	</attribute>
-	<attribute>
-		<id>COOLING_ZONE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>COOLING_ZONE_PROFILE</id>
-		<default>ALL</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>

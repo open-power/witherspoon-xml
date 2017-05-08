@@ -10217,7 +10217,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_A_MHZ</id>
-		<default>0x1900</default>
+		<default>0x1250</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_CORE_MAX</id>

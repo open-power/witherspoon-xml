@@ -121911,7 +121911,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -121927,7 +121927,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>22</default>
 	</attribute>
 	<attribute>
@@ -121935,19 +121935,19 @@
 		<default>ADC_TOTAL_SYS_CURRENT</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>180</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>-0.02</default>
 	</attribute>
 	<attribute>
@@ -121970,7 +121970,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>1</default>
 	</attribute>
 	<attribute>
@@ -121986,7 +121986,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>20</default>
 	</attribute>
 	<attribute>
@@ -121994,19 +121994,19 @@
 		<default>ADC_12V_SENSE</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>6.495</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -122029,7 +122029,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>10</default>
 	</attribute>
 	<attribute>
@@ -122045,7 +122045,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>30</default>
 	</attribute>
 	<attribute>
@@ -122053,19 +122053,19 @@
 		<default>ADC_GPU_0_2</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>29</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>-0.001</default>
 	</attribute>
 	<attribute>
@@ -122088,7 +122088,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>11</default>
 	</attribute>
 	<attribute>
@@ -122104,7 +122104,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>31</default>
 	</attribute>
 	<attribute>
@@ -122112,19 +122112,19 @@
 		<default>ADC_GPU_1_0</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>28.7</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0.006</default>
 	</attribute>
 	<attribute>
@@ -122147,7 +122147,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>12</default>
 	</attribute>
 	<attribute>
@@ -122163,7 +122163,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>32</default>
 	</attribute>
 	<attribute>
@@ -122171,19 +122171,19 @@
 		<default>ADC_GPU_1_1</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>28.6</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0.006</default>
 	</attribute>
 	<attribute>
@@ -122206,7 +122206,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>13</default>
 	</attribute>
 	<attribute>
@@ -122222,7 +122222,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>33</default>
 	</attribute>
 	<attribute>
@@ -122230,11 +122230,11 @@
 		<default>ADC_GPU_1_2</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>28.3</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122242,7 +122242,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0.006</default>
 	</attribute>
 	<attribute>
@@ -122265,7 +122265,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>14</default>
 	</attribute>
 	<attribute>
@@ -122281,7 +122281,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>18</default>
 	</attribute>
 	<attribute>
@@ -122289,19 +122289,19 @@
 		<default>ADC_STORAGE_CURRENT</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>22.6</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -122324,7 +122324,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>15</default>
 	</attribute>
 	<attribute>
@@ -122340,7 +122340,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>13</default>
 	</attribute>
 	<attribute>
@@ -122348,19 +122348,19 @@
 		<default>ADC_IO_CURRENT</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>22.8</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0.005</default>
 	</attribute>
 	<attribute>
@@ -122383,7 +122383,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>2</default>
 	</attribute>
 	<attribute>
@@ -122399,7 +122399,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>5</default>
 	</attribute>
 	<attribute>
@@ -122407,19 +122407,19 @@
 		<default>ADC_VDD_PROC_0</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>22.8</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -122442,7 +122442,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>3</default>
 	</attribute>
 	<attribute>
@@ -122458,7 +122458,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>6</default>
 	</attribute>
 	<attribute>
@@ -122466,19 +122466,19 @@
 		<default>ADC_VDD_PROC_1</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>22.8</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -122501,7 +122501,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>4</default>
 	</attribute>
 	<attribute>
@@ -122517,7 +122517,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>9</default>
 	</attribute>
 	<attribute>
@@ -122525,19 +122525,19 @@
 		<default>ADC_VCS_VIO_VDN_PROC_0</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>10.44</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -122560,7 +122560,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>5</default>
 	</attribute>
 	<attribute>
@@ -122576,7 +122576,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>10</default>
 	</attribute>
 	<attribute>
@@ -122584,19 +122584,19 @@
 		<default>ADC_VCS_VIO_VDN_PROC_1</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>10.34</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>-0.008</default>
 	</attribute>
 	<attribute>
@@ -122619,7 +122619,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>6</default>
 	</attribute>
 	<attribute>
@@ -122635,7 +122635,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>1</default>
 	</attribute>
 	<attribute>
@@ -122643,19 +122643,19 @@
 		<default>ADC_MEMORY_PROC_0</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>7.49</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0.007</default>
 	</attribute>
 	<attribute>
@@ -122678,7 +122678,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>7</default>
 	</attribute>
 	<attribute>
@@ -122694,7 +122694,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>2</default>
 	</attribute>
 	<attribute>
@@ -122702,19 +122702,19 @@
 		<default>ADC_MEMORY_PROC_1</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>7.55</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -122737,7 +122737,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>8</default>
 	</attribute>
 	<attribute>
@@ -122753,7 +122753,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>24</default>
 	</attribute>
 	<attribute>
@@ -122761,19 +122761,19 @@
 		<default>ADC_GPU_0_0</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>28.8</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -122796,7 +122796,7 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHANNEL</id>
+		<id>ADC_CHANNEL_ASSIGNMENT</id>
 		<default>9</default>
 	</attribute>
 	<attribute>
@@ -122812,7 +122812,7 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_ID</id>
+		<id>ADC_CHANNEL_ID</id>
 		<default>29</default>
 	</attribute>
 	<attribute>
@@ -122820,19 +122820,19 @@
 		<default>ADC_GPU_0_1</default>
 	</attribute>
 	<attribute>
-		<id>GAIN</id>
+		<id>ADC_CHANNEL_GAIN</id>
 		<default>28.6</default>
 	</attribute>
 	<attribute>
-		<id>GND</id>
+		<id>ADC_CHANNEL_GND</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_SENSOR</default>
 	</attribute>
 	<attribute>
-		<id>OFFSET</id>
+		<id>ADC_CHANNEL_OFFSET</id>
 		<default>0.004</default>
 	</attribute>
 	<attribute>

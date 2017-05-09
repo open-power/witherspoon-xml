@@ -5021,8 +5021,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/dimmconn-9/dimm-0/spd/i2c-slave</id>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/occ/occ_active_sensor</id>
 	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x08</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_m/occ/occ_active_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0x09</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-9/dimm-0/spd/i2c-slave</id>	<property>
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
@@ -20573,6 +20586,7 @@
 	<is_root>false</is_root>
 	<instance_name>occ</instance_name>
 	<position>-1</position>
+ 	<hidden_child_id>occ_active_sensor</hidden_child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -20698,6 +20712,61 @@
 		<id>TYPE</id>
 		<default>OCC</default>
 	</attribute>
+</targetInstance>
+<targetInstance>
+    <id>occ_active_sensor</id>
+    <type>unit-ipmi-sensor</type>
+    <library_target>true</library_target>
+    <instance_name>occ_active_sensor</instance_name>
+    <position>-1</position>
+    <attribute>
+        <id>BUS_TYPE</id>
+        <default>NA</default>
+    </attribute>
+    <attribute>
+        <id>CHIP_UNIT</id>
+        <default>0</default>
+    </attribute>
+    <attribute>
+        <id>CLASS</id>
+        <default>UNIT</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_ENTITY_ID</id>
+        <default>0xD2</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_ID</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_NAME_SUFFIX</id>
+        <default>OCC_Active_Sensor</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_OFFSETS</id>
+        <default>0x00,0x01</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_READING_TYPE</id>
+        <default>0x09</default>
+    </attribute>
+    <attribute>
+        <id>IPMI_SENSOR_TYPE</id>
+        <default>0x07</default>
+    </attribute>
+    <attribute>
+        <id>MODEL</id>
+        <default></default>
+    </attribute>
+    <attribute>
+        <id>MRW_TYPE</id>
+        <default>IPMI_SENSOR</default>
+    </attribute>
+    <attribute>
+        <id>TYPE</id>
+        <default>NA</default>
+    </attribute>
 </targetInstance>
 <targetInstance>
 	<id>capp0</id>

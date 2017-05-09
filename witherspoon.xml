@@ -10089,7 +10089,7 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GNDS</id>
+		<id>ADC_CHANNEL_GROUNDS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122012,7 +122012,7 @@
 		<default>180</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122087,7 +122087,7 @@
 		<default>6.495</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122162,7 +122162,7 @@
 		<default>29</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122237,7 +122237,7 @@
 		<default>28.7</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122312,7 +122312,7 @@
 		<default>28.6</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122387,7 +122387,7 @@
 		<default>28.3</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122462,7 +122462,7 @@
 		<default>22.6</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122537,7 +122537,7 @@
 		<default>22.8</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122612,7 +122612,7 @@
 		<default>22.8</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122687,7 +122687,7 @@
 		<default>22.8</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122762,7 +122762,7 @@
 		<default>10.44</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122837,7 +122837,7 @@
 		<default>10.34</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122912,7 +122912,7 @@
 		<default>7.49</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -122987,7 +122987,7 @@
 		<default>7.55</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -123062,7 +123062,7 @@
 		<default>28.8</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -123137,7 +123137,7 @@
 		<default>28.6</default>
 	</attribute>
 	<attribute>
-		<id>ADC_CHANNEL_GND</id>
+		<id>ADC_CHANNEL_GROUND</id>
 		<default></default>
 	</attribute>
 	<attribute>

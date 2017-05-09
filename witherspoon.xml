@@ -122004,7 +122004,7 @@
 		<default>22</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_TOTAL_SYS_CURRENT</default>
 	</attribute>
 	<attribute>
@@ -122026,6 +122026,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[0]</default>
+	</attribute>	
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122063,7 +122079,7 @@
 		<default>20</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_12V_SENSE</default>
 	</attribute>
 	<attribute>
@@ -122085,6 +122101,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[1]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122122,7 +122154,7 @@
 		<default>30</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_GPU_0_2</default>
 	</attribute>
 	<attribute>
@@ -122144,6 +122176,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[10]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122181,7 +122229,7 @@
 		<default>31</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_GPU_1_0</default>
 	</attribute>
 	<attribute>
@@ -122203,6 +122251,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[11]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122240,7 +122304,7 @@
 		<default>32</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_GPU_1_1</default>
 	</attribute>
 	<attribute>
@@ -122262,6 +122326,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[12]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122299,7 +122379,7 @@
 		<default>33</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_GPU_1_2</default>
 	</attribute>
 	<attribute>
@@ -122321,6 +122401,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[13]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122358,7 +122454,7 @@
 		<default>18</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_STORAGE_CURRENT</default>
 	</attribute>
 	<attribute>
@@ -122380,6 +122476,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[14]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122417,7 +122529,7 @@
 		<default>13</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_IO_CURRENT</default>
 	</attribute>
 	<attribute>
@@ -122439,6 +122551,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[15]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122476,7 +122604,7 @@
 		<default>5</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_VDD_PROC_0</default>
 	</attribute>
 	<attribute>
@@ -122498,6 +122626,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[2]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122535,7 +122679,7 @@
 		<default>6</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_VDD_PROC_1</default>
 	</attribute>
 	<attribute>
@@ -122557,6 +122701,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[3]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122594,7 +122754,7 @@
 		<default>9</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_VCS_VIO_VDN_PROC_0</default>
 	</attribute>
 	<attribute>
@@ -122616,6 +122776,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[4]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122653,7 +122829,7 @@
 		<default>10</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_VCS_VIO_VDN_PROC_1</default>
 	</attribute>
 	<attribute>
@@ -122675,6 +122851,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[5]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122712,7 +122904,7 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_MEMORY_PROC_0</default>
 	</attribute>
 	<attribute>
@@ -122734,6 +122926,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[6]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122771,7 +122979,7 @@
 		<default>2</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_MEMORY_PROC_1</default>
 	</attribute>
 	<attribute>
@@ -122793,6 +123001,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[7]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122830,7 +123054,7 @@
 		<default>24</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_GPU_0_0</default>
 	</attribute>
 	<attribute>
@@ -122852,6 +123076,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[8]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -122889,7 +123129,7 @@
 		<default>29</default>
 	</attribute>
 	<attribute>
-		<id>FUNCTION_NAME</id>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
 		<default>ADC_GPU_0_1</default>
 	</attribute>
 	<attribute>
@@ -122911,6 +123151,22 @@
 	<attribute>
 		<id>PIN-NAME</id>
 		<default>adc_ch[9]</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0xD7</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xC2</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>

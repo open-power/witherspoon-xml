@@ -10332,11 +10332,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -11425,11 +11425,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -11608,11 +11608,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -13599,11 +13599,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -14013,11 +14013,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -14642,11 +14642,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -14780,11 +14780,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -14915,11 +14915,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -15211,11 +15211,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -15353,11 +15353,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -15488,11 +15488,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -15631,11 +15631,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -15773,11 +15773,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -15911,11 +15911,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -16046,11 +16046,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -16189,11 +16189,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -16331,11 +16331,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -16466,11 +16466,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -16609,11 +16609,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -16751,11 +16751,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -16889,11 +16889,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -17024,11 +17024,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -17167,11 +17167,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -17309,11 +17309,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -17444,11 +17444,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -17587,11 +17587,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -17729,11 +17729,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -17867,11 +17867,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -18002,11 +18002,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -18145,11 +18145,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -18287,11 +18287,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -18422,11 +18422,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -18565,11 +18565,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -18707,11 +18707,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -18845,11 +18845,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -18980,11 +18980,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -19123,11 +19123,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -19265,11 +19265,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -19400,11 +19400,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -19543,11 +19543,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -19685,11 +19685,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -19823,11 +19823,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -19958,11 +19958,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -20101,11 +20101,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -20243,11 +20243,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -20378,11 +20378,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -20521,11 +20521,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -20658,11 +20658,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -20849,11 +20849,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -20985,11 +20985,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -21117,11 +21117,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -21250,11 +21250,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -21511,11 +21511,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -21648,11 +21648,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -21846,11 +21846,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -22007,11 +22007,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -22269,11 +22269,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -22406,11 +22406,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -22604,11 +22604,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -22765,11 +22765,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -22963,11 +22963,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -23126,11 +23126,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -23387,11 +23387,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -23524,11 +23524,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -23722,11 +23722,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -23880,11 +23880,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -24017,11 +24017,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -24215,11 +24215,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -24376,11 +24376,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -24574,11 +24574,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -24733,11 +24733,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -24870,11 +24870,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -25068,11 +25068,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -25229,11 +25229,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -25427,11 +25427,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -25583,11 +25583,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -25711,11 +25711,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -25839,11 +25839,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -25967,11 +25967,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -26095,11 +26095,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -26223,11 +26223,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -26351,11 +26351,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -26479,11 +26479,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -26607,11 +26607,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -26735,11 +26735,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -26863,11 +26863,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -26991,11 +26991,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -27119,11 +27119,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -27247,11 +27247,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -27375,11 +27375,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -27503,11 +27503,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -27631,11 +27631,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -27759,11 +27759,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -27887,11 +27887,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -28015,11 +28015,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -28143,11 +28143,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -28271,11 +28271,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -28399,11 +28399,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -28527,11 +28527,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -28655,11 +28655,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -28783,11 +28783,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -28911,11 +28911,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -29039,11 +29039,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -29167,11 +29167,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -29295,11 +29295,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -29423,11 +29423,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -29551,11 +29551,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -29679,11 +29679,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -29807,11 +29807,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -29935,11 +29935,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -30063,11 +30063,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -30191,11 +30191,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -30319,11 +30319,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -30447,11 +30447,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -30575,11 +30575,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -30703,11 +30703,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -30831,11 +30831,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -30959,11 +30959,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -31087,11 +31087,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -31215,11 +31215,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -31343,11 +31343,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -31471,11 +31471,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -31599,11 +31599,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -31727,11 +31727,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -31855,11 +31855,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -31983,11 +31983,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -32111,11 +32111,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -32239,11 +32239,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -32367,11 +32367,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -32495,11 +32495,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -32623,11 +32623,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -32751,11 +32751,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -32879,11 +32879,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -33007,11 +33007,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -33135,11 +33135,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -33263,11 +33263,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -33391,11 +33391,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -33519,11 +33519,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -33647,11 +33647,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -33775,11 +33775,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -33903,11 +33903,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -34043,11 +34043,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -34199,11 +34199,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -34350,11 +34350,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -34498,11 +34498,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -34650,11 +34650,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -34802,11 +34802,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -34953,11 +34953,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -35101,11 +35101,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -35253,11 +35253,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -35405,11 +35405,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -35559,11 +35559,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -35735,11 +35735,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -35885,11 +35885,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -36021,11 +36021,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -36165,11 +36165,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -36311,11 +36311,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -36447,11 +36447,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -36591,11 +36591,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -36759,11 +36759,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -36909,11 +36909,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -37045,11 +37045,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -37189,11 +37189,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -37335,11 +37335,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -37471,11 +37471,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -37615,11 +37615,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -37765,11 +37765,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -37941,11 +37941,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -38091,11 +38091,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -38227,11 +38227,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -38371,11 +38371,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -38517,11 +38517,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -38653,11 +38653,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -38797,11 +38797,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -38965,11 +38965,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -39115,11 +39115,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -39251,11 +39251,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -39395,11 +39395,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -39541,11 +39541,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -39677,11 +39677,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -39821,11 +39821,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -39973,11 +39973,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -40113,11 +40113,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -40261,11 +40261,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -40409,11 +40409,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -40557,11 +40557,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -40705,11 +40705,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -41001,11 +41001,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -41149,11 +41149,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -42607,11 +42607,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -42784,11 +42784,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -43888,11 +43888,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -44393,11 +44393,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -44549,11 +44549,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -45276,11 +45276,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -45414,11 +45414,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -45551,11 +45551,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -45687,11 +45687,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -45820,11 +45820,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46017,11 +46017,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46154,11 +46154,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46290,11 +46290,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46423,11 +46423,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46620,11 +46620,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46757,11 +46757,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46893,11 +46893,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47026,11 +47026,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47223,11 +47223,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47360,11 +47360,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47496,11 +47496,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47629,11 +47629,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47826,11 +47826,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47963,11 +47963,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48099,11 +48099,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48232,11 +48232,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48429,11 +48429,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48566,11 +48566,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48702,11 +48702,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48835,11 +48835,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49032,11 +49032,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49169,11 +49169,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49305,11 +49305,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49438,11 +49438,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49635,11 +49635,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49772,11 +49772,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49908,11 +49908,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50041,11 +50041,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50238,11 +50238,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50375,11 +50375,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50511,11 +50511,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50644,11 +50644,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50841,11 +50841,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50978,11 +50978,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51114,11 +51114,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51247,11 +51247,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51444,11 +51444,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51581,11 +51581,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51717,11 +51717,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51850,11 +51850,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52047,11 +52047,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52184,11 +52184,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52320,11 +52320,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52453,11 +52453,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52650,11 +52650,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52787,11 +52787,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52923,11 +52923,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53056,11 +53056,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53253,11 +53253,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53390,11 +53390,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53526,11 +53526,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53659,11 +53659,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53856,11 +53856,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53993,11 +53993,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -54129,11 +54129,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -54262,11 +54262,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -54459,11 +54459,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -54596,11 +54596,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -54732,11 +54732,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -54865,11 +54865,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -55061,11 +55061,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -55198,11 +55198,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -55330,11 +55330,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -55459,11 +55459,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -55596,11 +55596,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -55728,11 +55728,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -55857,11 +55857,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -55994,11 +55994,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -56164,11 +56164,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -56301,11 +56301,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -56465,11 +56465,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -56602,11 +56602,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -56766,11 +56766,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -56903,11 +56903,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -57067,11 +57067,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -57204,11 +57204,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -57380,11 +57380,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -57517,11 +57517,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -57713,11 +57713,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -57850,11 +57850,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58047,11 +58047,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58184,11 +58184,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58384,11 +58384,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58516,11 +58516,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58646,11 +58646,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58783,11 +58783,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58983,11 +58983,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -59115,11 +59115,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -59246,11 +59246,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -59383,11 +59383,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -59583,11 +59583,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -59715,11 +59715,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -59848,11 +59848,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -60033,11 +60033,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -60170,11 +60170,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -60370,11 +60370,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -60502,11 +60502,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -60632,11 +60632,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -60769,11 +60769,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -60969,11 +60969,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61101,11 +61101,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61230,11 +61230,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61367,11 +61367,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61563,11 +61563,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61700,11 +61700,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61896,11 +61896,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -62033,11 +62033,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -62229,11 +62229,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -62366,11 +62366,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -62562,11 +62562,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -62699,11 +62699,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -62895,11 +62895,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -63032,11 +63032,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -63228,11 +63228,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -63365,11 +63365,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -63561,11 +63561,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -63698,11 +63698,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -63896,11 +63896,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -64040,11 +64040,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -64681,11 +64681,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -64813,11 +64813,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -64949,11 +64949,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -65287,11 +65287,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -65431,11 +65431,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -66072,11 +66072,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -66204,11 +66204,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -66334,11 +66334,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -66478,11 +66478,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -67119,11 +67119,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -67284,11 +67284,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -67428,11 +67428,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -68069,11 +68069,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -68234,11 +68234,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -68374,11 +68374,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -68763,11 +68763,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -68895,11 +68895,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69025,11 +69025,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69165,11 +69165,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69554,11 +69554,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69686,11 +69686,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69816,11 +69816,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69960,11 +69960,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -70601,11 +70601,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -70766,11 +70766,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -70906,11 +70906,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -71295,11 +71295,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -71468,11 +71468,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -71608,11 +71608,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -71997,11 +71997,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -72174,11 +72174,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -72314,11 +72314,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -72703,11 +72703,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -72835,11 +72835,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -72965,11 +72965,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -73105,11 +73105,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -73494,11 +73494,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -73626,11 +73626,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -73756,11 +73756,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -73894,11 +73894,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -74157,11 +74157,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -74342,11 +74342,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -74480,11 +74480,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -74743,11 +74743,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -74928,11 +74928,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -75066,11 +75066,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -75329,11 +75329,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -75514,11 +75514,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -75652,11 +75652,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -75915,11 +75915,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -76100,11 +76100,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -76244,11 +76244,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -76885,11 +76885,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -77050,11 +77050,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -77194,11 +77194,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -77835,11 +77835,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78000,11 +78000,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78137,11 +78137,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78337,11 +78337,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78522,11 +78522,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78659,11 +78659,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78859,11 +78859,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -79044,11 +79044,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -79181,11 +79181,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -79381,11 +79381,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -79566,11 +79566,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -79703,11 +79703,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -79903,11 +79903,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80088,11 +80088,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80225,11 +80225,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80425,11 +80425,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80610,11 +80610,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80747,11 +80747,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80947,11 +80947,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81132,11 +81132,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81269,11 +81269,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81469,11 +81469,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81654,11 +81654,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81791,11 +81791,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81991,11 +81991,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -82176,11 +82176,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -82313,11 +82313,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -82513,11 +82513,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -82738,11 +82738,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -82875,11 +82875,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -83075,11 +83075,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -83300,11 +83300,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -83437,11 +83437,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -83637,11 +83637,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -83862,11 +83862,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -83999,11 +83999,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -84199,11 +84199,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -84424,11 +84424,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -84561,11 +84561,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -84761,11 +84761,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -84986,11 +84986,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -85123,11 +85123,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -85323,11 +85323,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -85548,11 +85548,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -85685,11 +85685,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -85885,11 +85885,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -86110,11 +86110,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -86247,11 +86247,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -86447,11 +86447,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -86672,11 +86672,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -86809,11 +86809,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -87009,11 +87009,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -87234,11 +87234,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -87371,11 +87371,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -87571,11 +87571,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -87796,11 +87796,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -87933,11 +87933,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -88133,11 +88133,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -88358,11 +88358,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -88495,11 +88495,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -88695,11 +88695,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -88920,11 +88920,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -89057,11 +89057,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -89257,11 +89257,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -89482,11 +89482,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -89619,11 +89619,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -89819,11 +89819,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -90044,11 +90044,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -90181,11 +90181,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -90381,11 +90381,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -90606,11 +90606,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -90743,11 +90743,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -90943,11 +90943,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -91168,11 +91168,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -91306,11 +91306,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -91569,11 +91569,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -91754,11 +91754,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -91892,11 +91892,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -92155,11 +92155,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -92340,11 +92340,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -92478,11 +92478,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -92741,11 +92741,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -92925,11 +92925,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -93062,11 +93062,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -93258,11 +93258,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -93395,11 +93395,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -93591,11 +93591,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -93728,11 +93728,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -93924,11 +93924,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -94061,11 +94061,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -94258,11 +94258,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -94398,11 +94398,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -94787,11 +94787,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -94963,11 +94963,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -95100,11 +95100,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -95296,11 +95296,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -95433,11 +95433,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -95629,11 +95629,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -95766,11 +95766,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -95962,11 +95962,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -96099,11 +96099,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -96295,11 +96295,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -96432,11 +96432,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -96628,11 +96628,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -96765,11 +96765,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -96961,11 +96961,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -97098,11 +97098,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -97294,11 +97294,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -97431,11 +97431,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -97627,11 +97627,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -97764,11 +97764,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -97960,11 +97960,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -98097,11 +98097,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -98293,11 +98293,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -98430,11 +98430,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -98626,11 +98626,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -98763,11 +98763,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -98959,11 +98959,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -99096,11 +99096,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -99292,11 +99292,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -99429,11 +99429,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -99626,11 +99626,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -99764,11 +99764,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -100027,11 +100027,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -100212,11 +100212,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -100350,11 +100350,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -100613,11 +100613,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -100797,11 +100797,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -100934,11 +100934,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -101130,11 +101130,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -101267,11 +101267,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -101463,11 +101463,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -101600,11 +101600,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -101796,11 +101796,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -101933,11 +101933,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -102129,11 +102129,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -102266,11 +102266,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -102462,11 +102462,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -102599,11 +102599,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -102795,11 +102795,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -102932,11 +102932,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -103128,11 +103128,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -103265,11 +103265,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -103461,11 +103461,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -103598,11 +103598,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -103794,11 +103794,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -103931,11 +103931,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -104127,11 +104127,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -104264,11 +104264,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -104460,11 +104460,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -104597,11 +104597,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -104793,11 +104793,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -104930,11 +104930,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -105126,11 +105126,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -105263,11 +105263,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -105459,11 +105459,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -105596,11 +105596,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -105792,11 +105792,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -105929,11 +105929,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -106125,11 +106125,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -106262,11 +106262,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -106458,11 +106458,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -106595,11 +106595,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -106791,11 +106791,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -106928,11 +106928,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -107124,11 +107124,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -107259,11 +107259,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -107396,11 +107396,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -107528,11 +107528,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -107661,11 +107661,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -107836,11 +107836,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -108475,11 +108475,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -108612,11 +108612,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -108797,11 +108797,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -109179,11 +109179,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -109881,11 +109881,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -110018,11 +110018,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -110203,11 +110203,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -110585,11 +110585,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -111313,11 +111313,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -111457,11 +111457,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -111677,11 +111677,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -111874,11 +111874,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -112270,11 +112270,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -112690,11 +112690,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -112968,11 +112968,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -114231,11 +114231,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -114462,11 +114462,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -114693,11 +114693,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -114924,11 +114924,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -118760,11 +118760,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -118899,11 +118899,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -119038,11 +119038,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -119177,11 +119177,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -119316,11 +119316,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -119455,11 +119455,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -119594,11 +119594,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -119733,11 +119733,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -119872,11 +119872,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -120011,11 +120011,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -120150,11 +120150,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -120289,11 +120289,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -120428,11 +120428,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -120567,11 +120567,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -120706,11 +120706,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -120845,11 +120845,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -121143,11 +121143,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -121282,11 +121282,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -121421,11 +121421,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -121560,11 +121560,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -121831,11 +121831,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -125949,11 +125949,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -126105,11 +126105,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -126261,11 +126261,11 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEVTYPE</id>
+		<id>HDAT_I2C_DEVICE_TYPE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HDAT_I2C_DEV_PURPOSE</id>
+		<id>HDAT_I2C_DEVICE_PURPOSE</id>
 		<default></default>
 	</attribute>
 	<attribute>

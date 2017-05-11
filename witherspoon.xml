@@ -5021,6 +5021,34 @@
 	</property>
 </globalSetting>
 <globalSetting>
+    <property>
+    <id>IPMI_INSTANCE</id>
+    <value>0</value>
+    </property>
+    <property>
+    <id>FRU_NAME</id>
+    <value>OCC0</value>
+    </property>
+    <property>
+    <id>FRU_ID</id>
+    <value>1</value>
+    </property>
+</globalSetting>
+<globalSetting>
+    <property>
+    <id>IPMI_INSTANCE</id>
+    <value>1</value>
+    </property>
+    <property>
+    <id>FRU_NAME</id>
+    <value>OCC1</value>
+    </property>
+    <property>
+    <id>FRU_ID</id>
+    <value>2</value>
+    </property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/occ/occ_active_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>

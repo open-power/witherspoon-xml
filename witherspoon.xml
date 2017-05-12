@@ -116714,21 +116714,21 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>PowerOn,0,50,PowerOff,1,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
+		<default>PowerOn,0,50,0,BmcBooted,1,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0
         </default>
 	</attribute>
 	<attribute>
@@ -116888,18 +116888,18 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>EnclosureFault,0,50,Fan0Fault,0,50,Fan1Fault,0,50,Fan2Fault,0,50,Fan3Fault,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
+		<default>EnclosureFault,0,50,1,Fan0Fault,0,50,1,Fan1Fault,0,50,1,Fan2Fault,0,50,1,Fan3Fault,0,50,1,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0
         </default>
 	</attribute>
 	<attribute>
@@ -116961,22 +116961,22 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>EnclosureIdentify,1,50,
-        Fan0Identify,0,50,
-        Fan1Identify,0,50,
-        Fan2Identify,0,50,
-        Fan3Identify,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
+		<default>EnclosureIdentify,1,50,1,
+        Fan0Identify,0,50,1,
+        Fan1Identify,0,50,1,
+        Fan2Identify,0,50,1,
+        Fan3Identify,0,50,1,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0
         </default>
 	</attribute>
 	<attribute>
@@ -117125,21 +117125,21 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>Fan0Fault,0,50,Fan0Identify,1,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50
+		<default>Fan0Fault,0,50,1,Fan0Identify,1,50,1,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0
         </default>
 	</attribute>
 	<attribute>
@@ -117670,21 +117670,21 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>Fan1Fault,0,50,Fan1Identify,1,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50
+		<default>Fan1Fault,0,50,1,Fan1Identify,1,50,1,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0
         </default>
 	</attribute>
 	<attribute>
@@ -117919,21 +117919,21 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>Fan2Fault,0,50,Fan2Identify,1,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50
+		<default>Fan2Fault,0,50,1,Fan2Identify,1,50,1,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0
         </default>
 	</attribute>
 	<attribute>
@@ -118168,21 +118168,21 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>Fan3Fault,0,50,Fan3Identify,1,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50
+		<default>Fan3Fault,0,50,1,Fan3Identify,1,50,1,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0
         </default>
 	</attribute>
 	<attribute>
@@ -118330,18 +118330,18 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>EnclosureFault,0,50,Fan0Fault,0,50,Fan1Fault,0,50,Fan2Fault,0,50,Fan3Fault,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
+		<default>EnclosureFault,0,50,1,Fan0Fault,0,50,1,Fan1Fault,0,50,1,Fan2Fault,0,50,1,Fan3Fault,0,50,1,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0
         </default>
 	</attribute>
 	<attribute>
@@ -118403,22 +118403,22 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>EnclosureIdentify,1,50,
-        Fan0Identify,0,50,
-        Fan1Identify,0,50,
-        Fan2Identify,0,50,
-        Fan3Identify,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
+		<default>EnclosureIdentify,1,50,1,
+        Fan0Identify,0,50,1,
+        Fan1Identify,0,50,1,
+        Fan2Identify,0,50,1,
+        Fan3Identify,0,50,1,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0
         </default>
 	</attribute>
 	<attribute>
@@ -118480,21 +118480,21 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>PowerOn,0,50,PowerOff,1,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
-        NA,0,50,
+		<default>PowerOn,0,50,0,BmcBooted,1,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0,
+        NA,0,50,0
         </default>
 	</attribute>
 	<attribute>

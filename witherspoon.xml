@@ -2504,6 +2504,29 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/PCA9552-0/PCA9552.gpio-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/PCA9552-0/PCA9552.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -2549,6 +2572,34 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/TMP423A-0/TMP423A.temp1</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/TMP423A-0/TMP423A.temp2</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/TMP423A-0/TMP423A.temp3</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/TMP423A-0/TMP423A.temp4</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/TMP423A-1/TMP423A.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -2560,6 +2611,27 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/TMP423A-1/TMP423A.temp1</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/TMP423A-1/TMP423A.temp2</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0</id>
+	<property>
+	<id>FRU_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -2579,6 +2651,118 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in1</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in10</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in11</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in12</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in13</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in14</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in15</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in16</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in2</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in3</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in4</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in5</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in6</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in7</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in8</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/UCD90160-0/UCD90160.in9</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -2678,6 +2862,10 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
@@ -5178,6 +5366,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/nvlink-0/gpu-0/led_assoc_child</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/nvlink-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -5460,6 +5659,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-2/gv100card-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/obusslot-2/gv100card-0/brick-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -5544,6 +5750,13 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-3</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-3/gv100card-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5727,6 +5940,13 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-5</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-5/gv100card-0</id>
+	<property>
+	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5981,6 +6201,21 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/planar_vpd-0/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xA0</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6564,6 +6799,77 @@
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-op0a</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-proc-promb0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-proc-promb1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-proc-promc0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-proc-promc2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-prom0-mvpd-primary</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-prom1-sbe-primary</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-prom2-mvpd-backup</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-master-prom3-sbe-backup</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/i2c-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -7716,6 +8022,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/psconn-8/powersupply-3</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/psconn-8/powersupply-4/led_assoc_child</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -7863,6 +8176,13 @@
 	<id>/sys-0/node-0/motherboard-0/teakconn-7</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/teakconn-7/teak-2</id>
+	<property>
+	<id>FRU_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10564,6 +10884,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DPLL_VDM_RESPONSE</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>DPO_MIN_FREQ_PERCENT</id>
 		<default></default>
 	</attribute>
@@ -11674,10 +11998,6 @@
 		<id>VDM_ENABLE</id>
 		<default>OFF</default>
 	</attribute>
-	<attribute>
-           <id>DPLL_VDM_RESPONSE</id>
- 	      <default>0x00</default>
- 	</attribute>
 	<attribute>
 		<id>WOF_POWER_LIMIT</id>
 		<default></default>
@@ -14498,11 +14818,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>SEEPROM</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>PROC_MODULE_VPD</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -43088,11 +43408,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>SEEPROM</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>DIMM_SPD</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -46063,11 +46383,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>SEEPROM</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -119547,11 +119867,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -119686,11 +120006,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -119825,11 +120145,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -119964,11 +120284,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -120103,11 +120423,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -120242,11 +120562,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -120381,11 +120701,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -120520,11 +120840,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -120659,11 +120979,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -120798,11 +121118,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -120937,11 +121257,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -121076,11 +121396,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -121215,11 +121535,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -121354,11 +121674,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -121493,11 +121813,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -121632,11 +121952,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UCX90XX</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -121930,11 +122250,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -122069,11 +122389,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -122208,11 +122528,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -122347,11 +122667,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>UNKNOWN</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>
@@ -124109,11 +124429,11 @@
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEVTYPE</id>
-		<default></default>
+		<default>NVLINK</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_DEV_PURPOSE</id>
-		<default></default>
+		<default>NVLINK</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ELEMENTS</id>

@@ -162,15 +162,15 @@
 		</enumerator>
 		<enumerator>
 		<name>PLANAR</name>
-		<value>19</value>
+		<value>20</value>
 		</enumerator>
 		<enumerator>
 		<name>TPM</name>
-		<value>25</value>
+		<value>26</value>
 		</enumerator>
 		<enumerator>
 		<name>VRM</name>
-		<value>26</value>
+		<value>27</value>
 		</enumerator>
 		<enumerator>
 		<name>CLOCK-INTERFACE</name>
@@ -182,11 +182,11 @@
 		</enumerator>
 		<enumerator>
 		<name>POWER-INTERFACE</name>
-		<value>21</value>
+		<value>22</value>
 		</enumerator>
 		<enumerator>
 		<name>POWERSUPPLY</name>
-		<value>22</value>
+		<value>23</value>
 		</enumerator>
 		<enumerator>
 		<name>MEZZANINE</name>
@@ -201,16 +201,20 @@
 		<value>1</value>
 		</enumerator>
 		<enumerator>
+		<name>GENERIC_PCIE</name>
+		<value>19</value>
+		</enumerator>
+		<enumerator>
 		<name>FSP</name>
 		<value>11</value>
 		</enumerator>
 		<enumerator>
 		<name>POWER-DIST</name>
-		<value>20</value>
+		<value>21</value>
 		</enumerator>
 		<enumerator>
 		<name>MEM-RISER</name>
-		<value>24</value>
+		<value>25</value>
 		</enumerator>
 		<enumerator>
 		<name>PCIE</name>
@@ -222,7 +226,7 @@
 		</enumerator>
 		<enumerator>
 		<name>RAID</name>
-		<value>23</value>
+		<value>24</value>
 		</enumerator>
 		<enumerator>
 		<name>LCC</name>
@@ -22184,6 +22188,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
 	</attribute>
@@ -22279,8 +22287,20 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -22798,6 +22818,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
 	</attribute>
@@ -22893,8 +22917,20 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -23085,6 +23121,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
 	</attribute>
@@ -23180,8 +23220,20 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -23700,6 +23752,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
 	</attribute>
@@ -23795,8 +23851,20 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -24085,6 +24153,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
 	</attribute>
@@ -24180,8 +24252,20 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -24372,6 +24456,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
 	</attribute>
@@ -24467,8 +24555,20 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -24758,6 +24858,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
 	</attribute>
@@ -24853,8 +24957,20 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -25045,6 +25161,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
 	</attribute>
@@ -25140,8 +25260,20 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -39402,6 +39534,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MAX_POWER</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -39439,6 +39575,10 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>CARD_TYPE</id>
+		<default>GENERIC_PCIE</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -39744,6 +39884,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MAX_POWER</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -39812,6 +39956,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MAX_POWER</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -39877,6 +40025,10 @@
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MAX_POWER</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48961,6 +49113,10 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
 	</attribute>
@@ -48975,8 +49131,20 @@
 		</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -95676,6 +95844,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FAPI_NAME</id>
 		<default></default>
 	</attribute>
@@ -95768,7 +95940,19 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
 		<default></default>
 	</attribute>
 </targetInstance>
@@ -95791,6 +95975,10 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
 	</attribute>
@@ -95805,8 +95993,20 @@
 		</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -95828,6 +96028,10 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
 	</attribute>
@@ -95842,8 +96046,20 @@
 		</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -95865,6 +96081,10 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
 	</attribute>
@@ -95879,8 +96099,20 @@
 		</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -95902,6 +96134,10 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
 	</attribute>
@@ -95916,8 +96152,20 @@
 		</default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -105723,6 +105971,10 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -105747,7 +105999,19 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>SUBSYSTEM_DEVICE_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUBSYSTEM_VENDOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>VENDOR_ID</id>
 		<default></default>
 	</attribute>
 </targetInstance>
@@ -108059,24 +108323,8 @@
 		<default>AE</default>
 	</attribute>
 	<attribute>
-		<id>I2C_ENGINE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>I2C_PORT</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -108124,10 +108372,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -108143,10 +108387,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -108195,10 +108435,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -108214,10 +108450,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -108266,10 +108498,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -108285,10 +108513,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>

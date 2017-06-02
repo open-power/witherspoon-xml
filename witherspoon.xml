@@ -2838,66 +2838,102 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port0</id>
+	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.i2c-1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port1</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>IN</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port10</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port11</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port12</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port13</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port2</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>NA</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port4</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port5</id>
 	<property>
 	<id>DIRECTION</id>
-	<value></value>
+	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port9</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>NA</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14184,7 +14220,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -14217,7 +14253,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -14250,7 +14286,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -14283,7 +14319,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -14316,7 +14352,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -14349,7 +14385,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -14382,7 +14418,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -14415,7 +14451,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>
-		<default></default>
+		<default>400</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
@@ -14684,6 +14720,39 @@
 		<bus_attribute>
 			<id>I2C_TYPE</id>
 		<default>955X</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_C12_gpioc0c7_sd1_i2c/chip-bmc-ast2500.pingroup_i2c10111213/chip-bmc-ast2500.I2C10 => PEX8725-0/PEX8725.i2c-0</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_C12_gpioc0c7_sd1_i2c/chip-bmc-ast2500.pingroup_i2c10111213/</source_path>
+		<source_target>chip-bmc-ast2500.I2C10</source_target>
+		<dest_path>PEX8725-0/</dest_path>
+		<dest_target>PEX8725.i2c-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_ADDRESS</id>
+		<default>70</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -15668,7 +15737,7 @@
 	<child_id>eq4</child_id>
 	<child_id>eq5</child_id>
 	<child_id>occ</child_id>
-     <child_id>nx</child_id>
+	<child_id>nx</child_id>
 	<child_id>capp0</child_id>
 	<child_id>capp1</child_id>
 	<child_id>sbe</child_id>
@@ -21031,70 +21100,6 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-  	<id>nx</id>
-  	<type>unit-nx-power9</type>
-  	<is_root>false</is_root>
-  	<instance_name>nx</instance_name>
-  	<position>-1</position>
-  	<attribute>
-    		<id>BUS_TYPE</id>
-    		<default>NA</default>
-  	</attribute>
-  	<attribute>
-    		<id>CHIP_UNIT</id>
-    		<default>0</default>
-  	</attribute>
-  	<attribute>
-    		<id>CLASS</id>
-    		<default>UNIT</default>
-  	</attribute>
-  	<attribute>
-    		<id>DECONFIG_GARDABLE</id>
-    		<default>1</default>
-  	</attribute>
-    	<attribute>
-      	<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-      	<default>0x00000001</default>
-    	</attribute>
-    	<attribute>
-    		<id>PRIMARY_CAPABILITIES</id>
-    		<default>
-      		<field>
-        			<id>supportsFsiScom</id>
-        			<value>0</value>
-      		</field>
-      		<field>
-        			<id>supportsXscom</id>
-        			<value>0</value>
-      		</field>
-      		<field>
-        			<id>supportsInbandScom</id>
-        			<value>0</value>
-      		</field>
-      		<field>
-        			<id>reserved</id>
-        			<value>0</value>
-      		</field>
-    		</default>
-  	</attribute>
-  	<attribute>
-    		<id>MRW_TYPE</id>
-    		<default>NA</default>
-  	</attribute>
-  	<attribute>
-    		<id>CDM_DOMAIN</id>
-    		<default>FABRIC</default>
-  	</attribute>
-  	<attribute>
-    		<id>RESOURCE_IS_CRITICAL</id>
-    		<default>0</default>
-  	</attribute>
-  	<attribute>
-    		<id>TYPE</id>
-    		<default>NX</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
 	<id>occ</id>
 	<type>unit-occ-nimbus</type>
 	<is_root>false</is_root>
@@ -21244,6 +21249,102 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>nx</id>
+	<type>unit-nx-power9</type>
+	<is_root>false</is_root>
+	<instance_name>nx</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CDM_DOMAIN</id>
+		<default>FABRIC</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default>0x00000001</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>0</value></field>
+				<field><id>supportsXscom</id><value>0</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NX</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -36708,11 +36809,11 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
-		<default>0x00</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x00</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -36763,7 +36864,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x01</default>
+		<default>0x02</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -36810,11 +36911,11 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
-		<default>0x00</default>
+		<default>0x01</default>
 	</attribute>
 	<attribute>
 		<id>I2C_PORT</id>
-		<default>0x01</default>
+		<default>0x03</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -105491,7 +105592,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ADDRESS</id>
-		<default></default>
+		<default>70</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -106916,10 +107017,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -106935,10 +107032,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -106987,10 +107080,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -107006,10 +107095,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -107058,10 +107143,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -107077,10 +107158,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -107129,10 +107206,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -107148,10 +107221,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -107200,10 +107269,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -107219,10 +107284,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -107271,10 +107332,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -107290,10 +107347,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -107342,10 +107395,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -107361,10 +107410,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -107413,10 +107458,6 @@
 		<default>GPIO_EXP</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -107432,10 +107473,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -107474,16 +107511,8 @@
 		<default>C0</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -107531,10 +107560,6 @@
 		<default>GENERIC_INPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -107550,10 +107575,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>

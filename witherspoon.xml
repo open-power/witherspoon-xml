@@ -12694,7 +12694,19 @@
 		<bus_attribute>
 			<id>I2C_SPEED</id>
 		<default>400</default>
-		</bus_attribute>
+        </bus_attribute>
+        <bus_attribute>
+            <id>I2C_ADDRESS</id>
+        <default>0xFF</default>
+        </bus_attribute>
+        <bus_attribute>
+            <id>I2C_TYPE</id>
+        <default>UNKNOWN</default>
+        </bus_attribute>
+        <bus_attribute>
+            <id>I2C_PURPOSE</id>
+        <default>UNKNOWN</default>
+        </bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/module-0/p9_proc_m/i2c-master-dimm0123 => dimmconn-1/dimm-0/spd/i2c-slave</bus_id>

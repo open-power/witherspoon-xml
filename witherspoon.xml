@@ -11959,7 +11959,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_VMEM_REGULATOR_MEMORY_POWER_LIMIT_PER_DIMM_DDR4</id>
-		<default>1900</default>
+		<default>1800</default>
 	</attribute>
 	<attribute>
 		<id>MSS_AVDD_PROGRAM</id>
@@ -12093,7 +12093,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_RANGE</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_THERMAL_MEMORY_POWER_LIMIT</id>
@@ -14597,7 +14597,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_ADDRESS</id>
-		<default>A0</default>
+		<default>98</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14630,7 +14630,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_ADDRESS</id>
-		<default>A1</default>
+		<default>9A</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14663,7 +14663,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_ADDRESS</id>
-		<default>A2</default>
+		<default>9C</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14696,7 +14696,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_ADDRESS</id>
-		<default>A0</default>
+		<default>98</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14729,7 +14729,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_ADDRESS</id>
-		<default>A1</default>
+		<default>9A</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14762,7 +14762,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_ADDRESS</id>
-		<default>A2</default>
+		<default>9C</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -16286,7 +16286,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
-	<default>400,400,0,0,0,0,0,0,0,0,0,0,0,400,400,400,400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
+		<default>400,400,0,0,0,0,0,0,0,0,0,0,0,400,400,400,400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>I2C_SLAVE_ADDRESS</id>

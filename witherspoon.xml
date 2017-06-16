@@ -99937,7 +99937,7 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>PowerOn,0,50,PowerOff,1,50,
+		<default>PowerOn,0,50,BmcBooted,1,50,
         NA,0,50,
         NA,0,50,
         NA,0,50,
@@ -101739,7 +101739,7 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>PowerOn,0,50,PowerOff,1,50,
+		<default>PowerOn,0,50,BmcBooted,1,50,
         NA,0,50,
         NA,0,50,
         NA,0,50,

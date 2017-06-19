@@ -9490,86 +9490,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/skipper-14/daughtercard-10/NPCT501-0/NPCT501.gpio-master-1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>DRIVER_TYPE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>GPIO_TYPE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>PIN_NAME</id>
-	<value></value>
-	</property>
-	<property>
-	<id>POR_VALUE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/skipper-14/daughtercard-10/NPCT501-0/NPCT501.gpio-master-2</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>DRIVER_TYPE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>GPIO_TYPE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>PIN_NAME</id>
-	<value></value>
-	</property>
-	<property>
-	<id>POR_VALUE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/skipper-14/daughtercard-10/NPCT501-0/NPCT501.gpio-slave-0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>DRIVER_TYPE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>GPIO_TYPE</id>
-	<value></value>
-	</property>
-	<property>
-	<id>PIN_NAME</id>
-	<value></value>
-	</property>
-	<property>
-	<id>POR_VALUE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/skipper-14/daughtercard-10/NPCT501-0/NPCT501.i2c-0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/skipper-14/daughtercard-10/PCA9551-2/PCA9551.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9588,6 +9508,24 @@
 	</property>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/skipper-14/daughtercard-10/tpm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/skipper-14/daughtercard-10/tpm-0/tpm.i2c-0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13542,21 +13480,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>TPM_INFO</id>
-		<default>
-				<field><id>tpmEnabled</id><value></value></field>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddrLocality0</id><value></value></field>
-				<field><id>devAddrLocality1</id><value></value></field>
-				<field><id>devAddrLocality2</id><value></value></field>
-				<field><id>devAddrLocality3</id><value></value></field>
-				<field><id>devAddrLocality4</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
 		<id>TYPE</id>
 		<default>NODE</default>
 	</attribute>
@@ -15668,13 +15591,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_m/i2c-master-tpm => skipper-14/daughtercard-10/NPCT501-0/NPCT501.i2c-0</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_m/i2c-master-tpm => skipper-14/daughtercard-10/tpm-0/tpm.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_m/</source_path>
 		<source_target>i2c-master-tpm</source_target>
-		<dest_path>skipper-14/daughtercard-10/NPCT501-0/</dest_path>
-		<dest_target>NPCT501.i2c-0</dest_target>
+		<dest_path>skipper-14/daughtercard-10/tpm-0/</dest_path>
+		<dest_target>tpm.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -15685,7 +15608,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_ADDRESS</id>
-		<default>AE</default>
+		<default>0xAE</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -15698,6 +15621,39 @@
 		<bus_attribute>
 			<id>I2C_TYPE</id>
 		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/module-0/p9_proc_m/i2c-master-tpm => PEX8725-0/PEX8725.i2c-0</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/module-0/p9_proc_m/</source_path>
+		<source_target>i2c-master-tpm</source_target>
+		<dest_path>PEX8725-0/</dest_path>
+		<dest_target>PEX8725.i2c-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_ADDRESS</id>
+		<default>C0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default>WINDOW_OPEN_N</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default>955X</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -109352,10 +109308,10 @@
 	<position>10</position>
 	<child_id>led_assoc_child</child_id>
 	<child_id>PCA9551-2</child_id>
-	<child_id>NPCT501-0</child_id>
+	<child_id>tpm-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
-		<default></default>
+		<default>TPM</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -109456,15 +109412,24 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>NPCT501-0</id>
-	<type>chip-NPCT501</type>
+	<id>tpm-0</id>
+	<type>chip-tpm-cectpm</type>
 	<is_root>false</is_root>
-	<instance_name>NPCT501</instance_name>
+	<instance_name>tpm</instance_name>
 	<position>0</position>
-	<child_id>NPCT501.i2c-0</child_id>
-	<child_id>NPCT501.gpio-slave-0</child_id>
-	<child_id>NPCT501.gpio-master-1</child_id>
-	<child_id>NPCT501.gpio-master-2</child_id>
+	<child_id>tpm.i2c-0</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ALTFSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
 	<attribute>
 		<id>CCIN</id>
 		<default></default>
@@ -109472,6 +109437,57 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_CHIP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_MASTER_TYPE</id>
+		<default>NO_MASTER</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FSI_SLAVE_CASCADE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -109494,8 +109510,25 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>ORDINAL_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>POSITION</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value></value></field>
+				<field><id>supportsXscom</id><value></value></field>
+				<field><id>supportsInbandScom</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -109506,15 +109539,30 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>TPM_INFO</id>
+		<default>
+				<field><id>tpmEnabled</id><value>1</value></field>
+				<field><id>i2cMasterPath</id><value>physical:sys-0/node-0/proc-0</value></field>
+				<field><id>port</id><value>0</value></field>
+				<field><id>devAddrLocality0</id><value>0xAE</value></field>
+				<field><id>devAddrLocality1</id><value>0xA8</value></field>
+				<field><id>devAddrLocality2</id><value>0xAA</value></field>
+				<field><id>devAddrLocality3</id><value>0xA4</value></field>
+				<field><id>devAddrLocality4</id><value>0xA6</value></field>
+				<field><id>engine</id><value>2</value></field>
+				<field><id>byteAddrOffset</id><value>0x01</value></field>
+		</default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>NPCT501.i2c-0</id>
+	<id>tpm.i2c-0</id>
 	<type>unit-i2c-slave</type>
 	<is_root>false</is_root>
-	<instance_name>NPCT501.i2c</instance_name>
+	<instance_name>tpm.i2c</instance_name>
 	<position>0</position>
 	<attribute>
 		<id>BUS_TYPE</id>
@@ -109534,7 +109582,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_ADDRESS</id>
-		<default>AE</default>
+		<default>0xAE</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -109546,195 +109594,6 @@
 	</attribute>
 	<attribute>
 		<id>VPD_SIZE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>NPCT501.gpio-slave-0</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>NPCT501.gpio-slave</instance_name>
-	<position>0</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GENERIC_OUTPUT</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>NPCT501.gpio-master-1</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>NPCT501.gpio-master</instance_name>
-	<position>1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GENERIC_OUTPUT</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>NPCT501.gpio-master-2</id>
-	<type>unit-gpio-generic</type>
-	<is_root>false</is_root>
-	<instance_name>NPCT501.gpio-master</instance_name>
-	<position>2</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>OUT</default>
-	</attribute>
-	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ENGINE</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>GPIO_TYPE</id>
-		<default>GENERIC_OUTPUT</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NAME</id>
-		<default>
-				<field><id>Value</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
 		<default>NA</default>
 	</attribute>
 </targetInstance>

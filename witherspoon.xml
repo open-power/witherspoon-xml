@@ -15741,13 +15741,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/module-0/p9_proc_m/i2c-master-tpm => PEX8725-0/PEX8725.i2c-0</bus_id>
+		<bus_id>proc_socket-0/module-0/p9_proc_m/i2c-master-tpm => PCA9551-0/PCA9551.i2c-0</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>proc_socket-0/module-0/p9_proc_m/</source_path>
 		<source_target>i2c-master-tpm</source_target>
-		<dest_path>PEX8725-0/</dest_path>
-		<dest_target>PEX8725.i2c-0</dest_target>
+		<dest_path>PCA9551-0/</dest_path>
+		<dest_target>PCA9551.i2c-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -15762,7 +15762,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
-		<default>WINDOW_OPEN_N</default>
+		<default>WINDOW_OPEN</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_SPEED</id>

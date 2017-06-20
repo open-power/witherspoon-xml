@@ -15737,7 +15737,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_TYPE</id>
-		<default></default>
+		<default>NUVOTON_TPM</default>
 		</bus_attribute>
 	</bus>
 	<bus>

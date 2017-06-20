@@ -10577,6 +10577,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/tpm_required_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys/node-0/motherboard-0/dimmconn-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -12140,6 +12147,7 @@
 	<hidden_child_id>ps_derating_sensor</hidden_child_id>
 	<hidden_child_id>dimm_freq_sensor</hidden_child_id>
 	<hidden_child_id>ps_redundancy_state_sensor</hidden_child_id>
+	<hidden_child_id>tpm_required_sensor</hidden_child_id>
 	<attribute>
 		<id>ADC_CHANNEL_FUNC_IDS</id>
 		<default></default>
@@ -113514,6 +113522,57 @@
 	<attribute>
 		<id>IPMI_SENSOR_TYPE</id>
 		<default>0xCA</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>tpm_required_sensor</id>
+	<type>unit-ipmi-sensor</type>
+	<is_root>false</is_root>
+	<instance_name>tpm_required_sensor</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
+		<default>TPM_Required</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default>0x00,0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xCC</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>

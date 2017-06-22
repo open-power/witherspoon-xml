@@ -2620,7 +2620,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value>PHYS_PRESENT_N</value>
+	<value>PHYSICAL_PRESENCE</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>

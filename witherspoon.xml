@@ -2597,7 +2597,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value>WINDOW_OPEN_N</value>
+	<value>WINDOW_OPEN</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -10232,7 +10232,7 @@
 	<id>/sys-0/node-0/motherboard-0/skipper-14/daughtercard-10</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>33</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -108772,7 +108772,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>TPM</default>
 	</attribute>
 </targetInstance>
 <targetInstance>

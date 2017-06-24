@@ -820,6 +820,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>LED_PRIORITY</id>
+		<enumerator>
+		<name>BLINK</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>ON</name>
+		<value>1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>LED_TYPE</id>
 		<enumerator>
 		<name>ENC-IDENTIFY</name>
@@ -99926,7 +99937,7 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>PowerOn,0,50,PowerOff,1,50,
+		<default>PowerOn,0,50,BmcBooted,1,50,
         NA,0,50,
         NA,0,50,
         NA,0,50,
@@ -99950,6 +99961,10 @@
 	<attribute>
 		<id>LED_COLOR</id>
 		<default>GREEN</default>
+	</attribute>
+	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>
@@ -100123,6 +100138,10 @@
 		<default>GREEN</default>
 	</attribute>
 	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>BLINK</default>
+	</attribute>
+	<attribute>
 		<id>LED_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -100198,6 +100217,10 @@
 	<attribute>
 		<id>LED_COLOR</id>
 		<default>GREEN</default>
+	</attribute>
+	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>BLINK</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>
@@ -100361,6 +100384,10 @@
 	<attribute>
 		<id>LED_COLOR</id>
 		<default>GREEN</default>
+	</attribute>
+	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>BLINK</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>
@@ -100908,6 +100935,10 @@
 		<default>GREEN</default>
 	</attribute>
 	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>BLINK</default>
+	</attribute>
+	<attribute>
 		<id>LED_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -101155,6 +101186,10 @@
 	<attribute>
 		<id>LED_COLOR</id>
 		<default>GREEN</default>
+	</attribute>
+	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>BLINK</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>
@@ -101406,6 +101441,10 @@
 		<default>GREEN</default>
 	</attribute>
 	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>BLINK</default>
+	</attribute>
+	<attribute>
 		<id>LED_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -101565,6 +101604,10 @@
 		<default>AMBER</default>
 	</attribute>
 	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>BLINK</default>
+	</attribute>
+	<attribute>
 		<id>LED_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -101642,6 +101685,10 @@
 		<default>BLUE</default>
 	</attribute>
 	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>BLINK</default>
+	</attribute>
+	<attribute>
 		<id>LED_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -101692,7 +101739,7 @@
 	</attribute>
 	<attribute>
 		<id>CONTROL_GROUPS</id>
-		<default>PowerOn,0,50,PowerOff,1,50,
+		<default>PowerOn,0,50,BmcBooted,1,50,
         NA,0,50,
         NA,0,50,
         NA,0,50,
@@ -101716,6 +101763,10 @@
 	<attribute>
 		<id>LED_COLOR</id>
 		<default>GREEN</default>
+	</attribute>
+	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>

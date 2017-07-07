@@ -58,6 +58,10 @@
 		<value>15</value>
 		</enumerator>
 		<enumerator>
+		<name>OBUS</name>
+		<value>27</value>
+		</enumerator>
+		<enumerator>
 		<name>I2C</name>
 		<value>5</value>
 		</enumerator>
@@ -1941,6 +1945,21 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>SYSTEM_WOF_DISABLE</id>
+		<enumerator>
+		<name>OFF_SKIP_DD</name>
+		<value>0x02</value>
+		</enumerator>
+		<enumerator>
+		<name>OFF</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ON</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>SYSTEM_WOF_ENABLED</id>
 		<enumerator>
 		<name>OFF</name>
@@ -2001,6 +2020,10 @@
 		<value>40</value>
 		</enumerator>
 		<enumerator>
+		<name>MC</name>
+		<value>68</value>
+		</enumerator>
+		<enumerator>
 		<name>PCICLKENDPT</name>
 		<value>29</value>
 		</enumerator>
@@ -2058,7 +2081,7 @@
 		</enumerator>
 		<enumerator>
 		<name>LAST_IN_RANGE</name>
-		<value>69</value>
+		<value>70</value>
 		</enumerator>
 		<enumerator>
 		<name>PCI</name>
@@ -2130,7 +2153,7 @@
 		</enumerator>
 		<enumerator>
 		<name>TEST_FAIL</name>
-		<value>68</value>
+		<value>69</value>
 		</enumerator>
 		<enumerator>
 		<name>PORE</name>
@@ -2301,23 +2324,27 @@
 		</enumerator>
 		<enumerator>
 		<name>24c64</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>24c32</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
-		<name>24c512</name>
-		<value>5</value>
-		</enumerator>
-		<enumerator>
-		<name>24c128</name>
 		<value>4</value>
 		</enumerator>
 		<enumerator>
-		<name>24c16</name>
+		<name>24c32</name>
+		<value>3</value>
+		</enumerator>
+		<enumerator>
+		<name>24c512</name>
+		<value>6</value>
+		</enumerator>
+		<enumerator>
+		<name>24c128</name>
+		<value>5</value>
+		</enumerator>
+		<enumerator>
+		<name>24c04</name>
 		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>24c16</name>
+		<value>2</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -11502,6 +11529,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DPLL_VDM_RESPONSE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>DPO_MIN_FREQ_PERCENT</id>
 		<default></default>
 	</attribute>
@@ -11725,6 +11756,10 @@
 	<attribute>
 		<id>MAX_DIMMS_PER_MBA_PORT</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>MAX_DMI_PER_PROC</id>
+		<default>8</default>
 	</attribute>
 	<attribute>
 		<id>MAX_EXS_PER_PROC_CHIP</id>
@@ -12200,6 +12235,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>OPEN_POWER_MIN_MEM_UTILIZATION_POWER_CAP</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_THROTTLING</id>
 		<default>5</default>
 	</attribute>
@@ -12262,6 +12301,10 @@
 	<attribute>
 		<id>OPEN_POWER_TURBO_MODE_SUPPORTED</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_VRM_READ_TIMEOUT_SEC</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>OPT_MEMMAP_GROUP_POLICY</id>
@@ -12473,10 +12516,6 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>RCD_PARITY_RECONFIG_LOOP_COUNT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>REDUNDANT_CLOCKS</id>
 		<default></default>
 	</attribute>
@@ -12567,6 +12606,10 @@
 	<attribute>
 		<id>SYSTEM_TYPE</id>
 		<default>ibm,witherspoon</default>
+	</attribute>
+	<attribute>
+		<id>SYSTEM_WOF_DISABLE</id>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_ENABLED</id>
@@ -16129,6 +16172,10 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
+		<id>FREQ_O_MHZ</id>
+		<default>1611</default>
+	</attribute>
+	<attribute>
 		<id>FRU_ID</id>
 		<default>1</default>
 	</attribute>
@@ -16357,6 +16404,22 @@
 	<attribute>
 		<id>NX_RNG_ADDR</id>
 		<default>0,0x00060302031D0000,0x200000000000</default>
+	</attribute>
+	<attribute>
+		<id>OB0_PLL_BUCKET</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>OB1_PLL_BUCKET</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>OB2_PLL_BUCKET</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>OB3_PLL_BUCKET</id>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OBUS_RATIO_VALUE</id>
@@ -33273,6 +33336,10 @@
 		</default>
 	</attribute>
 	<attribute>
+		<id>RCD_PARITY_RECONFIG_LOOP_COUNT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>REL_POS</id>
 		<default>0xFF</default>
 	</attribute>
@@ -33589,6 +33656,10 @@
 				<field><id>supportsInbandScom</id><value>0</value></field>
 				<field><id>reserved</id><value>0</value></field>
 		</default>
+	</attribute>
+	<attribute>
+		<id>RCD_PARITY_RECONFIG_LOOP_COUNT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
@@ -34045,6 +34116,10 @@
 		</default>
 	</attribute>
 	<attribute>
+		<id>RCD_PARITY_RECONFIG_LOOP_COUNT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>REL_POS</id>
 		<default>0xFF</default>
 	</attribute>
@@ -34361,6 +34436,10 @@
 				<field><id>supportsInbandScom</id><value>0</value></field>
 				<field><id>reserved</id><value>0</value></field>
 		</default>
+	</attribute>
+	<attribute>
+		<id>RCD_PARITY_RECONFIG_LOOP_COUNT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
@@ -34939,6 +35018,10 @@
 		</default>
 	</attribute>
 	<attribute>
+		<id>RCD_PARITY_RECONFIG_LOOP_COUNT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>REL_POS</id>
 		<default>0xFF</default>
 	</attribute>
@@ -35255,6 +35338,10 @@
 				<field><id>supportsInbandScom</id><value>0</value></field>
 				<field><id>reserved</id><value>0</value></field>
 		</default>
+	</attribute>
+	<attribute>
+		<id>RCD_PARITY_RECONFIG_LOOP_COUNT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
@@ -35711,6 +35798,10 @@
 		</default>
 	</attribute>
 	<attribute>
+		<id>RCD_PARITY_RECONFIG_LOOP_COUNT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>REL_POS</id>
 		<default>0xFF</default>
 	</attribute>
@@ -36027,6 +36118,10 @@
 				<field><id>supportsInbandScom</id><value>0</value></field>
 				<field><id>reserved</id><value>0</value></field>
 		</default>
+	</attribute>
+	<attribute>
+		<id>RCD_PARITY_RECONFIG_LOOP_COUNT</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>REL_POS</id>
@@ -39836,6 +39931,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>MSI</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>POSITION</id>
 		<default>0</default>
 	</attribute>
@@ -40186,6 +40285,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>MSI</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>POSITION</id>
 		<default>1</default>
 	</attribute>
@@ -40258,6 +40361,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>MSI</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>POSITION</id>
 		<default>2</default>
 	</attribute>
@@ -40328,6 +40435,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MSI</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
@@ -96118,6 +96229,22 @@
 	<child_id>TUSB7340.PCIE-X1</child_id>
 	<child_id>TUSB7340.clk-in</child_id>
 	<attribute>
+		<id>32BIT_DMA_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>32BIT_MMIO_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>64BIT_DMA_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>64BIT_MMIO_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
 	</attribute>
@@ -96203,6 +96330,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MSI</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -109231,6 +109362,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109241,6 +109376,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -109265,6 +109412,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -109306,6 +109457,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109316,6 +109471,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -109340,6 +109507,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -109381,6 +109552,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109391,6 +109566,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -109415,6 +109602,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -109456,6 +109647,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109466,6 +109661,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -109490,6 +109697,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -109531,6 +109742,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109541,6 +109756,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -109565,6 +109792,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -109606,6 +109837,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109616,6 +109851,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -109640,6 +109887,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -109681,6 +109932,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109691,6 +109946,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -109715,6 +109982,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -109756,6 +110027,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109766,6 +110041,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -109790,6 +110077,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -109831,6 +110122,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109841,6 +110136,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -109865,6 +110172,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -109906,6 +110217,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109916,6 +110231,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -109940,6 +110267,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -109981,6 +110312,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109991,6 +110326,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -110015,6 +110362,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -110056,6 +110407,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -110066,6 +110421,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -110090,6 +110457,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -110131,6 +110502,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -110141,6 +110516,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -110165,6 +110552,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -110206,6 +110597,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -110216,6 +110611,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -110240,6 +110647,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -110281,6 +110692,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -110291,6 +110706,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -110315,6 +110742,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -110356,6 +110787,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>CHANNEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -110366,6 +110801,18 @@
 	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GAIN</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
@@ -110390,6 +110837,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>APSS_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>OFFSET</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>

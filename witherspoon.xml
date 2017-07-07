@@ -12609,7 +12609,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_DISABLE</id>
-		<default>OFF</default>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_ENABLED</id>
@@ -16053,7 +16053,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX</id>
-		<default>0x80830000</default>
+		<default>0x8c830000</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX0</id>

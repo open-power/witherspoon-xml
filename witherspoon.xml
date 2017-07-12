@@ -824,17 +824,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>LED_PRIORITY</id>
-		<enumerator>
-		<name>BLINK</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>LED_TYPE</id>
 		<enumerator>
 		<name>ENC-IDENTIFY</name>
@@ -4305,7 +4294,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA8</value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4401,7 +4390,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xAA</value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4490,7 +4479,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA0</value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4579,7 +4568,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA2</value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4668,7 +4657,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA2</value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4757,7 +4746,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA0</value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4846,7 +4835,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xAA</value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4935,7 +4924,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA8</value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5156,7 +5145,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA0</value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5597,7 +5586,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA2</value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5752,7 +5741,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA2</value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5841,7 +5830,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA0</value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5930,7 +5919,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xAA</value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6019,7 +6008,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA8</value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6108,7 +6097,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA8</value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6197,7 +6186,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xAA</value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -13228,10 +13217,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA0</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>PLANAR_VPD</default>
 		</bus_attribute>
@@ -13259,10 +13244,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA4</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -13294,10 +13275,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA6</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -13325,10 +13302,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA8</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -13360,10 +13333,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xAA</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -13391,10 +13360,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA4</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -13426,10 +13391,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA6</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -13457,10 +13418,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA8</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -13492,10 +13449,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xAA</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -13523,10 +13476,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA4</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -13558,10 +13507,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA6</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -13589,10 +13534,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA8</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -13624,10 +13565,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xAA</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -13655,10 +13592,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA4</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -13690,10 +13623,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA6</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -13721,10 +13650,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA8</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -13756,10 +13681,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xAA</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>DIMM_SPD</default>
 		</bus_attribute>
@@ -13787,10 +13708,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x34</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -13822,10 +13739,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x36</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -13853,10 +13766,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x38</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -13888,10 +13797,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x3A</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -13919,10 +13824,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x34</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -13954,10 +13855,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x36</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -13985,10 +13882,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x38</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14020,10 +13913,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x3A</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -14051,10 +13940,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x34</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14086,10 +13971,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x36</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -14117,10 +13998,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x38</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14152,10 +14029,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x3A</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -14183,10 +14056,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x34</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14218,10 +14087,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x36</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -14249,10 +14114,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x38</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14284,10 +14145,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x3A</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -14315,10 +14172,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xC8</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14350,10 +14203,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xC0</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -14381,10 +14230,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xA4</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14416,10 +14261,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xEE</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -14447,10 +14288,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xC0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14482,10 +14319,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x98</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -14513,10 +14346,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x98</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14548,10 +14377,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x90</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -14579,10 +14404,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x98</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14614,10 +14435,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x9A</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>NVLINK</default>
 		</bus_attribute>
@@ -14645,10 +14462,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x9C</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14680,10 +14493,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x98</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>NVLINK</default>
 		</bus_attribute>
@@ -14711,10 +14520,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x9A</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14746,10 +14551,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x9C</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>NVLINK</default>
 		</bus_attribute>
@@ -14777,10 +14578,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xC0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14812,10 +14609,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xC0</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -14843,10 +14636,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0x70</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -14878,10 +14667,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xAE</default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default>TPM</default>
 		</bus_attribute>
@@ -14909,10 +14694,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default>0xC0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -40882,10 +40663,6 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default></default>
-		</bus_attribute>
-		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -40913,10 +40690,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>I2C_ADDRESS</id>
-		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -100010,10 +99783,6 @@
 		<default>GREEN</default>
 	</attribute>
 	<attribute>
-		<id>LED_PRIORITY</id>
-		<default>ON</default>
-	</attribute>
-	<attribute>
 		<id>LED_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -100185,10 +99954,6 @@
 		<default>GREEN</default>
 	</attribute>
 	<attribute>
-		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
-	</attribute>
-	<attribute>
 		<id>LED_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -100264,10 +100029,6 @@
 	<attribute>
 		<id>LED_COLOR</id>
 		<default>GREEN</default>
-	</attribute>
-	<attribute>
-		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>
@@ -100431,10 +100192,6 @@
 	<attribute>
 		<id>LED_COLOR</id>
 		<default>GREEN</default>
-	</attribute>
-	<attribute>
-		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>
@@ -100982,10 +100739,6 @@
 		<default>GREEN</default>
 	</attribute>
 	<attribute>
-		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
-	</attribute>
-	<attribute>
 		<id>LED_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -101233,10 +100986,6 @@
 	<attribute>
 		<id>LED_COLOR</id>
 		<default>GREEN</default>
-	</attribute>
-	<attribute>
-		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>
@@ -101488,10 +101237,6 @@
 		<default>GREEN</default>
 	</attribute>
 	<attribute>
-		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
-	</attribute>
-	<attribute>
 		<id>LED_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -101651,10 +101396,6 @@
 		<default>AMBER</default>
 	</attribute>
 	<attribute>
-		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
-	</attribute>
-	<attribute>
 		<id>LED_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -101732,10 +101473,6 @@
 		<default>BLUE</default>
 	</attribute>
 	<attribute>
-		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
-	</attribute>
-	<attribute>
 		<id>LED_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -101810,10 +101547,6 @@
 	<attribute>
 		<id>LED_COLOR</id>
 		<default>GREEN</default>
-	</attribute>
-	<attribute>
-		<id>LED_PRIORITY</id>
-		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>

@@ -12609,11 +12609,11 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_DISABLE</id>
-		<default>ON</default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_ENABLED</id>
-		<default>OFF</default>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>SYS_VFRT_STATIC_DATA_ENABLE</id>

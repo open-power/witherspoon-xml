@@ -3090,6 +3090,29 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port_good-3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/PEX8725-0/PEX8725.port_good-4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -3477,6 +3500,39 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/BCM5719-0/BCM5719.port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/BCM5719-0/BCM5719.port2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/BCM5719-0/BCM5719.port3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/BCM5719-0/pciep</id>
 	<property>
 	<id>DIRECTION</id>
@@ -3499,10 +3555,17 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PERST_L</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/BMC_FLASH-0</id>
+	<property>
+	<id>FRU_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -3591,7 +3654,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PERST</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -4063,7 +4126,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PERST</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -7637,7 +7700,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PERST</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -7706,7 +7769,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PRSNT1</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -7774,7 +7837,30 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
+	<value>PERST</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/pcieslot-1/pciecard-0/perst2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>RSVD</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -7797,7 +7883,30 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
+	<value>PRSNT1</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/pcieslot-1/pciecard-0/presence2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>PRSNT2</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -7842,7 +7951,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PERST</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -7888,7 +7997,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PRSNT1</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -7956,7 +8065,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PERST</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -7979,7 +8088,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PRSNT1</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -8114,7 +8223,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PV_E0_P0_P_PIN_PERST_B</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -8137,7 +8246,30 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
+	<value>PV_E0A_PIN_P_P0_PRSNT_B</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/e0b-presence</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>PV_E0B_PIN_P_P0_PRSNT_B</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -8160,7 +8292,30 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
+	<value>PV_E1A_P0_P_PIN_PERST_B</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/e1a-presence</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>PV_E1A_PIN_P_P0_PRSNT_B</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -8183,7 +8338,30 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
+	<value>PV_E1B_P0_P_PIN_PERST_B</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/e1b-presence</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>PV_E1B_PIN_P_P0_PRSNT_B</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -8206,7 +8384,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PV_E2A_P0_P_PIN_PERST_B</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -8229,7 +8407,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PV_E2A_PIN_P_P0_PRSNT_B</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -8252,7 +8430,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PV_E2B_P0_P_PIN_PERST_B</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -8275,7 +8453,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value></value>
+	<value>PV_E2B_PIN_P_P0_PRSNT_B</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -8298,7 +8476,30 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
+	<value>PV_E2C_P0_P_PIN_PERST_B</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_m/e2c-presence</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>PV_E2C_PIN_P_P0_PRSNT_B</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -11483,6 +11684,36 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/sata-0/88SE9235.pciep</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/sata-0/88SE9235.perst</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>PERST_N</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/skipper-14</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -14067,6 +14298,7 @@
 	<child_id>PCA9551-0</child_id>
 	<child_id>PCA9551-1</child_id>
 	<child_id>skipper-14</child_id>
+	<child_id>sata-0</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -14831,6 +15063,23 @@
 		<source_target>e2c-perst</source_target>
 		<dest_path>boxconn-6/boxelder-1/BCM5719-0/</dest_path>
 		<dest_target>perst</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>PEX8725-0/PEX8725.port_good-3 => sata-0/88SE9235.perst</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>PEX8725-0/</source_path>
+		<source_target>PEX8725.port_good-3</source_target>
+		<dest_path>sata-0/</dest_path>
+		<dest_target>88SE9235.perst</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>1</default>
@@ -17482,6 +17731,31 @@
 		<bus_attribute>
 			<id>LANE_REVERSAL</id>
 		<default>01</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_LANE_EQUALIZATION</id>
+		<default>all,0x33,0x33</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>PCIE_SWAP_CLKS</id>
+		<default>0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>PEX8725-0/PEX8725.port2 => sata-0/88SE9235.pciep</bus_id>
+		<bus_type>PCIE</bus_type>
+		<cable>no</cable>
+		<source_path>PEX8725-0/</source_path>
+		<source_target>PEX8725.port2</source_target>
+		<dest_path>sata-0/</dest_path>
+		<dest_target>88SE9235.pciep</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>LANE_REVERSAL</id>
+		<default>00</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>PCIE_LANE_EQUALIZATION</id>
@@ -27618,7 +27892,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>CA63</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -27681,7 +27955,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>CL57</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -27744,7 +28018,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>BV64</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -27807,7 +28081,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>BT64</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -27870,7 +28144,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>CE31</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -27933,7 +28207,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>CE29</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -27996,7 +28270,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>CE27</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -28059,7 +28333,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>CK62</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -28122,7 +28396,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>BY64</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -28185,7 +28459,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>BW63</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -28248,7 +28522,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>CD32</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -28311,7 +28585,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>CD28</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -28374,7 +28648,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>CC27</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -42940,7 +43214,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>A11</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -43003,7 +43277,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>A01</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -43066,7 +43340,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>A50</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -43129,7 +43403,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>B17</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -97293,7 +97567,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>L20</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -99489,7 +99763,7 @@
 	</attribute>
 	<attribute>
 		<id>PIN_NUM</id>
-		<default></default>
+		<default>A40</default>
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
@@ -112494,6 +112768,859 @@
 	</attribute>
 	<attribute>
 		<id>VPD_SIZE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>sata-0</id>
+	<type>chip-88SE9235</type>
+	<is_root>false</is_root>
+	<instance_name>sata</instance_name>
+	<position>0</position>
+	<child_id>88SE9235.pciep</child_id>
+	<child_id>88SE9235.perst</child_id>
+	<child_id>88SE9235.gpio-0</child_id>
+	<child_id>88SE9235.gpio-1</child_id>
+	<child_id>88SE9235.gpio-2</child_id>
+	<child_id>88SE9235.gpio-3</child_id>
+	<child_id>88SE9235.gpio-4</child_id>
+	<child_id>88SE9235.gpio-5</child_id>
+	<child_id>88SE9235.gpio-6</child_id>
+	<child_id>88SE9235.gpio-7</child_id>
+	<attribute>
+		<id>CCIN</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>88SE9235.pciep</id>
+	<type>unit-pcie-endpoint</type>
+	<is_root>false</is_root>
+	<instance_name>88SE9235.pciep</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>PCIE</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>88SE9235.perst</id>
+	<type>unit-perst-generic</type>
+	<is_root>false</is_root>
+	<instance_name>88SE9235.perst</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DECONFIG_GARDABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>PERST</default>
+	</attribute>
+	<attribute>
+		<id>HUID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_FLAG</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRU_ID</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ORDINAL_ID</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default>61</default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>PRIMARY_CAPABILITIES</id>
+		<default>
+				<field><id>supportsFsiScom</id><value>1</value></field>
+				<field><id>supportsXscom</id><value>1</value></field>
+				<field><id>supportsInbandScom</id><value>0</value></field>
+				<field><id>reserved</id><value>0</value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>REL_POS</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>88SE9235.gpio-0</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>88SE9235.gpio</instance_name>
+	<position>0</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>88SE9235.gpio-1</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>88SE9235.gpio</instance_name>
+	<position>1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>88SE9235.gpio-2</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>88SE9235.gpio</instance_name>
+	<position>2</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>88SE9235.gpio-3</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>88SE9235.gpio</instance_name>
+	<position>3</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>88SE9235.gpio-4</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>88SE9235.gpio</instance_name>
+	<position>4</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>88SE9235.gpio-5</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>88SE9235.gpio</instance_name>
+	<position>5</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>88SE9235.gpio-6</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>88SE9235.gpio</instance_name>
+	<position>6</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>88SE9235.gpio-7</id>
+	<type>unit-gpio-generic</type>
+	<is_root>false</is_root>
+	<instance_name>88SE9235.gpio</instance_name>
+	<position>7</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>GPIO</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>ENGINE</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>GPIO_TYPE</id>
+		<default>GENERIC_OUTPUT</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
 		<default>NA</default>
 	</attribute>
 </targetInstance>

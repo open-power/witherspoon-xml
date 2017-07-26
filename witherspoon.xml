@@ -373,7 +373,7 @@
 		</enumerator>
 		<enumerator>
 		<name>MAX</name>
-		<value>10</value>
+		<value>11</value>
 		</enumerator>
 		<enumerator>
 		<name>LOGICAL_CARD</name>
@@ -390,6 +390,10 @@
 		<enumerator>
 		<name>SYS</name>
 		<value>6</value>
+		</enumerator>
+		<enumerator>
+		<name>SP</name>
+		<value>10</value>
 		</enumerator>
 		<enumerator>
 		<name>CARD</name>
@@ -984,6 +988,10 @@
 		<enumerator>
 		<name>RESERVED</name>
 		<value>16</value>
+		</enumerator>
+		<enumerator>
+		<name>AST2500</name>
+		<value></value>
 		</enumerator>
 		<enumerator>
 		<name>NIMBUS</name>
@@ -1964,17 +1972,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>SYSTEM_WOF_ENABLED</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>SYS_POLICY_NAME</id>
 		<enumerator>
 		<name>powr-vrm-xml-filenames</name>
@@ -2274,17 +2271,6 @@
 		<enumerator>
 		<name>MCS</name>
 		<value>11</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>VDM_ENABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4015,6 +4001,13 @@
 	</property>
 	<property>
 	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_F4_adc0_gpiow0</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -14038,20 +14031,12 @@
 		<default>0x1</default>
 	</attribute>
 	<attribute>
-		<id>SYSTEM_IVRMS_ENABLED</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SYSTEM_MTM</id>
 		<default>NULL</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_NAME</id>
 		<default>WITHERSPOON</default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_RESCLK_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_RESCLK_STEP_DELAY</id>
@@ -14064,10 +14049,6 @@
 	<attribute>
 		<id>SYSTEM_WOF_DISABLE</id>
 		<default>OFF</default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_WOF_ENABLED</id>
-		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>SYS_VFRT_STATIC_DATA_ENABLE</id>
@@ -14088,10 +14069,6 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>SYS</default>
-	</attribute>
-	<attribute>
-		<id>VDM_ENABLE</id>
-		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_FRATIO</id>
@@ -14631,7 +14608,7 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_W3_gpion4_pwm4/chip-bmc-ast2500.pingroup_gpion4/chip-bmc-ast2500.GPION4 => rear-id-1/led_enable</bus_id>
+		<bus_id>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast.pin_W3_gpion4_pwm4/chip-bmc-ast2500.pingroup_gpion4/chip-bmc-ast2500.GPION4 => rear-id-1/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>boxconn-6/boxelder-1/bmc-0/chip-bmc-ast2500.pin_W3_gpion4_pwm4/chip-bmc-ast2500.pingroup_gpion4/</source_path>
@@ -44255,8 +44232,24 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>BMC_HW_CHIP_TYPE</id>
+		<default>ast2500</default>
+	</attribute>
+	<attribute>
+		<id>BMC_MANUFACTURER</id>
+		<default>ibm</default>
+	</attribute>
+	<attribute>
+		<id>BMC_SW_TYPE</id>
+		<default>openbmc</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_VER</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
-		<default>CHIP</default>
+		<default>SP</default>
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
@@ -44310,6 +44303,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>HW_VER</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -44355,7 +44352,15 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>ROLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SW_VER</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -112839,16 +112844,8 @@
 	<instance_name>88SE9235.pciep</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PCIE</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -112859,69 +112856,12 @@
 		<default>UNIT</default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>DIRECTION</id>
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_NAME</id>
-		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>REL_POS</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -112935,16 +112875,8 @@
 	<instance_name>88SE9235.perst</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>GPIO</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -112953,10 +112885,6 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -112973,48 +112901,12 @@
 		</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_NAME</id>
-		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>GPIO_TYPE</id>
 		<default>PERST</default>
 	</attribute>
 	<attribute>
-		<id>HUID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRU_ID</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>ORDINAL_ID</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
@@ -113028,23 +112920,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value>1</value></field>
-				<field><id>supportsXscom</id><value>1</value></field>
-				<field><id>supportsInbandScom</id><value>0</value></field>
-				<field><id>reserved</id><value>0</value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>REL_POS</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -113093,10 +112968,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -113112,10 +112983,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -113164,10 +113031,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -113183,10 +113046,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -113235,10 +113094,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -113254,10 +113109,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -113306,10 +113157,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -113325,10 +113172,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -113377,10 +113220,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -113396,10 +113235,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -113448,10 +113283,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -113467,10 +113298,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -113519,10 +113346,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -113538,10 +113361,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -113590,10 +113409,6 @@
 		<default>GENERIC_OUTPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
@@ -113609,10 +113424,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>

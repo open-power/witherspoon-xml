@@ -6797,14 +6797,21 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-0/gv100card-0/gpu_func_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value></value>
+	<value>0xC5</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/obusslot-0/gv100card-0/gpu_temp_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value></value>
+	<value>0xC6</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-0/gv100card-0/memory_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xC7</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -6819,13 +6826,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/obusslot-0/gv100card-0/memory_temp_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6945,6 +6945,27 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-1/gv100card-0/gpu_func_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xC8</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-1/gv100card-0/gpu_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xC9</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-1/gv100card-0/memory_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xCA</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -7081,6 +7102,27 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-2/gv100card-0/gpu_func_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xCB</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-2/gv100card-0/gpu_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xCC</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-2/gv100card-0/memory_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xCD</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/obusslot-2/gv100card-0/gv100.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -7211,6 +7253,27 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-3/gv100card-0/gpu_func_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xCE</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-3/gv100card-0/gpu_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xCF</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-3/gv100card-0/memory_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xD0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -7347,6 +7410,27 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-4/gv100card-0/gpu_func_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xD1</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-4/gv100card-0/gpu_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xD2</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-4/gv100card-0/memory_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xD3</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/obusslot-4/gv100card-0/gv100.i2c-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -7477,6 +7561,27 @@
 	<property>
 	<id>IPMI_INSTANCE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-5/gv100card-0/gpu_func_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xD4</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-5/gv100card-0/gpu_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xD5</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/obusslot-5/gv100card-0/memory_temp_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xD6</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12822,7 +12927,7 @@
 	<id>/sys-0/tpm_required_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value></value>
+	<value>0xD7</value>
 	</property>
 </globalSetting>
 </globalSettings>

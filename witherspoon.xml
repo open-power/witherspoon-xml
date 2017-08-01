@@ -13788,7 +13788,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_POWER_CAP</id>
-		<default></default>
+		<default>25</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_MEM_UTILIZATION_THROTTLING</id>
@@ -44350,7 +44350,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_VER</id>
-		<default></default>
+		<default>DD10</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -44409,7 +44409,7 @@
 	</attribute>
 	<attribute>
 		<id>HW_VER</id>
-		<default></default>
+		<default>BMC_HW_VER</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -44458,7 +44458,7 @@
 	</attribute>
 	<attribute>
 		<id>ROLE</id>
-		<default></default>
+		<default>PRIMARY</default>
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
@@ -44466,7 +44466,7 @@
 	</attribute>
 	<attribute>
 		<id>SW_VER</id>
-		<default></default>
+		<default>BMC_SW_VER</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>

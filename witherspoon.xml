@@ -13879,7 +13879,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_VRM_READ_TIMEOUT_SEC</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OPT_MEMMAP_GROUP_POLICY</id>
@@ -24390,7 +24390,7 @@
 	</attribute>
 	<attribute>
 		<id>DEVICE_ID</id>
-		<default></default>
+		<default>0x34C1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -24541,7 +24541,7 @@
 	</attribute>
 	<attribute>
 		<id>VENDOR_ID</id>
-		<default></default>
+		<default>0x1014</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -25060,7 +25060,7 @@
 	</attribute>
 	<attribute>
 		<id>DEVICE_ID</id>
-		<default></default>
+		<default>0x34C1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -25211,7 +25211,7 @@
 	</attribute>
 	<attribute>
 		<id>VENDOR_ID</id>
-		<default></default>
+		<default>0x1014</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -25403,7 +25403,7 @@
 	</attribute>
 	<attribute>
 		<id>DEVICE_ID</id>
-		<default></default>
+		<default>0x34C1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -25554,7 +25554,7 @@
 	</attribute>
 	<attribute>
 		<id>VENDOR_ID</id>
-		<default></default>
+		<default>0x1014</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -26074,7 +26074,7 @@
 	</attribute>
 	<attribute>
 		<id>DEVICE_ID</id>
-		<default></default>
+		<default>0x34C1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -26225,7 +26225,7 @@
 	</attribute>
 	<attribute>
 		<id>VENDOR_ID</id>
-		<default></default>
+		<default>0x1014</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -26515,7 +26515,7 @@
 	</attribute>
 	<attribute>
 		<id>DEVICE_ID</id>
-		<default></default>
+		<default>0x34C1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -26666,7 +26666,7 @@
 	</attribute>
 	<attribute>
 		<id>VENDOR_ID</id>
-		<default></default>
+		<default>0x1014</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -26858,7 +26858,7 @@
 	</attribute>
 	<attribute>
 		<id>DEVICE_ID</id>
-		<default></default>
+		<default>0x34C1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -27009,7 +27009,7 @@
 	</attribute>
 	<attribute>
 		<id>VENDOR_ID</id>
-		<default></default>
+		<default>0x1014</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -27300,7 +27300,7 @@
 	</attribute>
 	<attribute>
 		<id>DEVICE_ID</id>
-		<default></default>
+		<default>0x34C1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -27451,7 +27451,7 @@
 	</attribute>
 	<attribute>
 		<id>VENDOR_ID</id>
-		<default></default>
+		<default>0x1014</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -27643,7 +27643,7 @@
 	</attribute>
 	<attribute>
 		<id>DEVICE_ID</id>
-		<default></default>
+		<default>0x34C1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -27794,7 +27794,7 @@
 	</attribute>
 	<attribute>
 		<id>VENDOR_ID</id>
-		<default></default>
+		<default>0x1014</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -52711,7 +52711,6 @@
 	<attribute>
 		<id>DEVICE_ID</id>
 		<default></default>
-	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
@@ -99521,7 +99520,7 @@
 	</attribute>
 	<attribute>
 		<id>DEVICE_ID</id>
-		<default></default>
+		<default>0x8241</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -99621,11 +99620,11 @@
 	</attribute>
 	<attribute>
 		<id>SUBSYSTEM_DEVICE_ID</id>
-		<default></default>
+		<default>0x0000</default>
 	</attribute>
 	<attribute>
 		<id>SUBSYSTEM_VENDOR_ID</id>
-		<default></default>
+		<default>0x0000</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -99633,7 +99632,7 @@
 	</attribute>
 	<attribute>
 		<id>VENDOR_ID</id>
-		<default></default>
+		<default>0x104C</default>
 	</attribute>
 </targetInstance>
 <targetInstance>

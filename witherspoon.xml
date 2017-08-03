@@ -52710,7 +52710,8 @@
 	</attribute>
 	<attribute>
 		<id>DEVICE_ID</id>
-		<default></default>
+		<default>0x2000</default>
+     </attribute>
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
@@ -52727,11 +52728,11 @@
 	</attribute>
 	<attribute>
 		<id>SUBSYSTEM_DEVICE_ID</id>
-		<default></default>
+		<default>0x2000</default>
 	</attribute>
 	<attribute>
 		<id>SUBSYSTEM_VENDOR_ID</id>
-		<default></default>
+		<default>0x1A03</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -52739,7 +52740,7 @@
 	</attribute>
 	<attribute>
 		<id>VENDOR_ID</id>
-		<default></default>
+		<default>0x1A03</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -108651,7 +108652,7 @@
 	</attribute>
 	<attribute>
 		<id>DEVICE_ID</id>
-		<default></default>
+		<default>0x1DB1</default>
 	</attribute>
 	<attribute>
 		<id>FAPI_NAME</id>
@@ -108704,11 +108705,11 @@
 	</attribute>
 	<attribute>
 		<id>SUBSYSTEM_DEVICE_ID</id>
-		<default></default>
+		<default>0x1DB1</default>
 	</attribute>
 	<attribute>
 		<id>SUBSYSTEM_VENDOR_ID</id>
-		<default></default>
+		<default>0x10DE</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>

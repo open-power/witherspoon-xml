@@ -32237,7 +32237,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NVLINK</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -32357,7 +32357,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NVLINK</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -32477,7 +32477,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NVLINK</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -32588,7 +32588,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>2</default>
+		<default>NVLINK</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -32708,7 +32708,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NVLINK</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -32828,7 +32828,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NVLINK</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>
@@ -32948,7 +32948,7 @@
 	</attribute>
 	<attribute>
 		<id>OPTICS_CONFIG_MODE</id>
-		<default>SMP</default>
+		<default>NVLINK</default>
 	</attribute>
 	<attribute>
 		<id>ORDINAL_ID</id>

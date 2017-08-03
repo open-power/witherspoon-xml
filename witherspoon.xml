@@ -14153,7 +14153,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_DISABLE</id>
-		<default>OFF</default>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>SYS_VFRT_STATIC_DATA_ENABLE</id>

@@ -52688,6 +52688,7 @@
 	<attribute>
 		<id>DEVICE_ID</id>
 		<default>0x2000</default>
+     </attribute>
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>

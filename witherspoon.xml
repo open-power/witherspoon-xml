@@ -36189,7 +36189,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>9</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>

@@ -103285,7 +103285,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>
@@ -105087,7 +105087,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>

@@ -14195,7 +14195,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_DISABLE</id>
-		<default>ON</default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>SYS_VFRT_STATIC_DATA_ENABLE</id>
@@ -18287,7 +18287,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX</id>
-		<default>0x8c830000</default>
+		<default>0x80830000</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX0</id>

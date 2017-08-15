@@ -115575,7 +115575,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -115614,7 +115614,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -115630,7 +115630,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -115669,7 +115669,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -115685,7 +115685,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -115740,7 +115740,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -115779,7 +115779,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -115795,7 +115795,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -115834,7 +115834,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -115850,7 +115850,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -115889,7 +115889,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -115905,7 +115905,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -115944,7 +115944,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -115960,7 +115960,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -115999,7 +115999,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>13</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116015,7 +116015,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116054,7 +116054,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>20</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116070,7 +116070,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116125,7 +116125,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116164,7 +116164,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>22</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116180,7 +116180,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116235,7 +116235,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116274,7 +116274,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>24</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116290,7 +116290,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116345,7 +116345,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116384,7 +116384,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116400,7 +116400,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116455,7 +116455,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>

@@ -13949,6 +13949,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>PGPE_HCODE_FUNCTION_ENABLE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>PHYP_SYSTEM_TYPE</id>
 		<default></default>
 	</attribute>
@@ -116451,7 +116455,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default></default>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>

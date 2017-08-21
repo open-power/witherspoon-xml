@@ -4606,7 +4606,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM0</value>
+	<value>DIMM4</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4709,7 +4709,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM1</value>
+	<value>DIMM2</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4768,6 +4768,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0/spd</id>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-1/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -4805,7 +4812,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM10</value>
+	<value>DIMM11</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4894,7 +4901,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM11</value>
+	<value>DIMM9</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -4983,7 +4990,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM12</value>
+	<value>DIMM14</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5009,7 +5016,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x38</value>
+	<value>0x34</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5042,7 +5049,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA8</value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5072,7 +5079,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM13</value>
+	<value>DIMM16</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5098,7 +5105,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x3A</value>
+	<value>0x36</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5131,7 +5138,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xAA</value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5161,7 +5168,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM14</value>
+	<value>DIMM13</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5194,7 +5201,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x34</value>
+	<value>0x38</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5220,6 +5227,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-14/dimm-0/spd</id>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-14/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -5227,7 +5241,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA4</value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5276,6 +5290,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-15/dimm-0/dimm-thermal-sensor</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-15/dimm-0/dimm-thermal-sensor/dimm-thermal-sensor.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -5283,7 +5304,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x36</value>
+	<value>0x3A</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5316,7 +5337,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA6</value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5478,7 +5499,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM2</value>
+	<value>DIMM3</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5493,6 +5514,13 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-2/dimm-0/dimm-thermal-sensor</id>
+	<property>
+	<id>FRU_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -5919,7 +5947,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM3</value>
+	<value>DIMM1</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -5934,6 +5962,13 @@
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-3/dimm-0/dimm-thermal-sensor</id>
+	<property>
+	<id>FRU_ID</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -6074,7 +6109,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM4</value>
+	<value>DIMM6</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6107,7 +6142,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x38</value>
+	<value>0x34</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6147,7 +6182,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA8</value>
+	<value>0xA4</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6177,7 +6212,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM5</value>
+	<value>DIMM8</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6203,7 +6238,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x3A</value>
+	<value>0x36</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6236,7 +6271,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xAA</value>
+	<value>0xA6</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6266,7 +6301,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM6</value>
+	<value>DIMM5</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6292,7 +6327,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x34</value>
+	<value>0x38</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6325,7 +6360,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA4</value>
+	<value>0xA8</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6388,7 +6423,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0x36</value>
+	<value>0x3A</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6414,6 +6449,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/dimmconn-7/dimm-0/spd</id>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/dimmconn-7/dimm-0/spd/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -6421,7 +6463,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA6</value>
+	<value>0xAA</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6429,7 +6471,7 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
+	<value>null</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -6451,7 +6493,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM8</value>
+	<value>DIMM12</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -6540,7 +6582,7 @@
 	</property>
 	<property>
 	<id>FRU_NAME</id>
-	<value>DIMM9</value>
+	<value>DIMM10</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -13930,10 +13972,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>PGPE_HCODE_FUNCTION_ENABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>PHYP_SYSTEM_TYPE</id>
 		<default></default>
 	</attribute>
@@ -14176,7 +14214,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_DISABLE</id>
-		<default>ON</default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>SYS_VFRT_STATIC_DATA_ENABLE</id>
@@ -18268,7 +18306,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX</id>
-		<default>0x8c830000</default>
+		<default>0x80830000</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX0</id>
@@ -35215,7 +35253,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -35335,7 +35373,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>2</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -35451,11 +35489,11 @@
 	</attribute>
 	<attribute>
 		<id>CHIPLET_ID</id>
-		<default>0xC</default>
+		<default>0x9</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>9</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -35686,7 +35724,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>10</default>
+		<default>9</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -35806,7 +35844,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>11</default>
+		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -35814,7 +35852,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -35926,7 +35964,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>1</default>
+		<default>11</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -35934,7 +35972,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -36170,7 +36208,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>9</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -52711,7 +52749,7 @@
 	<attribute>
 		<id>DEVICE_ID</id>
 		<default>0x2000</default>
-     </attribute>
+	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
 		<default>OUT</default>
@@ -103266,7 +103304,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>
@@ -105068,7 +105106,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>
@@ -108702,6 +108740,10 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default>FRU</default>
 	</attribute>
 	<attribute>
 		<id>SUBSYSTEM_DEVICE_ID</id>
@@ -115913,7 +115955,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -115952,7 +115994,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -115968,7 +116010,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116007,7 +116049,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116023,7 +116065,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116078,7 +116120,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116117,7 +116159,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116133,7 +116175,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116172,7 +116214,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116188,7 +116230,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116227,7 +116269,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116243,7 +116285,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116282,7 +116324,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116298,7 +116340,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116337,7 +116379,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>13</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116353,7 +116395,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116392,7 +116434,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>20</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116408,7 +116450,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116463,7 +116505,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116502,7 +116544,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>22</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116518,7 +116560,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116573,7 +116615,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116612,7 +116654,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default></default>
+		<default>24</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116628,7 +116670,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116683,7 +116725,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116722,7 +116764,7 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>#N/A</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
@@ -116738,7 +116780,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default>APSS_GPIO</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -116793,7 +116835,7 @@
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
-		<default>NA</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>

@@ -18867,7 +18867,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
-		<default>50</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
@@ -18879,7 +18879,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VDD_UOHM</id>
-		<default>250</default>
+		<default>254</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_VDN_UOHM</id>

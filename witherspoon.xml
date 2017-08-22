@@ -24898,7 +24898,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_LVL</id>
-		<default>0</default>
+		<default>0x0a, 0x0a, 0x0a, 0x0a</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>
@@ -25913,7 +25913,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_SIGDET_LVL</id>
-		<default>0</default>
+		<default>0x0a, 0x0a, 0x0a, 0x0a</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_PCS_RX_VGA_CNTL_REG1</id>

@@ -13859,11 +13859,15 @@
 	</attribute>
 	<attribute>
         	<id>OPEN_POWER_N_PLUS_ONE_HPC_BULK_POWER_LIMIT_WATTS</id>
-        	<default>2850</default>
+        	<default>3050</default>
     	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
 		<default>238</default>
+	</attribute>
+	<attribute>
+		<id>MISC_SYSTEM_COMPONENTS_MAX_POWER_WATTS</id>
+		<default>430</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PM_MODE</id>

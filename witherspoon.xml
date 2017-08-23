@@ -13843,23 +13843,27 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_POWER_CAP_WATTS</id>
-		<default>1945</default>
+		<default>1700</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_BULK_POWER_LIMIT_WATTS</id>
-		<default>1945</default>
+		<default>1700</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_MAX_MEM_POWER_WATTS</id>
-		<default>325</default>
+		<default>160</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
-		<default>2375</default>
+		<default>2500</default>
 	</attribute>
 	<attribute>
+        	<id>OPEN_POWER_N_PLUS_ONE_HPC_BULK_POWER_LIMIT_WATTS</id>
+        	<default>2850</default>
+    	</attribute>
+	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
-		<default>500</default>
+		<default>238</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PM_MODE</id>
@@ -13895,7 +13899,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_SOFT_MIN_PCAP_WATTS</id>
-		<default>1945</default>
+		<default>1700</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_TURBO_MODE_SUPPORTED</id>

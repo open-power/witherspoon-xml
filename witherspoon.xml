@@ -13810,6 +13810,22 @@
 		<default>ibm,witherspoon</default>
 	</attribute>
 	<attribute>
+		<id>OPEN_POWER_GPU_ERROR_TEMP_DEG_C</id>
+		<default>83</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_GPU_MEM_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_GPU_MEM_ERROR_TEMP_DEG_C</id>
+		<default>85</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_GPU_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
 		<default>74</default>
 	</attribute>

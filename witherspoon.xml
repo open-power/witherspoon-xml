@@ -109478,7 +109478,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_TYPE</id>
-		<default>0x0C</default>
+		<default>0x17</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -109509,7 +109509,7 @@
 	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
-		<default>0xD8</default>
+		<default>0xD9</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSOR_ID</id>

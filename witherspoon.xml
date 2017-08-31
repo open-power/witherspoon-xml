@@ -12964,14 +12964,14 @@
 	<id>/sys-0/power_limit_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x08</value>
+	<value>0xD9</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/ps_derating_sensor</id>
 	<property>
 	<id>IPMI_SENSOR_ID</id>
-	<value>0x09</value>
+	<value>0xD8</value>
 	</property>
 </globalSetting>
 <globalSetting>

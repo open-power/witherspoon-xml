@@ -34093,7 +34093,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>
@@ -34197,7 +34197,7 @@
 	</attribute>
 	<attribute>
 		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>DIRECTION</id>

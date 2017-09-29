@@ -16875,6 +16875,14 @@
 		<default>238</default>
 	</attribute>
 	<attribute>
+		<id>PROC_SOCKET_POWER</id>
+		<default>300</default>
+	</attribute>
+	<attribute>
+		<id>PROC_MHZ_PER_WATT</id>
+		<default>28</default>
+	</attribute>
+	<attribute>
 		<id>OPEN_POWER_PM_MODE</id>
 		<default>1</default>
 	</attribute>

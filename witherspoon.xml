@@ -16875,7 +16875,7 @@
 		<default>238</default>
 	</attribute>
 	<attribute>
-		<id>PROC_SOCKET_POWER</id>
+		<id>PROC_SOCKET_POWER_WATTS</id>
 		<default>300</default>
 	</attribute>
 	<attribute>

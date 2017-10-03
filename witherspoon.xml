@@ -4360,6 +4360,10 @@
 		<value>0xCC03</value>
 		</enumerator>
 		<enumerator>
+		<name>HOST_AUTO_REBOOT_CONTROL</name>
+		<value>0x0921</value>
+		</enumerator>
+		<enumerator>
 		<name>PROC_STATE</name>
 		<value>0x0703</value>
 		</enumerator>
@@ -15912,6 +15916,13 @@
 	<value>0xD7</value>
 	</property>
 </globalSetting>
+<globalSetting>
+	<id>/sys-0/host_auto_reboot_control_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xDA</value>
+	</property>
+</globalSetting>
 </globalSettings>
 <attributeGroups>
 <attributeGroup>
@@ -15962,6 +15973,7 @@
 	<hidden_child_id>dimm_freq_sensor</hidden_child_id>
 	<hidden_child_id>ps_redundancy_state_sensor</hidden_child_id>
 	<hidden_child_id>tpm_required_sensor</hidden_child_id>
+	<hidden_child_id>host_auto_reboot_control_sensor</hidden_child_id>
 	<attribute>
 		<id>ADC_CHANNEL_FUNC_IDS</id>
 		<default></default>
@@ -104609,6 +104621,57 @@
 	<attribute>
 		<id>IPMI_SENSOR_TYPE</id>
 		<default>0xCC</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>host_auto_reboot_control_sensor</id>
+	<type>unit-ipmi-sensor</type>
+	<is_root>false</is_root>
+	<instance_name>host_auto_reboot_control_sensor</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0x21</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
+		<default>HOST_AUTO_REBOOT_CONTROL</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default>0x00,0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0x09</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>

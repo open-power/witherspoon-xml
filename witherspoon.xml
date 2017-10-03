@@ -16904,11 +16904,11 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_WEIGHT</id>
-		<default>10</default>
+		<default>9</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_QUAD_WEIGHT</id>
-		<default>10</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_REGULATOR_EFFICIENCY_FACTOR</id>

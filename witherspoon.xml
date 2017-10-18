@@ -17393,7 +17393,7 @@
 	</attribute>
 	<attribute>
 		<id>WOF_POWER_LIMIT</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>WOF_TABLE_LID_NUMBER</id>

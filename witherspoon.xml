@@ -11245,6 +11245,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/motherboard-0/power-button-10</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>/sta-0
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>SYS-POWER</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -17569,6 +17584,7 @@
 	<child_id>PCA9551-1</child_id>
 	<child_id>skipper-14</child_id>
 	<child_id>sata-0</child_id>
+	<child_id>power-button-10</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
 		<default>NA</default>
@@ -100335,6 +100351,86 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>power-button-10</id>
+	<type>led-led-generic</type>
+	<is_root>false</is_root>
+	<instance_name>power-button</instance_name>
+	<position>10</position>
+	<child_id>led_enable</child_id>
+	<child_id>generic-logic-assoc</child_id>
+	<attribute>
+		<id>BLINK_RATE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BLINK_ROLLUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>LED</default>
+	</attribute>
+	<attribute>
+		<id>CONTROL_GROUPS</id>
+        <default>PowerOn,0,50,BmcBooted,1,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        NA,0,50,
+        </default>
+	</attribute>
+	<attribute>
+		<id>FUNCTION</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>LED_COLOR</id>
+		<default>GREEN</default>
+	</attribute>
+	<attribute>
+		<id>LED_PRIORITY</id>
+		<default>ON</default>
+	</attribute>
+	<attribute>
+		<id>LED_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>LED</default>
+	</attribute>
+	<attribute>
+		<id>ON_STATE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_FRONT</id>
+		<default>YES</default>
+	</attribute>
+	<attribute>
+		<id>VIEW_INTERNAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>VIEW_REAR</id>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>

@@ -5134,14 +5134,14 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>VDM_ENABLE</id>
+	<id>SYSTEM_VDM_DISABLE</id>
 		<enumerator>
 		<name>OFF</name>
-		<value>0x00</value>
+		<value>0x0</value>
 		</enumerator>
 		<enumerator>
 		<name>ON</name>
-		<value>0x01</value>
+		<value>0x1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -17261,7 +17261,7 @@
 	</attribute>
 	<attribute>
 		<id>SUPPORTED_STOP_STATES</id>
-		<default>0xEC100000</default>
+		<default>0xC0000000</default>
 	</attribute>
 	<attribute>
 		<id>SUPPORTS_DYNAMIC_MEM_VOLT</id>
@@ -17313,8 +17313,12 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_DISABLE</id>
-		<default>OFF</default>
+		<default>ON</default>
 	</attribute>
+	<attribute>
+                <id>SYSTEM_VDM_DISABLE</id>
+	        <default>ON</default>
+        </attribute>
 	<attribute>
 		<id>SYS_FORCE_ALL_CORES</id>
 		<default></default>

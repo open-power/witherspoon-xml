@@ -40943,11 +40943,11 @@
 	</attribute>
 	<attribute>
 		<id>SLOT_INDEX</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>SLOT_NAME</id>
-		<default>SLOT0</default>
+		<default>SLOT1</default>
 	</attribute>
 	<attribute>
 		<id>SLOT_TYPE</id>
@@ -41533,11 +41533,11 @@
 	</attribute>
 	<attribute>
 		<id>SLOT_INDEX</id>
-		<default>1</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>SLOT_NAME</id>
-		<default>SLOT1</default>
+		<default>SLOT2</default>
 	</attribute>
 	<attribute>
 		<id>SLOT_TYPE</id>
@@ -41609,11 +41609,11 @@
 	</attribute>
 	<attribute>
 		<id>SLOT_INDEX</id>
-		<default>2</default>
+		<default>3</default>
 	</attribute>
 	<attribute>
 		<id>SLOT_NAME</id>
-		<default>SLOT2</default>
+		<default>SLOT3</default>
 	</attribute>
 	<attribute>
 		<id>SLOT_TYPE</id>
@@ -41685,11 +41685,11 @@
 	</attribute>
 	<attribute>
 		<id>SLOT_INDEX</id>
-		<default>3</default>
+		<default>4</default>
 	</attribute>
 	<attribute>
 		<id>SLOT_NAME</id>
-		<default>SLOT3</default>
+		<default>SLOT4</default>
 	</attribute>
 	<attribute>
 		<id>SLOT_TYPE</id>

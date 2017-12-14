@@ -4363,6 +4363,7 @@
 		<name>HOST_AUTO_REBOOT_CONTROL</name>
 		<value>0x0921</value>
 		</enumerator>
+		<enumerator>
         	<name>HB_VOLATILE</name>
         	<value>0x0C21</value>  
         	</enumerator>

@@ -6387,13 +6387,6 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/apss-0/apss.UART-S0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
 	<id>/sys-0/node-0/motherboard-0/boxconn-6</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
@@ -39723,9 +39716,21 @@
 <targetInstance>
 	<id>vrm_vdd_temp_sensor</id>
 	<type>unit-ipmi-sensor</type>
-	<library_target>true</library_target>
+	<is_root>false</is_root>
 	<instance_name>vrm_vdd_temp_sensor</instance_name>
 	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
 	<attribute>
 		<id>IPMI_ENTITY_ID</id>
 		<default>0xDA</default>
@@ -39739,6 +39744,10 @@
 		<default>Vrm_Vdd_Temp</default>
 	</attribute>
 	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSOR_READING_TYPE</id>
 		<default>0x0</default>
 	</attribute>
@@ -39749,6 +39758,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>

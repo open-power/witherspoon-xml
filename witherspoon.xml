@@ -17295,7 +17295,7 @@
 	</attribute>
 	<attribute>
 		<id>SUPPORTED_STOP_STATES</id>
-		<default>0xC0000000</default>
+		<default>0xEC100000</default>
 	</attribute>
 	<attribute>
 		<id>SUPPORTS_DYNAMIC_MEM_VOLT</id>
@@ -17347,12 +17347,12 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_WOF_DISABLE</id>
-		<default>ON</default>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
-                <id>SYSTEM_VDM_DISABLE</id>
-	        <default>ON</default>
-        </attribute>
+       	<id>SYSTEM_VDM_DISABLE</id>
+	   	<default>OFF</default>
+    	</attribute>
 	<attribute>
 		<id>SYS_FORCE_ALL_CORES</id>
 		<default></default>

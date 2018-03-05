@@ -22645,19 +22645,19 @@
 	</attribute>
 	<attribute>
 		<id>OB0_PLL_BUCKET</id>
-		<default>3</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OB1_PLL_BUCKET</id>
-		<default>3</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OB2_PLL_BUCKET</id>
-		<default>3</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OB3_PLL_BUCKET</id>
-		<default>3</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OBUS_RATIO_VALUE</id>

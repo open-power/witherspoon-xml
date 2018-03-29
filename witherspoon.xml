@@ -789,17 +789,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>CEN_MRW_VMEM_REGULATOR_POWER_LIMIT_PER_DIMM_ADJ_ENABLE</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>CEN_MSS_ALLOW_SINGLE_PORT</id>
 		<enumerator>
 		<name>TRUE</name>
@@ -1930,17 +1919,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>DMI_INBAND_BAR_ENABLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE</name>
-		<value>0x1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>DPLL_VDM_RESPONSE</id>
 		<enumerator>
 		<name>DYNAMIC_PROTECT</name>
@@ -2063,6 +2041,10 @@
 		<enumerator>
 		<name>POWER_MGMT</name>
 		<value>0x15</value>
+		</enumerator>
+		<enumerator>
+		<name>SYS_MGMT_SOFTWARE</name>
+		<value>0x21</value>
 		</enumerator>
 		<enumerator>
 		<name>MEMBUF</name>
@@ -2800,6 +2782,10 @@
 		<value>0x00000080</value>
 		</enumerator>
 		<enumerator>
+		<name>IMMEDIATE_HALT</name>
+		<value>0x00080000</value>
+		</enumerator>
+		<enumerator>
 		<name>AVP_ENABLE</name>
 		<value>0x00000002</value>
 		</enumerator>
@@ -2811,8 +2797,16 @@
 		<value>0x0000000000000000</value>
 		</enumerator>
 		<enumerator>
+		<name>MNFG_DISABLE_MEMORY_eREPAIR</name>
+		<value>0x0000000000001000</value>
+		</enumerator>
+		<enumerator>
 		<name>MNFG_ENABLE_STANDARD_PATTERN_TEST</name>
 		<value>0x0000000000000200</value>
+		</enumerator>
+		<enumerator>
+		<name>MNFG_DMI_DEPLOY_LANE_SPARES</name>
+		<value>0x0000000000004000</value>
 		</enumerator>
 		<enumerator>
 		<name>MNFG_THRESHOLDS</name>
@@ -2821,6 +2815,14 @@
 		<enumerator>
 		<name>MNFG_DISABLE_DRAM_REPAIRS</name>
 		<value>0x0000000000000080</value>
+		</enumerator>
+		<enumerator>
+		<name>MNFG_FABRIC_DEPLOY_LANE_SPARES</name>
+		<value>0x0000000000002000</value>
+		</enumerator>
+		<enumerator>
+		<name>MNFG_DISABLE_FABRIC_eREPAIR</name>
+		<value>0x0000000000000800</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3151,6 +3153,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MSS_MRW_ALLOW_UNSUPPORTED_RCW</id>
+		<enumerator>
+		<name>DISABLE</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLE</name>
+		<value>1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MSS_MRW_AVDD_OFFSET_DISABLE</id>
 		<enumerator>
 		<name>DISABLE</name>
@@ -3222,6 +3235,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MSS_MRW_FORCE_BCMODE_OFF</id>
+		<enumerator>
+		<name>NO</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>YES</name>
+		<value>1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MSS_MRW_IDLE_POWER_CONTROL_REQUESTED</id>
 		<enumerator>
 		<name>POWER_DOWN</name>
@@ -3238,6 +3262,17 @@
 		<enumerator>
 		<name>OFF</name>
 		<value>0x00</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>MSS_MRW_NVDIMM_PLUG_RULES</id>
+		<enumerator>
+		<name>NVDIMM_CAPABLE</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>NO_NVDIMM</name>
+		<value>0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4274,6 +4309,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>REDUNDANT_MF_CLOCKS</id>
+		<enumerator>
+		<name>TRUE</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>FALSE</name>
+		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>REQUIRED_SYNCH_MODE</id>
 		<enumerator>
 		<name>UNDETERMINED</name>
@@ -4286,17 +4332,6 @@
 		<enumerator>
 		<name>ALWAYS</name>
 		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>RISK_LEVEL</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0x0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4373,6 +4408,10 @@
 		<value>0x0C20</value>
 		</enumerator>
 		<enumerator>
+		<name>HB_VOLATILE</name>
+		<value>0x0C21</value>
+		</enumerator>
+		<enumerator>
 		<name>DIMM_TEMP</name>
 		<value>0x0120</value>
 		</enumerator>
@@ -4417,6 +4456,10 @@
 		<value>0xC7D7</value>
 		</enumerator>
 		<enumerator>
+		<name>TURBO_ALLOWED</name>
+		<value>0xCB03</value>
+		</enumerator>
+		<enumerator>
 		<name>PROC_TEMP</name>
 		<value>0x0103</value>
 		</enumerator>
@@ -4445,6 +4488,10 @@
 		<value>0xC1D0</value>
 		</enumerator>
 		<enumerator>
+		<name>VRM_VDD_TEMP</name>
+		<value>0x01DA</value>
+		</enumerator>
+		<enumerator>
 		<name>REF_CLOCK_FAULT</name>
 		<value>0xC7D4</value>
 		</enumerator>
@@ -4455,6 +4502,10 @@
 		<enumerator>
 		<name>PCI_ACTIVE</name>
 		<value>0xC423</value>
+		</enumerator>
+		<enumerator>
+		<name>VRM_VDD_FAULT</name>
+		<value>0xC707</value>
 		</enumerator>
 		<enumerator>
 		<name>CORE_TEMP</name>
@@ -4471,6 +4522,10 @@
 		<enumerator>
 		<name>HOST_STATUS</name>
 		<value>0x2223</value>
+		</enumerator>
+		<enumerator>
+		<name>HOST_AUTO_REBOOT_CONTROL</name>
+		<value>0x0921</value>
 		</enumerator>
 		<enumerator>
 		<name>TPM_REQUIRED</name>
@@ -4510,6 +4565,10 @@
 		<enumerator>
 		<name>PWR_LIMIT_ACTIVE</name>
 		<value>0xC4</value>
+		</enumerator>
+		<enumerator>
+		<name>POWER_UNIT</name>
+		<value>0x09</value>
 		</enumerator>
 		<enumerator>
 		<name>SYS_FW_PROGRESS</name>
@@ -4656,17 +4715,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>SYSTEM_CORE_PERIODIC_QUIESCE_DISABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>SYSTEM_IPL_PHASE</id>
 		<enumerator>
 		<name>NONHB_IPL</name>
@@ -4698,32 +4746,6 @@
 		<enumerator>
 		<name>ON</name>
 		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>SYSTEM_PSTATES_MODE</id>
-		<enumerator>
-		<name>AUTO</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>0x00</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>SYSTEM_RESCLK_DISABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4788,6 +4810,10 @@
 </enumerationType>
 <enumerationType>
 	<id>SYS_VFRT_STATIC_DATA_ENABLE</id>
+		<enumerator>
+		<name>VDN_STEP_OFF</name>
+		<value>0x02</value>
+		</enumerator>
 		<enumerator>
 		<name>OFF</name>
 		<value>0x00</value>
@@ -4893,11 +4919,15 @@
 		</enumerator>
 		<enumerator>
 		<name>LAST_IN_RANGE</name>
-		<value>71</value>
+		<value>72</value>
 		</enumerator>
 		<enumerator>
 		<name>PCI</name>
 		<value>16</value>
+		</enumerator>
+		<enumerator>
+		<name>SMPGROUP</name>
+		<value>71</value>
 		</enumerator>
 		<enumerator>
 		<name>RTC</name>
@@ -5081,183 +5111,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>VDM_DROOP_EXTREME_OVERRIDE</id>
-		<enumerator>
-		<name>8mV</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>56mV</name>
-		<value>0x07</value>
-		</enumerator>
-		<enumerator>
-		<name>88mV</name>
-		<value>0x0B</value>
-		</enumerator>
-		<enumerator>
-		<name>48mV</name>
-		<value>0x06</value>
-		</enumerator>
-		<enumerator>
-		<name>92mV</name>
-		<value>0x0C</value>
-		</enumerator>
-		<enumerator>
-		<name>16mV</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
-		<name>80mV</name>
-		<value>0x0A</value>
-		</enumerator>
-		<enumerator>
-		<name>24mV</name>
-		<value>0x03</value>
-		</enumerator>
-		<enumerator>
-		<name>96mV</name>
-		<value>0x0D</value>
-		</enumerator>
-		<enumerator>
-		<name>40mV</name>
-		<value>0x05</value>
-		</enumerator>
-		<enumerator>
-		<name>72mV</name>
-		<value>0x09</value>
-		</enumerator>
-		<enumerator>
-		<name>64mV</name>
-		<value>0x08</value>
-		</enumerator>
-		<enumerator>
-		<name>32mV</name>
-		<value>0x04</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>VDM_DROOP_LARGE_OVERRIDE</id>
-		<enumerator>
-		<name>8mV</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>56mV</name>
-		<value>0x07</value>
-		</enumerator>
-		<enumerator>
-		<name>88mV</name>
-		<value>0x0B</value>
-		</enumerator>
-		<enumerator>
-		<name>48mV</name>
-		<value>0x06</value>
-		</enumerator>
-		<enumerator>
-		<name>92mV</name>
-		<value>0x0C</value>
-		</enumerator>
-		<enumerator>
-		<name>16mV</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
-		<name>80mV</name>
-		<value>0x0A</value>
-		</enumerator>
-		<enumerator>
-		<name>24mV</name>
-		<value>0x03</value>
-		</enumerator>
-		<enumerator>
-		<name>96mV</name>
-		<value>0x0D</value>
-		</enumerator>
-		<enumerator>
-		<name>40mV</name>
-		<value>0x05</value>
-		</enumerator>
-		<enumerator>
-		<name>72mV</name>
-		<value>0x09</value>
-		</enumerator>
-		<enumerator>
-		<name>64mV</name>
-		<value>0x08</value>
-		</enumerator>
-		<enumerator>
-		<name>32mV</name>
-		<value>0x04</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>VDM_DROOP_SMALL_OVERRIDE</id>
-		<enumerator>
-		<name>8mV</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>56mV</name>
-		<value>0x07</value>
-		</enumerator>
-		<enumerator>
-		<name>88mV</name>
-		<value>0x0B</value>
-		</enumerator>
-		<enumerator>
-		<name>48mV</name>
-		<value>0x06</value>
-		</enumerator>
-		<enumerator>
-		<name>92mV</name>
-		<value>0x0C</value>
-		</enumerator>
-		<enumerator>
-		<name>16mV</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
-		<name>80mV</name>
-		<value>0x0A</value>
-		</enumerator>
-		<enumerator>
-		<name>24mV</name>
-		<value>0x03</value>
-		</enumerator>
-		<enumerator>
-		<name>96mV</name>
-		<value>0x0D</value>
-		</enumerator>
-		<enumerator>
-		<name>40mV</name>
-		<value>0x05</value>
-		</enumerator>
-		<enumerator>
-		<name>72mV</name>
-		<value>0x09</value>
-		</enumerator>
-		<enumerator>
-		<name>64mV</name>
-		<value>0x08</value>
-		</enumerator>
-		<enumerator>
-		<name>32mV</name>
-		<value>0x04</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>VDM_ENABLE</id>
 		<enumerator>
 		<name>OFF</name>
@@ -5277,45 +5130,6 @@
 		<enumerator>
 		<name>ON</name>
 		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>VDM_OVERVOLT_OVERRIDE</id>
-		<enumerator>
-		<name>8mV</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>56mV</name>
-		<value>0x07</value>
-		</enumerator>
-		<enumerator>
-		<name>FORCE</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>48mV</name>
-		<value>0x06</value>
-		</enumerator>
-		<enumerator>
-		<name>16mV</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
-		<name>24mV</name>
-		<value>0x03</value>
-		</enumerator>
-		<enumerator>
-		<name>40mV</name>
-		<value>0x05</value>
-		</enumerator>
-		<enumerator>
-		<name>64mV</name>
-		<value>0x08</value>
-		</enumerator>
-		<enumerator>
-		<name>32mV</name>
-		<value>0x04</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5439,12 +5253,12 @@
 <enumerationType>
 	<id>WOF_ENABLE_VRATIO</id>
 		<enumerator>
-		<name>FIXED</name>
-		<value>0</value>
+		<name>CALCULATED</name>
+		<value>1</value>
 		</enumerator>
 		<enumerator>
-		<name>STEPPED</name>
-		<value>1</value>
+		<name>FIXED</name>
+		<value>0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -15127,7 +14941,7 @@
 	<id>/sys-0/node-0/motherboard-0/skipper-14/daughtercard-10/tpm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>27</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16200,6 +16014,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/tpm_required_sensor</id>
+	<property>
+	<id>IPMI_SENSOR_ID</id>
+	<value>0xD7</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/turbo_allowed_sensor</id>
 	<property>
 	<id>INSTANCE_ID</id>
@@ -16210,45 +16031,21 @@
 	<value>0xDC</value>
 	</property>
 </globalSetting>
-<globalSetting>
-	<id>/sys-0/tpm_required_sensor</id>
-	<property>
-	<id>IPMI_SENSOR_ID</id>
-	<value>0xD7</value>
-	</property>
-</globalSetting>
 </globalSettings>
 <attributeGroups>
 <attributeGroup>
 	<id>SYS_POLICIES</id>
 	<attribute>REDUNDANT_FSPS</attribute>
 	<attribute>AVERAGE_IPL_TIME</attribute>
-	<attribute>LED_STRATEGY</attribute>
+	<attribute>LED-STRATEGY</attribute>
 	<attribute>power-def-filenames</attribute>
 	<attribute>powr-vrm-xml-filenames</attribute>
 	<attribute>LED_ON_DEFAULT_GPIO_VALUE</attribute>
 	<attribute>MEM_MIRRORING_ALLOWED</attribute>
 	<attribute>MEM_MIRRORING_ENABLE_DEFAULT</attribute>
 	<attribute>MEM_POWER_CONTROL_USAGE</attribute>
-	<attribute>OCC_LOAD_TIMEOUT</attribute>
-	<attribute>OCC_RESET_TIMEOUT</attribute>
-	<attribute>FREQ_PB_HFT</attribute>
-	<attribute>FREQ_X_HFT</attribute>
-	<attribute>FREQ_NEST_HFT</attribute>
-	<attribute>PCIE_DEFAULT_HDDW_SLOT_COUNT</attribute>
-	<attribute>PCIE_MIN_HDDW_SLOT_COUNT</attribute>
-	<attribute>PCIE_MAX_HDDW_SLOT_COUNT</attribute>
-	<attribute>REDUNDANT_FSPS</attribute>
-	<attribute>AVERAGE_IPL_TIME</attribute>
-	<attribute>LED_STRATEGY</attribute>
-	<attribute>power-def-filenames</attribute>
-	<attribute>powr-vrm-xml-filenames</attribute>
-	<attribute>LED_ON_DEFAULT_GPIO_VALUE</attribute>
-	<attribute>MRW_MEM_MIRRORING_ALLOWED</attribute>
-	<attribute>MRW_MEM_MIRRORING_ENABLE_DEFAULT</attribute>
-	<attribute>MRW_MEM_POWER_CONTROL_USAGE</attribute>
-	<attribute>OCC_LOAD_TIMEOUT</attribute>
-	<attribute>OCC_RESET_TIMEOUT</attribute>
+	<attribute>OCC-LOAD-TIMEOUT</attribute>
+	<attribute>OCC-RESET-TIMEOUT</attribute>
 	<attribute>FREQ_PB_HFT</attribute>
 	<attribute>FREQ_X_HFT</attribute>
 	<attribute>FREQ_NEST_HFT</attribute>
@@ -16344,14 +16141,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>A_EREPAIR_THRESHOLD_FIELD</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>A_EREPAIR_THRESHOLD_MNFG</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BMC_FRU_ID</id>
 		<default>26</default>
 	</attribute>
@@ -16392,28 +16181,8 @@
 		<default>0x01</default>
 	</attribute>
 	<attribute>
-		<id>CEN_MRW_DIMM_POWER_CURVE_PERCENT_UPLIFT</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>CEN_MRW_DIMM_POWER_CURVE_PERCENT_UPLIFT_IDLE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>CEN_MRW_MAX_DRAM_DATABUS_UTIL</id>
-		<default>0x000015f9</default>
-	</attribute>
-	<attribute>
-		<id>CEN_MRW_MAX_NUMBER_DIMMS_POSSIBLE_PER_VMEM_REGULATOR</id>
-		<default>0x04</default>
-	</attribute>
-	<attribute>
 		<id>CEN_MRW_MBA_CACHELINE_INTERLEAVE_MODE_CONTROL</id>
 		<default>0x02</default>
-	</attribute>
-	<attribute>
-		<id>CEN_MRW_MEM_THROTTLE_DENOMINATOR</id>
-		<default>0x00000200</default>
 	</attribute>
 	<attribute>
 		<id>CEN_MRW_POWER_CONTROL_REQUESTED</id>
@@ -16434,18 +16203,6 @@
 	<attribute>
 		<id>CEN_MRW_THERMAL_MEMORY_POWER_LIMIT</id>
 		<default>0x00000d2f</default>
-	</attribute>
-	<attribute>
-		<id>CEN_MRW_VMEM_REGULATOR_MEMORY_POWER_LIMIT_PER_DIMM</id>
-		<default>0x00000f29</default>
-	</attribute>
-	<attribute>
-		<id>CEN_MRW_VMEM_REGULATOR_MEMORY_POWER_LIMIT_PER_DIMM_DDR4</id>
-		<default>0x00000d79</default>
-	</attribute>
-	<attribute>
-		<id>CEN_MRW_VMEM_REGULATOR_POWER_LIMIT_PER_DIMM_ADJ_ENABLE</id>
-		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>CEN_MRW_WR_VREF_CHECK_VREF_STEP_SIZE</id>
@@ -16657,10 +16414,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IO_REFCLOCK_RCVR_TERM</id>
 		<default></default>
 	</attribute>
@@ -16697,36 +16450,12 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>IVRM_DEADZONE_MV</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IVRM_STABILIZATION_DELAY_NS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IVRM_STEP_DELAY_NS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IVRM_STRENGTH_LOOKUP</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IVRM_VIN_MAX_MV</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IVRM_VIN_MULTIPLIER</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>LED_ON_DEFAULT_GPIO_VALUE</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>LED_STRATEGY</id>
-		<default>lightpath</default>
 	</attribute>
 	<attribute>
 		<id>MANUFACTURER</id>
@@ -16897,22 +16626,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>MRW_MBA_CACHELINE_INTERLEAVE_MODE_CONTROL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_MEM_MIRRORING_ALLOWED</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_MEM_MIRRORING_ENABLE_DEFAULT</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MRW_MEM_POWER_CONTROL_USAGE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
 		<id>MRW_MEM_THROTTLE_DENOMINATOR</id>
 		<default>512</default>
 	</attribute>
@@ -16953,6 +16666,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>MSS_MRW_ALLOW_UNSUPPORTED_RCW</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
 		<id>MSS_MRW_AVDD_OFFSET_DISABLE</id>
 		<default></default>
 	</attribute>
@@ -16981,6 +16698,10 @@
 		<default>NORMAL</default>
 	</attribute>
 	<attribute>
+		<id>MSS_MRW_FORCE_BCMODE_OFF</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MSS_MRW_IDLE_POWER_CONTROL_REQUESTED</id>
 		<default>OFF</default>
 	</attribute>
@@ -16999,6 +16720,10 @@
 	<attribute>
 		<id>MSS_MRW_MEM_M_DRAM_CLOCKS</id>
 		<default>0x00000200</default>
+	</attribute>
+	<attribute>
+		<id>MSS_MRW_NVDIMM_PLUG_RULES</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_PERIODIC_MEMCAL_MODE_OPTIONS</id>
@@ -17156,14 +16881,6 @@
 		</default>
 	</attribute>
 	<attribute>
-		<id>OCC_LOAD_TIMEOUT</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>OCC_RESET_TIMEOUT</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>OPAL_MODEL</id>
 		<default>ibm,witherspoon</default>
 	</attribute>
@@ -17229,10 +16946,6 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
-		<default>3050</default>
-	</attribute>
-	<attribute>
-		<id>OPEN_POWER_N_PLUS_ONE_HPC_BULK_POWER_LIMIT_WATTS</id>
 		<default>3050</default>
 	</attribute>
 	<attribute>
@@ -17344,18 +17057,6 @@
 		<default>physical:sys-0</default>
 	</attribute>
 	<attribute>
-		<id>PIBMEM_REPAIR0</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PIBMEM_REPAIR1</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PIBMEM_REPAIR2</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PLCK_IPL_ATTR_OVERRIDES_EXIST</id>
 		<default>0x00</default>
 	</attribute>
@@ -17411,6 +17112,10 @@
 				<field><id>supportsInbandScom</id><value></value></field>
 				<field><id>reserved</id><value></value></field>
 		</default>
+	</attribute>
+	<attribute>
+		<id>PROC_CHIP_MEM_TO_USE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_TABLE_TYPE</id>
@@ -17573,10 +17278,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>RISK_LEVEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>RUN_MAX_MEM_PATTERNS</id>
 		<default>0</default>
 	</attribute>
@@ -17599,6 +17300,10 @@
 	<attribute>
 		<id>SECURITY_ENABLE</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>SKIP_WAKEUP</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SPIPSS_FREQUENCY</id>
@@ -17641,10 +17346,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>SYSTEM_CORE_PERIODIC_QUIESCE_DISABLE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
 		<id>SYSTEM_FAMILY</id>
 		<default>ibm,p9-openbmc</default>
 	</attribute>
@@ -17663,14 +17364,6 @@
 	<attribute>
 		<id>SYSTEM_NAME</id>
 		<default>WITHERSPOON</default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_PSTATES_MODE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_RESCLK_DISABLE</id>
-		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_RESCLK_STEP_DELAY</id>
@@ -17717,64 +17410,16 @@
 		<default>SYS</default>
 	</attribute>
 	<attribute>
-		<id>USE_TCES_FOR_DMAS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDM_DROOP_EXTREME_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VDM_DROOP_LARGE_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VDM_DROOP_SMALL_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>VDM_EXTREME_THOTTLE_ENABLE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>VDM_FMAX_OVERRIDE_KHZ</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VDM_FMIN_OVERRIDE_KHZ</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VDM_FREQ_RETURN_L_S_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VDM_FREQ_RETURN_S_N_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VDM_LARGE_FREQ_DROP_N_L_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VDM_OVERVOLT_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VDM_SMALL_FREQ_DROP_N_S_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VDM_VID_COMPARE_OVERRIDE_MV</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>WOF_ENABLE_FRATIO</id>
-		<default>FIXED</default>
+		<default>STEPPED</default>
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_VRATIO</id>
-		<default>FIXED</default>
+		<default>CALCULATED</default>
 	</attribute>
 	<attribute>
 		<id>WOF_POWER_LIMIT</id>
@@ -17858,10 +17503,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000009</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -17965,10 +17606,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -20570,6 +20207,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -20599,6 +20240,10 @@
 		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -20626,6 +20271,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -21983,10 +21632,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PBAX_BRDCST_ID_VECTOR</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>PBAX_CHIPID</id>
 		<default>0</default>
 	</attribute>
@@ -22032,10 +21677,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -22274,14 +21915,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>CORE_THROTTLE_ASSERT_COUNT</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CORE_THROTTLE_DEASSERT_COUNT</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>CPU_ATTR</id>
 		<default>0x0000001D</default>
 	</attribute>
@@ -22402,22 +22035,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>FREQ_BIAS_NOMINAL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FREQ_BIAS_POWERSAVE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FREQ_BIAS_TURBO</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>FREQ_BIAS_ULTRATURBO</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FREQ_O_MHZ</id>
 		<default>1611</default>
 	</attribute>
@@ -22435,10 +22052,6 @@
 	<attribute>
 		<id>FSP_BAR_SIZE</id>
 		<default>0x0000000100000000</default>
-	</attribute>
-	<attribute>
-		<id>FSP_BASE_ADDR</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ADDR</id>
@@ -22486,10 +22099,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>I2C_BUS_DIV_NEST</id>
@@ -22572,14 +22181,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>MASTER_CORE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MASTER_EX</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MB_BIT_RATE_DIVISOR_PLL</id>
 		<default></default>
 	</attribute>
@@ -22624,47 +22225,7 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>NVIDIA_NPU_PRIVILEGED_ADDR</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>NVIDIA_NPU_USER_REG_ADDR</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>NVIDIA_PHY0_REG_ADDR</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>NVIDIA_PHY1_REG_ADDR</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>NX_RNG_ADDR</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>OB0_PLL_BUCKET</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>OB1_PLL_BUCKET</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>OB2_PLL_BUCKET</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>OB3_PLL_BUCKET</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
 		<id>OBUS_RATIO_VALUE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PBAX_BRDCST_ID_VECTOR</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -22937,14 +22498,6 @@
 		<default>PROC</default>
 	</attribute>
 	<attribute>
-		<id>VAS_HYPERVISOR_WINDOW_CONTEXT_ADDR</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VAS_USER_WINDOW_CONTEXT_ADDR</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>VCS_AVSBUS_BUSNUM</id>
 		<default>0</default>
 	</attribute>
@@ -22969,56 +22522,12 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>VDM_VID_COMPARE_BIAS_0P5PCT</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>VDN_AVSBUS_BUSNUM</id>
 		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>VDN_AVSBUS_RAIL</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VOLTAGE_EXT_VCS_BIAS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VOLTAGE_EXT_VDD_BIAS_NOMINAL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VOLTAGE_EXT_VDD_BIAS_POWERSAVE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VOLTAGE_EXT_VDD_BIAS_TURBO</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VOLTAGE_EXT_VDD_BIAS_ULTRATURBO</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VOLTAGE_EXT_VDN_BIAS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VOLTAGE_INT_VDD_BIAS_NOMINAL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VOLTAGE_INT_VDD_BIAS_POWERSAVE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VOLTAGE_INT_VDD_BIAS_TURBO</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>VOLTAGE_INT_VDD_BIAS_ULTRATURBO</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>WAIT_N0</id>
@@ -23082,10 +22591,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -23096,14 +22601,6 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM_OVERRIDE</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -23162,10 +22659,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -23237,10 +22730,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -23471,10 +22960,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -23549,10 +23034,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -23622,10 +23103,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -23703,10 +23180,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -23781,10 +23254,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -23795,14 +23264,6 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM_OVERRIDE</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -23861,10 +23322,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -23936,10 +23393,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -24017,10 +23470,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -24095,10 +23544,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -24168,10 +23613,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -24249,10 +23690,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -24327,10 +23764,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -24341,14 +23774,6 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM_OVERRIDE</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -24407,10 +23832,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -24482,10 +23903,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -24563,10 +23980,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -24641,10 +24054,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -24714,10 +24123,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -24795,10 +24200,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -24873,10 +24274,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -24887,14 +24284,6 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM_OVERRIDE</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -24953,10 +24342,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -25028,10 +24413,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -25109,10 +24490,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -25187,10 +24564,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -25260,10 +24633,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -25341,10 +24710,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -25419,10 +24784,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -25433,14 +24794,6 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM_OVERRIDE</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -25499,10 +24852,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -25574,10 +24923,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -25655,10 +25000,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -25733,10 +25074,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -25806,10 +25143,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -25887,10 +25220,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -25965,10 +25294,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -25979,14 +25304,6 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>POUNDV_BUCKET_NUM_OVERRIDE</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PRIMARY_CAPABILITIES</id>
@@ -26045,10 +25362,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -26120,10 +25433,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -26201,10 +25510,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -26279,10 +25584,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -26352,10 +25653,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -26433,10 +25730,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -26499,10 +25792,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -26625,10 +25914,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -26694,10 +25979,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -26769,10 +26050,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -26834,10 +26111,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -26907,10 +26180,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -27087,10 +26356,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -27166,10 +26431,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -27298,10 +26559,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IOP_NUM</id>
 		<default>0</default>
 	</attribute>
@@ -27396,10 +26653,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -27577,10 +26830,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -27656,10 +26905,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -27788,10 +27033,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IOP_NUM</id>
 		<default>1</default>
 	</attribute>
@@ -27891,10 +27132,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -28023,10 +27260,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IOP_NUM</id>
 		<default>1</default>
 	</attribute>
@@ -28123,10 +27356,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -28303,10 +27532,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -28382,10 +27607,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -28514,10 +27735,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IOP_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -28608,10 +27825,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -28687,10 +27900,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -28819,10 +28028,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IOP_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -28922,10 +28127,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -29054,10 +28255,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IOP_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -29149,10 +28346,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -29228,10 +28421,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -29360,10 +28549,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>IOP_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -29463,10 +28648,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -29592,10 +28773,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -30510,10 +29687,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -30575,10 +29748,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -30646,10 +29815,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -30711,10 +29876,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -30782,10 +29943,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -30847,10 +30004,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -30918,10 +30071,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -30983,10 +30132,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -31054,10 +30199,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -31119,10 +30260,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -31190,10 +30327,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -31255,10 +30388,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -31326,10 +30455,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -31391,10 +30516,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -31462,10 +30583,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -31527,10 +30644,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -31598,10 +30711,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -31663,10 +30772,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -31734,10 +30839,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -31799,10 +30900,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -31870,10 +30967,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -31935,10 +31028,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -32006,10 +31095,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -32071,10 +31156,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -32142,10 +31223,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -32207,10 +31284,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -32278,10 +31351,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -32343,10 +31412,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -32414,10 +31479,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -32479,10 +31540,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -32550,10 +31607,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -32615,10 +31668,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -32686,10 +31735,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -32751,10 +31796,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -32822,10 +31863,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -32887,10 +31924,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -32958,10 +31991,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -33023,10 +32052,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -33094,10 +32119,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -33159,10 +32180,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -33230,10 +32247,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -33295,10 +32308,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -33366,10 +32375,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -33431,10 +32436,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -33502,10 +32503,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -33567,10 +32564,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -33638,10 +32631,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -33703,10 +32692,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -33774,10 +32759,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -33839,10 +32820,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -33910,10 +32887,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -33975,10 +32948,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -34046,10 +33015,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -34111,10 +33076,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -34182,10 +33143,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -34247,10 +33204,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -34318,10 +33271,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -34383,10 +33332,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -34454,10 +33399,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -34519,10 +33460,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -34590,10 +33527,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -34655,10 +33588,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -34726,10 +33655,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -34791,10 +33716,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -34862,10 +33783,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -34927,10 +33844,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -35008,10 +33921,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IO_XBUS_CHAN_EQ</id>
@@ -35122,10 +34031,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IO_XBUS_CHAN_EQ</id>
 		<default>0x0</default>
 	</attribute>
@@ -35227,10 +34132,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -35343,10 +34244,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -35465,10 +34362,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -35583,10 +34476,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -35704,10 +34593,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -35818,10 +34703,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -35940,10 +34821,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
-	</attribute>
-	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
 		<default>0x0</default>
 	</attribute>
@@ -36058,10 +34935,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000001</default>
 	</attribute>
 	<attribute>
 		<id>IO_OBUS_TX_FFE_POSTCURSOR</id>
@@ -36182,10 +35055,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -36286,10 +35155,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>IBSCOM_MCS_BASE_ADDR</id>
 		<default>0x0003E00000000000</default>
 	</attribute>
@@ -36368,10 +35233,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -36437,10 +35298,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -36517,10 +35374,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -36606,10 +35459,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -36675,10 +35524,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -36755,10 +35600,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -36862,10 +35703,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>IBSCOM_MCS_BASE_ADDR</id>
 		<default>0x0003E00000000000</default>
 	</attribute>
@@ -36944,10 +35781,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -37013,10 +35846,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -37093,10 +35922,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -37182,10 +36007,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -37251,10 +36072,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -37331,10 +36148,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -37422,10 +36235,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -37528,10 +36337,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>IBSCOM_MCS_BASE_ADDR</id>
 		<default>0x0003E00000000000</default>
 	</attribute>
@@ -37610,10 +36415,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -37679,10 +36480,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -37759,10 +36556,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -37848,10 +36641,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -37917,10 +36706,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -37997,10 +36782,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -38104,10 +36885,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>IBSCOM_MCS_BASE_ADDR</id>
 		<default>0x0003E00000000000</default>
 	</attribute>
@@ -38186,10 +36963,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -38255,10 +37028,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -38335,10 +37104,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -38424,10 +37189,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -38493,10 +37254,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -38573,10 +37330,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -38664,10 +37417,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -38737,10 +37486,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -38824,10 +37569,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -38905,10 +37646,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -38992,10 +37729,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -39073,10 +37806,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -39160,10 +37889,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -39244,10 +37969,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -39325,10 +38046,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -40702,10 +39419,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PBAX_BRDCST_ID_VECTOR</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>PBAX_CHIPID</id>
 		<default>1</default>
 	</attribute>
@@ -40806,10 +39519,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>CEN_VPD_VERSION</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>CLASS</id>
 		<default>LOGICAL_CARD</default>
 	</attribute>
@@ -40846,10 +39555,6 @@
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x00000003</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_INSTANCE</id>
@@ -40965,10 +39670,6 @@
 		<default>0x0</default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>JEDEC</default>
 	</attribute>
@@ -41066,10 +39767,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
 	</attribute>
@@ -41082,10 +39779,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -41975,10 +40668,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default>0x0</default>
 	</attribute>
 	<attribute>
@@ -43373,10 +42062,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HW_VER</id>
 		<default>BMC_HW_VER</default>
 	</attribute>
@@ -43467,10 +42152,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -43537,10 +42218,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -43612,10 +42289,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -43682,10 +42355,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -43818,10 +42487,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -43888,10 +42553,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -43963,10 +42624,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -44033,10 +42690,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -44169,10 +42822,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -44239,10 +42888,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -44314,10 +42959,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -44384,10 +43025,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -44520,10 +43157,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -44590,10 +43223,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -44665,10 +43294,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -44735,10 +43360,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -44871,10 +43492,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -44941,10 +43558,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -45016,10 +43629,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -45086,10 +43695,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -45222,10 +43827,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -45292,10 +43893,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -45367,10 +43964,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -45437,10 +44030,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -45573,10 +44162,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -45643,10 +44228,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -45718,10 +44299,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -45788,10 +44365,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -45924,10 +44497,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -45994,10 +44563,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46069,10 +44634,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -46139,10 +44700,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46275,10 +44832,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -46345,10 +44898,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46420,10 +44969,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -46490,10 +45035,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46626,10 +45167,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -46696,10 +45233,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46771,10 +45304,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -46841,10 +45370,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -46977,10 +45502,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -47047,10 +45568,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47122,10 +45639,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -47192,10 +45705,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47328,10 +45837,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -47398,10 +45903,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47473,10 +45974,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -47543,10 +46040,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47679,10 +46172,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -47749,10 +46238,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -47824,10 +46309,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -47894,10 +46375,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48030,10 +46507,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -48100,10 +46573,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48175,10 +46644,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -48245,10 +46710,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48381,10 +46842,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -48451,10 +46908,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48526,10 +46979,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -48596,10 +47045,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48732,10 +47177,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -48802,10 +47243,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -48877,10 +47314,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -48947,10 +47380,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49082,10 +47511,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -49155,10 +47580,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>1</default>
 	</attribute>
@@ -49220,10 +47641,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49289,10 +47706,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49365,10 +47778,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>1</default>
 	</attribute>
@@ -49430,10 +47839,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49499,10 +47904,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49572,10 +47973,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49697,10 +48094,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -49767,10 +48160,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -49870,10 +48259,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -49940,10 +48325,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50043,10 +48424,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -50113,10 +48490,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50216,10 +48589,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -50286,10 +48655,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50401,10 +48766,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -50471,10 +48832,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50606,10 +48963,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -50676,10 +49029,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -50812,10 +49161,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -50882,10 +49227,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51021,10 +49362,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -51086,10 +49423,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51159,10 +49492,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -51229,10 +49558,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51368,10 +49693,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -51433,10 +49754,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51507,10 +49824,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -51577,10 +49890,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51716,10 +50025,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -51781,10 +50086,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51854,10 +50155,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -51978,10 +50275,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -52048,10 +50341,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52187,10 +50476,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -52252,10 +50537,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52325,10 +50606,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -52395,10 +50672,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52534,10 +50807,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -52599,10 +50868,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52668,10 +50933,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52741,10 +51002,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -52876,10 +51133,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -52946,10 +51199,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53081,10 +51330,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -53151,10 +51396,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53286,10 +51527,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -53356,10 +51593,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53491,10 +51724,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -53561,10 +51790,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53696,10 +51921,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -53766,10 +51987,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -53901,10 +52118,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -53971,10 +52184,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -54106,10 +52315,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -54176,10 +52381,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -54313,10 +52514,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -54390,10 +52587,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -54970,10 +53163,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -55035,10 +53224,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -55111,10 +53296,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -55388,10 +53569,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -55465,10 +53642,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -56045,10 +54218,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -56110,10 +54279,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -56180,10 +54345,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -56260,10 +54421,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -56840,10 +54997,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -56941,10 +55094,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -57018,10 +55167,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -57598,10 +55743,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -57699,10 +55840,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -57772,10 +55909,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58100,10 +56233,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -58165,10 +56294,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58235,10 +56360,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58311,10 +56432,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58639,10 +56756,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -58704,10 +56817,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58774,10 +56883,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -58854,10 +56959,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -59434,10 +57535,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -59535,10 +57632,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -59608,10 +57701,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -59936,10 +58025,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -60045,10 +58130,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -60118,10 +58199,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -60446,10 +58523,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -60559,10 +58632,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -60632,10 +58701,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -60960,10 +59025,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -61025,10 +59086,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61095,10 +59152,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61171,10 +59224,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61499,10 +59548,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -61564,10 +59609,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61634,10 +59675,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61708,10 +59745,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -61910,10 +59943,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -62031,10 +60060,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -62102,10 +60127,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -62304,10 +60325,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -62425,10 +60442,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -62496,10 +60509,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -62698,10 +60707,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -62819,10 +60824,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -62890,10 +60891,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -63092,10 +61089,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -63213,10 +61206,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -63290,10 +61279,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -63870,10 +61855,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -63971,10 +61952,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -64048,10 +62025,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -64628,10 +62601,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -64729,10 +62698,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -64799,10 +62764,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -64938,10 +62899,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -65059,10 +63016,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -65129,10 +63082,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -65268,10 +63217,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -65389,10 +63334,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -65459,10 +63400,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -65598,10 +63535,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -65719,10 +63652,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -65789,10 +63718,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -65928,10 +63853,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -66049,10 +63970,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -66119,10 +64036,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -66258,10 +64171,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -66379,10 +64288,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -66449,10 +64354,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -66588,10 +64489,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -66709,10 +64606,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -66779,10 +64672,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -66918,10 +64807,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -67039,10 +64924,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -67109,10 +64990,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -67248,10 +65125,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -67369,10 +65242,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -67439,10 +65308,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -67575,10 +65440,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -67739,10 +65600,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -67809,10 +65666,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -67945,10 +65798,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -68109,10 +65958,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -68179,10 +66024,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -68315,10 +66156,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -68479,10 +66316,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -68549,10 +66382,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -68685,10 +66514,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -68849,10 +66674,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -68919,10 +66740,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69055,10 +66872,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69219,10 +67032,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -69289,10 +67098,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69425,10 +67230,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69589,10 +67390,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -69659,10 +67456,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69795,10 +67588,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -69959,10 +67748,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -70029,10 +67814,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -70165,10 +67946,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -70329,10 +68106,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -70399,10 +68172,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -70535,10 +68304,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -70699,10 +68464,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -70769,10 +68530,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -70905,10 +68662,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -71069,10 +68822,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -71139,10 +68888,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -71275,10 +69020,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -71439,10 +69180,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -71509,10 +69246,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -71645,10 +69378,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -71809,10 +69538,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -71879,10 +69604,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -72015,10 +69736,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -72179,10 +69896,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -72249,10 +69962,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -72385,10 +70094,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -72549,10 +70254,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -72619,10 +70320,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -72755,10 +70452,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -72919,10 +70612,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -72989,10 +70678,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -73125,10 +70810,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -73289,10 +70970,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -73360,10 +71037,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -73562,10 +71235,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -73683,10 +71352,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -73754,10 +71419,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -73956,10 +71617,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -74077,10 +71734,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -74148,10 +71801,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -74350,10 +71999,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -74470,10 +72115,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -74540,10 +72181,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -74675,10 +72312,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -74745,10 +72378,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -74880,10 +72509,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -74950,10 +72575,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -75085,10 +72706,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -75155,10 +72772,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -75291,10 +72904,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -75364,10 +72973,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -75692,10 +73297,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -75804,10 +73405,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -75874,10 +73471,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -76009,10 +73602,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -76079,10 +73668,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -76214,10 +73799,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -76284,10 +73865,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -76419,10 +73996,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -76489,10 +74062,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -76624,10 +74193,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -76694,10 +74259,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -76829,10 +74390,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -76899,10 +74456,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -77034,10 +74587,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -77104,10 +74653,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -77239,10 +74784,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -77309,10 +74850,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -77444,10 +74981,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -77514,10 +75047,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -77649,10 +75178,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -77719,10 +75244,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -77854,10 +75375,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -77924,10 +75441,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78059,10 +75572,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -78129,10 +75638,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78264,10 +75769,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -78334,10 +75835,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78469,10 +75966,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -78539,10 +76032,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78675,10 +76164,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -78746,10 +76231,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78948,10 +76429,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -79069,10 +76546,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -79140,10 +76613,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -79342,10 +76811,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>2</default>
 	</attribute>
@@ -79462,10 +76927,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -79532,10 +76993,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -79667,10 +77124,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -79737,10 +77190,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -79872,10 +77321,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -79942,10 +77387,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80077,10 +77518,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -80147,10 +77584,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80282,10 +77715,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -80352,10 +77781,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80487,10 +77912,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -80557,10 +77978,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80692,10 +78109,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -80762,10 +78175,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80897,10 +78306,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -80967,10 +78372,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81102,10 +78503,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -81172,10 +78569,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81307,10 +78700,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -81377,10 +78766,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81512,10 +78897,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -81582,10 +78963,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81717,10 +79094,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -81787,10 +79160,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81922,10 +79291,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -81992,10 +79357,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -82127,10 +79488,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -82197,10 +79554,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -82332,10 +79685,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -82402,10 +79751,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -82537,10 +79882,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -82607,10 +79948,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -82742,10 +80079,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -82812,10 +80145,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -82947,10 +80276,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -83017,10 +80342,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -83152,10 +80473,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -83222,10 +80539,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -83357,10 +80670,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -83425,10 +80734,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -83501,10 +80806,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_NUM</id>
 		<default>1</default>
 	</attribute>
@@ -83566,10 +80867,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -83639,10 +80936,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -83750,10 +81043,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -84328,10 +81617,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -84398,10 +81683,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -84519,10 +81800,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -84837,10 +82114,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -85478,10 +82751,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_CONFIG_SELECT</id>
 		<default></default>
 	</attribute>
@@ -85548,10 +82817,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -85669,10 +82934,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -85987,10 +83248,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -86693,10 +83950,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -86774,10 +84027,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -86909,10 +84158,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
@@ -87039,10 +84284,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -87341,10 +84582,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -87672,10 +84909,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IPMI_INSTANCE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -87891,10 +85124,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -88150,10 +85379,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>DEVICE_ID</id>
 		<default>0x8241</default>
 	</attribute>
@@ -88170,10 +85395,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -89578,10 +86799,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>fan1</value></field>
@@ -89742,10 +86959,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -89912,10 +87125,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>fan3</value></field>
@@ -90076,10 +87285,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -90246,10 +87451,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>fan5</value></field>
@@ -90410,10 +87611,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -93561,10 +90758,6 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>DECONFIG_GARDABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
 	</attribute>
@@ -93577,10 +90770,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -93691,10 +90880,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>in1</value></field>
@@ -93763,10 +90948,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -93841,10 +91022,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>in3</value></field>
@@ -93913,10 +91090,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -93991,10 +91164,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>in5</value></field>
@@ -94063,10 +91232,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -94141,10 +91306,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>in7</value></field>
@@ -94213,10 +91374,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -94291,10 +91448,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>in9</value></field>
@@ -94363,10 +91516,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -94441,10 +91590,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>in11</value></field>
@@ -94513,10 +91658,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -94591,10 +91732,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>in13</value></field>
@@ -94663,10 +91800,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -94741,10 +91874,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>in15</value></field>
@@ -94813,10 +91942,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -95042,10 +92167,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>temp1</value></field>
@@ -95114,10 +92235,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -95192,10 +92309,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>HWMON_FEATURE</id>
 		<default>
 				<field><id>HWMON_NAME</id><value>temp3</value></field>
@@ -95264,10 +92377,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -95463,10 +92572,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -96676,10 +93781,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -96760,10 +93861,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -96825,10 +93922,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -96896,10 +93989,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -96961,10 +94050,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -97032,10 +94117,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -97097,10 +94178,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -100924,10 +98001,6 @@
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>HWAS_STATE_CHANGED_SUBSCRIPTION_MASK</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -105503,57 +102576,6 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>turbo_allowed_sensor</id>
-	<type>unit-ipmi-sensor</type>
-	<is_root>false</is_root>
-	<instance_name>turbo_allowed_sensor</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_ENTITY_ID</id>
-		<default>0x03</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_ID</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_NAME_SUFFIX</id>
-		<default>Turbo_Allowed</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_OFFSETS</id>
-		<default>0x00,0x01</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_READING_TYPE</id>
-		<default>0x03</default>
-	</attribute>
-	<attribute>
-		<id>IPMI_SENSOR_TYPE</id>
-		<default>0xCB</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>IPMI_SENSOR</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
 	<id>host_status_sensor</id>
 	<type>unit-ipmi-sensor</type>
 	<is_root>false</is_root>
@@ -106053,6 +103075,57 @@
 	<attribute>
 		<id>IPMI_SENSOR_TYPE</id>
 		<default>0xCA</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>turbo_allowed_sensor</id>
+	<type>unit-ipmi-sensor</type>
+	<is_root>false</is_root>
+	<instance_name>turbo_allowed_sensor</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_ENTITY_ID</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_ID</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_NAME_SUFFIX</id>
+		<default>Turbo_Allowed</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_OFFSETS</id>
+		<default>0x00,0x01</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_READING_TYPE</id>
+		<default>0x03</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSOR_TYPE</id>
+		<default>0xCB</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>

@@ -800,41 +800,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>CEN_MSS_CACHE_ENABLE</id>
-		<enumerator>
-		<name>HALF_A</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>HALF_B</name>
-		<value>5</value>
-		</enumerator>
-		<enumerator>
-		<name>UNK_ON</name>
-		<value>9</value>
-		</enumerator>
-		<enumerator>
-		<name>UNK_OFF</name>
-		<value>8</value>
-		</enumerator>
-		<enumerator>
-		<name>UNK_HALF_B</name>
-		<value>0xD</value>
-		</enumerator>
-		<enumerator>
-		<name>UNK_HALF_A</name>
-		<value>0xB</value>
-		</enumerator>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>CEN_MSS_CLEANER_ENABLE</id>
 		<enumerator>
 		<name>OFF</name>
@@ -2708,6 +2673,21 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
+		<enumerator>
+		<name>SET_NONE</name>
+		<value>0x0</value>
+		</enumerator>
+		<enumerator>
+		<name>SET_1</name>
+		<value>0x1</value>
+		</enumerator>
+		<enumerator>
+		<name>SET_2</name>
+		<value>0x2</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MNFG_FLAG</id>
 		<enumerator>
 		<name>FAST_BACKGROUND_SCRUB</name>
@@ -3164,14 +3144,14 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>MSS_MRW_AVDD_OFFSET_DISABLE</id>
+	<id>MSS_MRW_AVDD_OFFSET_ENABLE</id>
 		<enumerator>
 		<name>DISABLE</name>
-		<value>1</value>
+		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>ENABLE</name>
-		<value>0</value>
+		<value>1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3377,36 +3357,36 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>MSS_MRW_VCS_OFFSET_DISABLE</id>
+	<id>MSS_MRW_VCS_OFFSET_ENABLE</id>
 		<enumerator>
 		<name>DISABLE</name>
-		<value>1</value>
+		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>ENABLE</name>
-		<value>0</value>
+		<value>1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>MSS_MRW_VDDR_OFFSET_DISABLE</id>
+	<id>MSS_MRW_VDDR_OFFSET_ENABLE</id>
 		<enumerator>
 		<name>DISABLE</name>
-		<value>1</value>
+		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>ENABLE</name>
-		<value>0</value>
+		<value>1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>MSS_MRW_VDD_OFFSET_DISABLE</id>
+	<id>MSS_MRW_VDD_OFFSET_ENABLE</id>
 		<enumerator>
 		<name>DISABLE</name>
-		<value>1</value>
+		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>ENABLE</name>
-		<value>0</value>
+		<value>1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3421,14 +3401,14 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>MSS_MRW_VPP_OFFSET_DISABLE</id>
+	<id>MSS_MRW_VPP_OFFSET_ENABLE</id>
 		<enumerator>
 		<name>DISABLE</name>
-		<value>1</value>
+		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>ENABLE</name>
-		<value>0</value>
+		<value>1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3770,95 +3750,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>PROC_FSP_BAR_ENABLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE</name>
-		<value>0x1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_FSP_BAR_SIZE</id>
-		<enumerator>
-		<name>16_MB</name>
-		<value>0xFFFFFC0000FFFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>64_MB</name>
-		<value>0xFFFFFC0003FFFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>512_MB</name>
-		<value>0xFFFFFC001FFFFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>128_MB</name>
-		<value>0xFFFFFC0007FFFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>8_MB</name>
-		<value>0xFFFFFC00007FFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>2_GB</name>
-		<value>0xFFFFFC007FFFFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>32_MB</name>
-		<value>0xFFFFFC0001FFFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>1_MB</name>
-		<value>0xFFFFFC00000FFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>256_MB</name>
-		<value>0xFFFFFC000FFFFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>4_MB</name>
-		<value>0xFFFFFC00003FFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>2_MB</name>
-		<value>0xFFFFFC00001FFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>1_GB</name>
-		<value>0xFFFFFC003FFFFFFF</value>
-		</enumerator>
-		<enumerator>
-		<name>4_GB</name>
-		<value>0xFFFFFC00FFFFFFFF</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_FSP_MMIO_MASK_SIZE</id>
-		<enumerator>
-		<name>2_GB</name>
-		<value>0x0070000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>512_MB</name>
-		<value>0x0010000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>256_MB</name>
-		<value>0x0000000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>1_GB</name>
-		<value>0x0030000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>4_GB</name>
-		<value>0x00F0000000000000</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>PROC_INT_CQ_IC_BAR_ENABLE</id>
 		<enumerator>
 		<name>DISABLE</name>
@@ -3915,50 +3806,6 @@
 </enumerationType>
 <enumerationType>
 	<id>PROC_INT_CQ_VC_BAR_ENABLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE</name>
-		<value>0x1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_NPU_MMIO_BAR_ENABLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE</name>
-		<value>0x1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_NPU_PHY0_BAR_ENABLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE</name>
-		<value>0x1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_NPU_PHY1_BAR_ENABLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE</name>
-		<value>0x1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_NX_RNG_BAR_ENABLE</id>
 		<enumerator>
 		<name>DISABLE</name>
 		<value>0x0</value>
@@ -4170,17 +4017,6 @@
 		<enumerator>
 		<name>1_GB</name>
 		<value>0xFFFFFFC000000000</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_PSI_BRIDGE_BAR_ENABLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE</name>
-		<value>0x1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -16049,9 +15885,9 @@
 	<attribute>FREQ_PB_HFT</attribute>
 	<attribute>FREQ_X_HFT</attribute>
 	<attribute>FREQ_NEST_HFT</attribute>
-	<attribute>PCIE_DEFAULT_HDDW_SLOT_COUNT</attribute>
-	<attribute>PCIE_MIN_HDDW_SLOT_COUNT</attribute>
-	<attribute>PCIE_MAX_HDDW_SLOT_COUNT</attribute>
+	<attribute>PCIE-DEFAULT-HDDW-SLOT-COUNT</attribute>
+	<attribute>PCIE-MINIMUM-HDDW-SLOT-COUNT</attribute>
+	<attribute>PCIE-MAXIMUM-HDDW-SLOT-COUNT</attribute>
 </attributeGroup>
 <attributeGroup>
 	<id>SYS_POLICY</id>
@@ -16146,7 +15982,7 @@
 	</attribute>
 	<attribute>
 		<id>BMC_MAX_ERROR_LOG_SIZE</id>
-		<default>2048</default>
+		<default>4096</default>
 	</attribute>
 	<attribute>
 		<id>BOOT_FLAGS</id>
@@ -16183,6 +16019,10 @@
 	<attribute>
 		<id>CEN_MRW_MBA_CACHELINE_INTERLEAVE_MODE_CONTROL</id>
 		<default>0x02</default>
+	</attribute>
+	<attribute>
+		<id>CEN_MRW_MCS_PREFETCH_RETRY_THRESHOLD</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CEN_MRW_POWER_CONTROL_REQUESTED</id>
@@ -16337,10 +16177,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>FREQ_MCA_MHZ</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FREQ_MEM_REFCLOCK</id>
 		<default></default>
 	</attribute>
@@ -16454,6 +16290,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>LED-STRATEGY</id>
+		<default>lightpath</default>
+	</attribute>
+	<attribute>
 		<id>LED_ON_DEFAULT_GPIO_VALUE</id>
 		<default></default>
 	</attribute>
@@ -16494,6 +16334,10 @@
 		<default>0x40000</default>
 	</attribute>
 	<attribute>
+		<id>MAX_VDD_CURRENT_READING</id>
+		<default>0xB284</default>
+	</attribute>
+	<attribute>
 		<id>MEM_MIRRORING_ALLOWED</id>
 		<default></default>
 	</attribute>
@@ -16508,10 +16352,6 @@
 	<attribute>
 		<id>MEM_POWER_CONTROL_USAGE</id>
 		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MIRROR_BASE_ADDRESS</id>
-		<default>0x0000800000000000</default>
 	</attribute>
 	<attribute>
 		<id>MISC_SYSTEM_COMPONENTS_MAX_POWER_WATTS</id>
@@ -16670,7 +16510,7 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>MSS_MRW_AVDD_OFFSET_DISABLE</id>
+		<id>MSS_MRW_AVDD_OFFSET_ENABLE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -16782,15 +16622,15 @@
 		<default>0xFFFFF80000000708,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
-		<id>MSS_MRW_VCS_OFFSET_DISABLE</id>
+		<id>MSS_MRW_VCS_OFFSET_ENABLE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>MSS_MRW_VDDR_OFFSET_DISABLE</id>
+		<id>MSS_MRW_VDDR_OFFSET_ENABLE</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>MSS_MRW_VDD_OFFSET_DISABLE</id>
+		<id>MSS_MRW_VDD_OFFSET_ENABLE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -16798,7 +16638,7 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>MSS_MRW_VPP_OFFSET_DISABLE</id>
+		<id>MSS_MRW_VPP_OFFSET_ENABLE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -16881,6 +16721,14 @@
 		</default>
 	</attribute>
 	<attribute>
+		<id>OCC-LOAD-TIMEOUT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OCC-RESET-TIMEOUT</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>OPAL_MODEL</id>
 		<default>ibm,witherspoon</default>
 	</attribute>
@@ -16938,7 +16786,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_BULK_POWER_LIMIT_WATTS</id>
-		<default>1700</default>
+		<default>1550</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_MAX_MEM_POWER_WATTS</id>
@@ -17017,23 +16865,19 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>PAYLOAD_IN_MIRROR_MEM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>PAYLOAD_KIND</id>
 		<default>SAPPHIRE</default>
 	</attribute>
 	<attribute>
-		<id>PCIE_DEFAULT_HDDW_SLOT_COUNT</id>
+		<id>PCIE-DEFAULT-HDDW-SLOT-COUNT</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>PCIE_MAX_HDDW_SLOT_COUNT</id>
+		<id>PCIE-MAXIMUM-HDDW-SLOT-COUNT</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>PCIE_MIN_HDDW_SLOT_COUNT</id>
+		<id>PCIE-MINIMUM-HDDW-SLOT-COUNT</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -17146,18 +16990,6 @@
 		<default>4_BYTE</default>
 	</attribute>
 	<attribute>
-		<id>PROC_FSP_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0000030100000000</default>
-	</attribute>
-	<attribute>
-		<id>PROC_FSP_BAR_SIZE</id>
-		<default>0xFFFFFC00FFFFFFFF</default>
-	</attribute>
-	<attribute>
-		<id>PROC_FSP_MMIO_MASK_SIZE</id>
-		<default>0x0010000000000000</default>
-	</attribute>
-	<attribute>
 		<id>PROC_INT_CQ_IC_BAR_BASE_ADDR_OFFSET</id>
 		<default></default>
 	</attribute>
@@ -17198,22 +17030,6 @@
 		<default>28</default>
 	</attribute>
 	<attribute>
-		<id>PROC_NPU_MMIO_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0000030200000000</default>
-	</attribute>
-	<attribute>
-		<id>PROC_NPU_PHY0_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0000030201200000</default>
-	</attribute>
-	<attribute>
-		<id>PROC_NPU_PHY1_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0000030201400000</default>
-	</attribute>
-	<attribute>
-		<id>PROC_NX_RNG_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x00000302031D0000</default>
-	</attribute>
-	<attribute>
 		<id>PROC_PCIE_BAR_SIZE</id>
 		<default>0</default>
 	</attribute>
@@ -17228,10 +17044,6 @@
 	<attribute>
 		<id>PROC_PCIE_REGISTER_BAR_BASE_ADDR_OFFSET</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PROC_PSI_BRIDGE_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0000030203000000</default>
 	</attribute>
 	<attribute>
 		<id>PROC_REFCLOCK_RCVR_TERM</id>
@@ -17263,6 +17075,10 @@
 	</attribute>
 	<attribute>
 		<id>REDUNDANT_FSPS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>REDUNDANT_MF_CLOCKS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -17300,10 +17116,6 @@
 	<attribute>
 		<id>SECURITY_ENABLE</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>SKIP_WAKEUP</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SPIPSS_FREQUENCY</id>
@@ -17408,6 +17220,10 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>SYS</default>
+	</attribute>
+	<attribute>
+		<id>VDD_CURRENT_OVERFLOW_WORKAROUND_ENABLE</id>
+		<default>0x0001</default>
 	</attribute>
 	<attribute>
 		<id>VDM_EXTREME_THOTTLE_ENABLE</id>
@@ -22322,10 +22138,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>PROC_FSP_BAR_ENABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>PROC_HW_TOPOLOGY</id>
 		<default>0x00000000</default>
 	</attribute>
@@ -22346,20 +22158,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>PROC_NPU_MMIO_BAR_ENABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PROC_NPU_PHY0_BAR_ENABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PROC_NPU_PHY1_BAR_ENABLE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PROC_NX_RNG_BAR_ENABLE</id>
-		<default>0</default>
+		<id>PROC_MEM_TO_USE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PROC_NX_RNG_FAILED_INT_ADDR</id>
@@ -22384,10 +22184,6 @@
 	<attribute>
 		<id>PROC_PERV_BNDY_PLL_DATA</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_PSI_BRIDGE_BAR_ENABLE</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_VCS_UOHM</id>
@@ -34166,6 +33962,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
+		<default>SET_NONE</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -34276,6 +34076,10 @@
 	<attribute>
 		<id>LINK_TRAIN</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
+		<default>SET_NONE</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -34394,6 +34198,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
+		<default>SET_NONE</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -34508,6 +34316,10 @@
 	<attribute>
 		<id>LINK_TRAIN</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
+		<default>SET_NONE</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -34625,6 +34437,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
+		<default>SET_NONE</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -34735,6 +34551,10 @@
 	<attribute>
 		<id>LINK_TRAIN</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
+		<default>SET_NONE</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -34853,6 +34673,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
+		<default>SET_NONE</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>NIMBUS</default>
 	</attribute>
@@ -34967,6 +34791,10 @@
 	<attribute>
 		<id>LINK_TRAIN</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
+		<default>SET_NONE</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -92499,6 +92327,10 @@
 	<attribute>
 		<id>RU_TYPE</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>TARGET-FRU-TYPE</id>
+		<default>planar</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>

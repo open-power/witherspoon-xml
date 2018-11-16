@@ -14777,7 +14777,7 @@
 	<id>/sys-0/node-0/motherboard-0/skipper-14/daughtercard-10/tpm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>27</value>
 	</property>
 </globalSetting>
 <globalSetting>

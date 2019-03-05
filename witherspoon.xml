@@ -9589,7 +9589,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA0</value>
+	<value>0x98</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9743,7 +9743,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA1</value>
+	<value>0x9A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9897,7 +9897,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA2</value>
+	<value>0x9C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10051,7 +10051,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA0</value>
+	<value>0x98</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10205,7 +10205,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA1</value>
+	<value>0x9A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10359,7 +10359,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA2</value>
+	<value>0x9C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>

@@ -9362,6 +9362,10 @@
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
 	</property>
+	<property>
+	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/obusslot-0/gv100card-0</id>
@@ -9466,7 +9470,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA0</value>
+	<value>0x98</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9514,6 +9518,10 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-1</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9620,7 +9628,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA1</value>
+	<value>0x9A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9668,6 +9676,10 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-2</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9774,7 +9786,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA2</value>
+	<value>0x9C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9822,6 +9834,10 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-3</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9928,7 +9944,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA0</value>
+	<value>0x98</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -9976,6 +9992,10 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-4</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10082,7 +10102,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA1</value>
+	<value>0x9A</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -10130,6 +10150,10 @@
 	<id>/sys-0/node-0/motherboard-0/obusslot-5</id>
 	<property>
 	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>SLOT_INDEX</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10236,7 +10260,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xA2</value>
+	<value>0x9C</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -38501,10 +38525,6 @@
 		<default>GPIO</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -38531,16 +38551,8 @@
 		<default>GENERIC_INPUT</default>
 	</attribute>
 	<attribute>
-		<id>MODEL</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
@@ -38554,19 +38566,6 @@
 	</attribute>
 	<attribute>
 		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PRIMARY_CAPABILITIES</id>
-		<default>
-				<field><id>supportsFsiScom</id><value></value></field>
-				<field><id>supportsXscom</id><value></value></field>
-				<field><id>supportsInbandScom</id><value></value></field>
-				<field><id>reserved</id><value></value></field>
-		</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
 	<attribute>

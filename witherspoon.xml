@@ -21144,7 +21144,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>CONFIG_APPLY</id>
-		<default></default>
+		<default>d</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>

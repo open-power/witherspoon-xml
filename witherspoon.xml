@@ -1861,6 +1861,10 @@
 		<name>CHASSIS</name>
 		<value>0x17</value>
 		</enumerator>
+		<enumerator>
+		<name>TPM</name>
+		<value>0xB0</value>
+		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>EXECUTION_PLATFORM</id>
@@ -16953,6 +16957,10 @@
 	<attribute>
 		<id>SUPPORTED_STOP_STATES</id>
 		<default>0xEC000000</default>
+	</attribute>
+	<attribute>
+		<id>MRW_DEFAULT_RISK_LEVEL</id>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>SUPPORTS_DYNAMIC_MEM_VOLT</id>

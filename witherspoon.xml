@@ -15772,6 +15772,17 @@
 	<value>0xDC</value>
 	</property>
 </globalSetting>
+<globalSetting>
+        <id>/sys-0/clear_host_security_keys</id>
+        <property>
+        <id>INSTANCE_ID</id>
+        <value>clear_host_security_keys</value>
+        </property>
+        <property>
+        <id>IPMI_SENSOR_ID</id>
+        <value>0xE8</value>
+        </property>
+</globalSetting>
 </globalSettings>
 <attributeGroups>
 <attributeGroup>
@@ -15822,6 +15833,7 @@
 	<hidden_child_id>dimm_freq_sensor</hidden_child_id>
 	<hidden_child_id>ps_redundancy_state_sensor</hidden_child_id>
 	<hidden_child_id>turbo_allowed_sensor</hidden_child_id>
+	<hidden_child_id>clear_host_security_keys</hidden_child_id>
 	<hidden_child_id>tpm_required_sensor</hidden_child_id>
 	<hidden_child_id>host_auto_reboot_control_sensor</hidden_child_id>
 	<hidden_child_id>hb_volatile_sensor</hidden_child_id>
@@ -97537,6 +97549,57 @@
 		<id>TYPE</id>
 		<default>NA</default>
 	</attribute>
+</targetInstance>
+<targetInstance>
+        <id>clear_host_security_keys</id>
+        <type>unit-ipmi-sensor</type>
+        <is_root>false</is_root>
+        <instance_name>clear_host_security_keys</instance_name>
+        <position>-1</position>
+        <attribute>
+                <id>BUS_TYPE</id>
+                <default>NA</default>
+        </attribute>
+        <attribute>
+                <id>CHIP_UNIT</id>
+                <default>0</default>
+        </attribute>
+        <attribute>
+                <id>CLASS</id>
+                <default>UNIT</default>
+        </attribute>
+        <attribute>
+                <id>IPMI_ENTITY_ID</id>
+                <default>0xD0</default>
+        </attribute>
+        <attribute>
+                <id>IPMI_SENSOR_ID</id>
+                <default></default>
+        </attribute>
+        <attribute>
+                <id>IPMI_SENSOR_NAME_SUFFIX</id>
+                <default>ClearHostSecurityKeys</default>
+        </attribute>
+        <attribute>
+                <id>IPMI_SENSOR_OFFSETS</id>
+                <default></default>
+        </attribute>
+        <attribute>
+                <id>IPMI_SENSOR_READING_TYPE</id>
+                <default>0x01</default>
+        </attribute>
+        <attribute>
+                <id>IPMI_SENSOR_TYPE</id>
+                <default>0xCD</default>
+        </attribute>
+        <attribute>
+                <id>MRW_TYPE</id>
+                <default>IPMI_SENSOR</default>
+        </attribute>
+        <attribute>
+                <id>TYPE</id>
+                <default>NA</default>
+        </attribute>
 </targetInstance>
 <targetInstance>
 	<id>gpu-0</id>

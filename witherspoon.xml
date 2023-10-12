@@ -15762,6 +15762,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+        <id>/sys-0/disable_tpm_sensor</id>
+        <property>
+        <id>IPMI_SENSOR_ID</id>
+        <value>0xDD</value>
+        </property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/turbo_allowed_sensor</id>
 	<property>
 	<id>INSTANCE_ID</id>
@@ -15835,6 +15842,7 @@
 	<hidden_child_id>turbo_allowed_sensor</hidden_child_id>
 	<hidden_child_id>clear_host_security_keys</hidden_child_id>
 	<hidden_child_id>tpm_required_sensor</hidden_child_id>
+        <hidden_child_id>disable_tpm_sensor</hidden_child_id>
 	<hidden_child_id>host_auto_reboot_control_sensor</hidden_child_id>
 	<hidden_child_id>hb_volatile_sensor</hidden_child_id>
 	<attribute>
@@ -97448,6 +97456,58 @@
 		<default>NA</default>
 	</attribute>
 </targetInstance>
+<targetInstance>
+        <id>disable_tpm_sensor</id>
+        <type>unit-ipmi-sensor</type>
+        <is_root>false</is_root>
+        <instance_name>disable_tpm_sensor</instance_name>
+        <position>-1</position>
+        <attribute>
+                <id>BUS_TYPE</id>
+                <default>NA</default>
+        </attribute>
+        <attribute>
+                <id>CHIP_UNIT</id>
+                <default>0</default>
+        </attribute>
+        <attribute>
+                <id>CLASS</id>
+                <default>UNIT</default>
+        </attribute>
+        <attribute>
+                <id>IPMI_ENTITY_ID</id>
+                <default>0x04</default>
+        </attribute>
+        <attribute>
+                <id>IPMI_SENSOR_ID</id>
+                <default></default>
+        </attribute>
+        <attribute>
+                <id>IPMI_SENSOR_NAME_SUFFIX</id>
+                <default>Disable_TPM</default>
+        </attribute>
+        <attribute>
+                <id>IPMI_SENSOR_OFFSETS</id>
+                <default>0x00,0x01</default>
+        </attribute>
+        <attribute>
+                <id>IPMI_SENSOR_READING_TYPE</id>
+                <default>0x03</default>
+        </attribute>
+        <attribute>
+                <id>IPMI_SENSOR_TYPE</id>
+                <default>0xCC</default>
+        </attribute>
+        <attribute>
+                <id>MRW_TYPE</id>
+                <default>IPMI_SENSOR</default>
+        </attribute>
+        <attribute>
+                <id>TYPE</id>
+                <default>NA</default>
+        </attribute>
+</targetInstance>
+
 <targetInstance>
 	<id>host_auto_reboot_control_sensor</id>
 	<type>unit-ipmi-sensor</type>

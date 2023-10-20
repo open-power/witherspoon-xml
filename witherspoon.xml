@@ -80620,12 +80620,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>PCA9552-1/PCA9552.gpio-6 => fanconn-11/fan-6/presence-1/io-0</bus_id>
+		<bus_id>PCA9552-1/PCA9552.gpio-6 => fanconn-12/fan-7/presence-2/io-0</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>PCA9552-1/</source_path>
 		<source_target>PCA9552.gpio-6</source_target>
-		<dest_path>fanconn-11/fan-6/presence-1/</dest_path>
+		<dest_path>fanconn-12/fan-7/presence-2/</dest_path>
 		<dest_target>io-0</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>

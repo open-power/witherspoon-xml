@@ -15765,7 +15765,7 @@
         <id>/sys-0/disable_tpm_sensor</id>
         <property>
         <id>IPMI_SENSOR_ID</id>
-        <value>0xDD</value>
+        <value>0xE9</value>
         </property>
 </globalSetting>
 <globalSetting>
